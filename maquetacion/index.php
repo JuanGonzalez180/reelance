@@ -1,3 +1,4 @@
 <?php
-    print 'Index';
+    include 'header.php';
+    include 'footer.php';
 ?>
