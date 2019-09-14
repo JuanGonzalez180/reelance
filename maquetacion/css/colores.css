@@ -1,0 +1,21 @@
+/* Amarillo Logo #fdcf09 */
+/* Azul Logo #19283f */
+
+.topbar{
+    background: #19283f;
+    color: #fff;
+}
+
+.topbar .left-topbar p a{
+    color: #fdcf09;
+    font-weight: 700;
+}
+
+.header-content nav ul>li a.active,
+.topbar .left-topbar p a:hover{
+    color: #fdcf09;
+}
+
+.header-content nav ul>li>a{
+    color: #19283f;
+}
