@@ -3310,26 +3310,20 @@ footer .footer-bootom .col-md-2-width .about {
     font-weight: 400;
 }
 
-footer .footer-bootom .col-md-2-width .about:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-    height: 1px;
-    left: 125px;
-    position: absolute;
-    top: 50%;
-    background: #666;
-}
-
+footer .footer-bootom .col-md-2-width .about:after,
 footer .footer-bootom .col-md-2-width .about-right:after {
     content: '';
     display: inline-block;
     width: 100%;
     height: 1px;
-    left: 73px;
+    left: 145px;
     position: absolute;
     top: 50%;
     background: #666;
+}
+
+footer .footer-bootom .col-md-2-width .about-right:after{
+    left: 175px;
 }
 
 footer .footer-bootom .col-md-2-width ul {

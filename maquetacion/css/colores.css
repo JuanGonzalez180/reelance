@@ -1,7 +1,7 @@
 /* Amarillo Logo #fdcf09 */
 /* Azul Logo #19283f */
 
-.topbar{
+.topbar, footer{
     background: #19283f;
     color: #fff;
 }
@@ -12,10 +12,21 @@
 }
 
 .header-content nav ul>li a.active,
-.topbar .left-topbar p a:hover{
+.topbar .left-topbar p a:hover,
+footer .footer-bootom .col-md-2-width ul li a:hover, 
+footer .footer-bootom .col-md-2-width ul li a.active,
+footer .copyright p .bluer a {
     color: #fdcf09;
 }
 
 .header-content nav ul>li>a{
     color: #19283f;
+}
+
+footer .footer-bootom .col-md-2-width ul li a{
+    color: #b3b3b3;
+}
+
+footer .copyright{
+    background-color: #141f31;
 }
