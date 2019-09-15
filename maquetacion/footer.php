@@ -66,18 +66,17 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6">
-                                    <p class="a-center">Copyright © 2016 <span class="bluer"><a href="">EngoTheme</a></span>. All Right Reserved</p>
+                                    <p class="a-center">© 2019 Reelance Minoxidil Alopecia | <span class="bluer"><a href="#">Políticas de Privacidad</a></span> | <span class="bluer"><a href="#">Términos de Uso</a></span></p>
 
                                 </div>
                                 <div class="col-sm-6">
-                                    <ul>
+                                    <!-- <ul>
                                         <li><a href="#"><img src="images/assets/link-1.png" alt=""></a></li>
                                         <li><a href="#"><img src="images/assets/link-2.png" alt=""></a></li>
                                         <li><a href="#"><img src="images/assets/link-3.png" alt=""></a></li>
                                         <li><a href="#"><img src="images/assets/link-4.png" alt=""></a></li>
                                         <li><a href="#"><img src="images/assets/link5.png" alt=""></a></li>
-                                    </ul>
-
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
@@ -86,5 +85,13 @@
                 </div>	
             </footer>
         </div>
+
+    
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+		<script>new WOW().init();</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+
+		<script src="js/custom.js"></script>
+
     </body>
 </html>

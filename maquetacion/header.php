@@ -15,8 +15,11 @@
             <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 
             <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+            <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+            <link href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css" rel="stylesheet">
             <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+            
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
 
             <link href="css/styles.css" media="all" type="text/css" rel="stylesheet"/>
             <link href="css/colores.css" media="all" type="text/css" rel="stylesheet"/>
@@ -24,13 +27,13 @@
             <link href="css/style_1.css" media="all" type="text/css" rel="stylesheet"/>
 
             <!--stylesheet include-->
-            <!-- <link rel="stylesheet" href="css/animate.css"> -->
-            <!-- <link rel="stylesheet" type="text/css" media="all" href="css/settings.css"> -->
-            <!-- <link rel="stylesheet" type="text/css" media="all" href="css/style.css"> -->
+            <!-- <link rel="stylesheet" href="ant/css/animate.css"> -->
+            <!-- <link rel="stylesheet" type="text/css" media="all" href="ant/css/settings.css"> -->
+            <!-- <link rel="stylesheet" type="text/css" media="all" href="ant/css/style.css"> -->
             <!-- <link href="js/custom.css" rel="stylesheet"> -->
             <!-- Owl Carousel Assets -->
-            <!-- <link href="js/owl.carousel.css" rel="stylesheet"> -->
-            <!-- <link href="js/owl.theme.css" rel="stylesheet"> -->
+            <!-- <link href="ant/js/owl.carousel.css" rel="stylesheet"> -->
+            <!-- <link href="ant/js/owl.theme.css" rel="stylesheet"> -->
         </head>
         <body>
             <div class="page-wrapper">	
@@ -56,13 +59,13 @@
                     </div> -->
                     <div class="header-content">
                         <div class="container">
-                            <div class="row">
+                            <div class="row row-header">
                                 <div class="col-xs-12 col-md-3">
                                     <a class="logo" title="" href="#">
                                         <img  src="images/assets/logo.png" alt="">
                                     </a>
                                 </div>
-                                <div class="col-xs-12 col-md-6">
+                                <div class="col-xs-12 col-md-6 col-menu">
                                     <nav>
                                         <ul class="main-nav nav-tabs" id="main-menu">
                                             <li><a class="active" href="#" title="">INICIO</a></li>
@@ -76,19 +79,45 @@
                                     <nav class="nav-botons">
                                         <ul class="main-nav nav-tabs">
                                             <li>
-                                                <div class="btn-cart my-cart"> 
-                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> 
+                                                <div class="my-cart"> 
+                                                    <a class="btns-right btn-cart">
+                                                        <i class="lni-cart"></i>
+                                                    </a>
                                                     <ul class="menu-shop">
                                                         <li class="list-menu-shop">
                                                             <div class="shop-cart">
                                                                 <div class="image-shop">
-                                                                    <img src="images/media/product/shop-1.png" alt="">
+                                                                    <img src="images/assets/cart_1.jpg" alt="">
                                                                 </div>
                                                                 <div class="next-shop">
-                                                                    <a href=""><i class="fa fa-times-circle"></i></a>
+                                                                    <a href="#">
+                                                                        <i class="fa lni-close"></i>
+                                                                    </a>
                                                                 </div>
                                                                 <div class="list-names">
-                                                                    <a href="shopping_cart.html">Luxuri Casio G-shock </a>
+                                                                    <a href="#">Luxuri Casio G-shock </a>
+                                                                </div>
+                                                                <span class="price">
+                                                                    <span class="amount">$ 120.000</span>
+                                                                    <span class="amount-3">$ 240.000 </span>
+                                                                </span>
+                                                                <div class="list-qty">
+                                                                    <p>QTY: 01</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-menu-shop">
+                                                            <div class="shop-cart">
+                                                                <div class="image-shop">
+                                                                    <img src="images/assets/cart_2.jpg" alt="">
+                                                                </div>
+                                                                <div class="next-shop">
+                                                                    <a href="#">
+                                                                        <i class="fa lni-close"></i>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-names">
+                                                                    <a href="#">Luxuri Casio G-shock </a>
                                                                 </div>
                                                                 <span class="price">
                                                                     <span class="amount">$ 120.000</span>
@@ -113,6 +142,30 @@
                                                     </ul>
                                                 </div>
                                             </li>
+                                            <li>
+                                                <div class="my-cart">
+                                                    <a class="btns-right">
+                                                        <i class="lni-search"></i>
+                                                    </a>
+                                                    <ul class="menu-shop menu-search">
+                                                        <form method="get" class="search-header clearfix" action="#"> 
+                                                            <label>
+                                                                <input type="text" name="fname" class="form-control" placeholder="Comienza a escribir..."  required />
+                                                            </label>
+                                                            <button type="submit" class="search-icon">
+                                                                <i class="lni-search"></i>
+                                                            </button>
+                                                        </form>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <a class="btns-right">
+                                                        <i class="lni-user"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -130,3 +183,4 @@
                     </div>
                     <!-- end header content -->
                 </header>
+                <div class="space-header"></div>

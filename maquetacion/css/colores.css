@@ -1,9 +1,16 @@
 /* Amarillo Logo #fdcf09 */
 /* Azul Logo #19283f */
 
-.topbar, footer{
+.topbar, footer, .btns-right{
     background: #19283f;
     color: #fff;
+}
+
+.header-content .my-cart .menu-shop li .list-view .list-check,
+.search-header .search-icon,
+.btn-page{
+    background: #fdcf09;
+    color: #19283f;
 }
 
 .topbar .left-topbar p a{
@@ -12,21 +19,50 @@
 }
 
 .header-content nav ul>li a.active,
+.header-content nav ul>li a:hover,
+.btns-right.btn-cart:hover i{
+    color: #a5702d;
+}
+
 .topbar .left-topbar p a:hover,
 footer .footer-bootom .col-md-2-width ul li a:hover, 
 footer .footer-bootom .col-md-2-width ul li a.active,
-footer .copyright p .bluer a {
+footer .copyright p .bluer a,
+.btns-right:hover i,
+.header-content .my-cart .menu-shop li .list-names a,
+.header-content .my-cart .menu-shop li .list-names a:hover{
     color: #fdcf09;
 }
 
-.header-content nav ul>li>a{
+.header-content nav ul>li>a,
+.swiper-content-row{
     color: #19283f;
 }
 
-footer .footer-bootom .col-md-2-width ul li a{
-    color: #b3b3b3;
+footer .footer-bootom .col-md-2-width ul li a,
+footer .copyright{
+    color: #d0d0d0;
 }
 
 footer .copyright{
     background-color: #141f31;
+}
+
+.btns-right.btn-cart{
+    background: #f9f9f9;
+    color: #19283f;
+}
+
+.header-content .my-cart .menu-shop{
+    background: rgba(25, 40, 63, 0.95) none repeat scroll 0% 0%;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.header-content .my-cart .menu-shop li{
+    border-bottom: 2px solid #141f31;
+}
+
+.search-header input{
+    background: transparent;
+    color: #ffffff;
 }

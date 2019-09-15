@@ -1571,10 +1571,6 @@ img {
 
 
 /* B. Header-content */
-.header-content {
-    padding: 10px 0px;
-}
-
 .header-content .logo img {
     max-width: 100%;
     height: auto;
@@ -1940,15 +1936,16 @@ img {
 .header-content .my-cart .menu-shop li .image-shop img {
     margin: 20px;
     float: left;
-    max-width: 100%;
-    height: auto;
+    max-width: 80px;
+    height: 80px;
+    object-fit: cover;
 }
 
 .header-content .my-cart .menu-shop li .next-shop .fa {
     float: right;
-    font-size: 16px;
+    font-size: 9px;
     color: #fff;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-top: 10px;
 }
 
