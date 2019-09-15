@@ -23,8 +23,8 @@
     color: inherit;
 }
 
-.header-content nav ul>li a.active:before,
-.header-content nav ul>li a:hover:before{
+.header-content .col-menu nav ul>li a.active:before,
+.header-content .col-menu nav ul>li a:hover:before{
     background: #fdcf09;
 }
 
