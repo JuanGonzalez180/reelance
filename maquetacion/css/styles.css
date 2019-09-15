@@ -1717,12 +1717,22 @@ img {
 
 .header-content nav ul>li>a {
     text-decoration: none;
-    display: block;
+    display: flex;
+    align-items: center;
+    height: 100%;
     line-height: 20px;
     color: #333;
     font-weight: 700;
     font-size: 14px;
     padding: 10px 20px;
+}
+
+.header-content nav ul>li a:before{
+    position: absolute;
+    content: " ";
+    width: 28px;
+    height: 2px;
+    top: 13px;
 }
 
 .header-content nav ul>li a.active {

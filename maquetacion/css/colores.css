@@ -19,9 +19,13 @@
 }
 
 .header-content nav ul>li a.active,
-.header-content nav ul>li a:hover,
-.btns-right.btn-cart:hover i{
-    color: #a5702d;
+.header-content nav ul>li a:hover{
+    color: inherit;
+}
+
+.header-content nav ul>li a.active:before,
+.header-content nav ul>li a:hover:before{
+    background: #fdcf09;
 }
 
 .topbar .left-topbar p a:hover,
@@ -30,7 +34,8 @@ footer .footer-bootom .col-md-2-width ul li a.active,
 footer .copyright p .bluer a,
 .btns-right:hover i,
 .header-content .my-cart .menu-shop li .list-names a,
-.header-content .my-cart .menu-shop li .list-names a:hover{
+.header-content .my-cart .menu-shop li .list-names a:hover,
+.btns-right.btn-cart:hover i{
     color: #fdcf09;
 }
 
