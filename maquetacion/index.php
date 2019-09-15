@@ -1,4 +1,6 @@
 <?php
+    
+    $archivo_actual = 'inicio';
     if(isset($_GET['page'])){
         $archivo_actual = $_GET['page'];
     }
