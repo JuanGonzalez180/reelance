@@ -22,9 +22,9 @@
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
 
             <link href="css/styles.css" media="all" type="text/css" rel="stylesheet"/>
-            <link href="css/colores.css" media="all" type="text/css" rel="stylesheet"/>
             <!-- Juan -->
             <link href="css/style_1.css" media="all" type="text/css" rel="stylesheet"/>
+            <link href="css/colores.css" media="all" type="text/css" rel="stylesheet"/>
 
             <!--stylesheet include-->
             <!-- <link rel="stylesheet" href="ant/css/animate.css"> -->

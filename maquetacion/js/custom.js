@@ -22,3 +22,13 @@ var swiperPromo = new Swiper('.swiper-container-promociones', {
         prevEl: '.swiper-btn-promo-prev',
     },
 });
+
+var swiperFunc = new Swiper('.swiper-container-func', {
+    pagination: {
+        el: '.swiper-func-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+            return '<span class="' + className + '">Etapa: <b>' + (index + 1) + '</b></span>';
+        },
+    },
+});

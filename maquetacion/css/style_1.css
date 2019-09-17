@@ -248,7 +248,7 @@ nav > ul > li{
     padding: 0px 10px;
 }
 
-.swiper-promo .separator-line {
+.swiper-promo .separator-line, .swiper-container-func .separator-line {
     width: 80px;
     border-bottom: 1px solid #ddd;
     margin: 12px auto 0px;
@@ -256,4 +256,38 @@ nav > ul > li{
 
 .swiper-promo .btn-page{
     font-size: 0.6em;
+}
+
+.swiper-container-func{
+    height: 240px;
+}
+
+.swiper-container-func .swiper-slide{
+    border: 1px solid #eee;
+}
+
+.swiper-container-func .swiper-pagination-bullet {
+    width: 120px;
+    height: 20px;
+    border-radius: 0px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color:#000;
+    opacity: 1;
+    background: rgba(0,0,0,0.2);
+}
+
+.swiper-container-func h3{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.swiper-container-func p{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.swiper-container-func .separator-line{
+    margin-bottom: 15px;
 }
