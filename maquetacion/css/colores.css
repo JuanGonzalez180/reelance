@@ -13,6 +13,11 @@
     color: #19283f;
 }
 
+.swiper-promo .price-promo{
+    background: #19283f;
+    color: #ffffff;
+}
+
 .topbar .left-topbar p a{
     color: #fdcf09;
     font-weight: 700;
@@ -74,4 +79,7 @@ footer .copyright{
 .search-header input{
     background: transparent;
     color: #ffffff;
+}
+.swiper-promo .img-promo{
+    background: #eee;
 }
