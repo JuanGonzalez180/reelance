@@ -159,6 +159,11 @@ nav > ul > li{
     height: 600px;
 }
 
+.swiper-container-banner .swiper-slide{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .swiper-container-testi{
     height: 350px;
     margin-top: 30px;
