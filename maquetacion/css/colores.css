@@ -13,6 +13,11 @@
     color: #19283f;
 }
 
+.swiper-promo .price-promo{
+    background: #19283f;
+    color: #ffffff;
+}
+
 .topbar .left-topbar p a{
     color: #fdcf09;
     font-weight: 700;
@@ -44,7 +49,8 @@ footer .copyright p .bluer a,
 .header-content nav ul>li>a,
 .swiper-content-row,
 h2.tit-ree,
-.ree-item-nosotros h3{
+.ree-item-nosotros h3,
+.swiper-container-func h3{
     color: #19283f;
 }
 
@@ -74,4 +80,12 @@ footer .copyright{
 .search-header input{
     background: transparent;
     color: #ffffff;
+}
+.swiper-promo .img-promo{
+    background: #eee;
+}
+
+.swiper-pagination-bullet-active, .swiper-container-func .swiper-pagination-bullet-active {
+    color:#fff;
+    background: #19283f;
 }
