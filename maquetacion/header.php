@@ -25,6 +25,8 @@
             <link href="css/colores.css" media="all" type="text/css" rel="stylesheet"/>
             <!-- Juan -->
             <link href="css/style_1.css" media="all" type="text/css" rel="stylesheet"/>
+            <!-- Omar -->
+            <link href="css/style_2.css" media="all" type="text/css" rel="stylesheet"/>
 
             <!--stylesheet include-->
             <!-- <link rel="stylesheet" href="ant/css/animate.css"> -->

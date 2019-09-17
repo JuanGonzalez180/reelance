@@ -91,7 +91,8 @@
 		<script>new WOW().init();</script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
 
-		<script src="js/custom.js"></script>
+        <script src="js/custom.js"></script>
+		<script src="js/custom_2.js"></script>
 
     </body>
 </html>
