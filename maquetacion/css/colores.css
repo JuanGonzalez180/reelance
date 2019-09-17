@@ -36,13 +36,15 @@ footer .copyright p .bluer a,
 .btns-right:hover i,
 .header-content .my-cart .menu-shop li .list-names a,
 .header-content .my-cart .menu-shop li .list-names a:hover,
-.btns-right.btn-cart:hover i{
+.btns-right.btn-cart:hover i,
+.ree-item-nosotros i{
     color: #fdcf09;
 }
 
 .header-content nav ul>li>a,
 .swiper-content-row,
-h2.tit-ree{
+h2.tit-ree,
+.ree-item-nosotros h3{
     color: #19283f;
 }
 

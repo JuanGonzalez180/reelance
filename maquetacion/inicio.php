@@ -78,3 +78,29 @@
         <div class="swiper-pagination swiper-testi-pagination"></div>
     </div>
 </section>
+
+<section class="container container-padd-ree">
+    <ul class="row ree-container-nosotros">
+        <li class="col-md-4 ree-item-nosotros">
+            <i class="lni-users"></i>
+            <h3>QUIENES SOMOS</h3>
+            <p>Somos una empresa con más de 7 años de experiencia en el estudio cercano de la alopecia y la caída del cabello en general. Nos diferenciamos de otras empresas principalmente porque compartimos todos los datos obtenidos a través de nuestros estudios para que te mantengas informado y conozcas al detalle lo que guarda estrecha relación con la alopecia.</p>
+            <div class="separator-btn"></div>
+            <a href="#" class="btn-page txt-upper">Leer más</a>
+        </li>
+        <li class="col-md-4 ree-item-nosotros">
+            <i class="lni-star"></i>
+            <h3>QUÉ HACEMOS</h3>
+            <p>Nuestra misión principal se basa en la investigación constante de la alopecia y en nuestro esfuerzo diario por mantener informados a los usuarios, que de una u otra manera acuden a Internet para entender el por qué de la pérdida del cabello, diferenciar la alopecia de la caída normal, entre otras dudas más.</p>
+            <div class="separator-btn"></div>
+            <a href="#" class="btn-page txt-upper">Leer más</a>
+        </li>
+        <li class="col-md-4 ree-item-nosotros">
+            <i class="lni-question-circle"></i>
+            <h3>POR QUÉ NOSOTROS</h3>
+            <p>Al iniciar la lectura de “Por qué Reelance y no otro” seguro pensarás: A ver que tienen estos por contar. Y en realidad nosotros, así como la competencia, también estamos interesados en vender nuestros productos, pero trabajamos por cada uno de ustedes un poco más.</p>
+            <div class="separator-btn"></div>
+            <a href="#" class="btn-page txt-upper">Leer más</a>
+        </li>
+    </ul>
+</section>

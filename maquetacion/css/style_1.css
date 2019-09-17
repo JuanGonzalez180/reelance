@@ -170,3 +170,44 @@ nav > ul > li{
 .swiper-testi p {
     margin-top: 7px;
 }
+
+.ree-item-nosotros{
+    text-align: center;
+}
+
+.ree-container-nosotros{
+    display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.ree-item-nosotros .separator-btn{
+    display: block;
+    height: 38px;
+}
+
+.ree-item-nosotros .btn-page{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.ree-item-nosotros i{
+    font-size: 4.5em;
+    display: block;
+}
+
+.ree-item-nosotros i, .ree-item-nosotros h3, .ree-item-nosotros p{
+    margin-bottom: 15px;
+}
+
+.ree-item-nosotros h3{
+    font-size: 1.8em;
+}
+
+.ree-item-nosotros p{
+    font-size: 1.4em;
+    line-height: 1.4;
+}
