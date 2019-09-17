@@ -24,7 +24,8 @@
 }
 
 .header-content .col-menu nav ul>li a.active:before,
-.header-content .col-menu nav ul>li a:hover:before{
+.header-content .col-menu nav ul>li a:hover:before,
+h2.tit-ree:before{
     background: #fdcf09;
 }
 
@@ -40,7 +41,8 @@ footer .copyright p .bluer a,
 }
 
 .header-content nav ul>li>a,
-.swiper-content-row{
+.swiper-content-row,
+h2.tit-ree{
     color: #19283f;
 }
 
