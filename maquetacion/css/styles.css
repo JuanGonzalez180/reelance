@@ -1725,6 +1725,7 @@ img {
     font-weight: 700;
     font-size: 14px;
     padding: 10px 20px;
+    border-radius: 0px;
 }
 
 .header-content nav ul>li a:before{
