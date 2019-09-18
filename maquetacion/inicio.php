@@ -105,7 +105,7 @@
     </div>
 </section>
 
-<section style="background: #f8f8f8;"> 
+<section class="bkg-ree-two">
     <div class="container container-padd-ree">
         <h2 class="tit-ree">Promociones Recomendadas</h2>
 
@@ -212,5 +212,103 @@
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination swiper-func-pagination"></div>
+    </div>
+</section>
+
+<section class="bkg-ree-two">
+    <div class="container container-padd-ree">
+        <h2 class="tit-ree">Preguntas frecuentes</h2>
+
+        <div class="col-sm-6">
+            <div id="faq" class="ree-panel"  role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="faq1" data-toggle="collapse" data-parent="#faq" href="#faqres1" aria-expanded="false" aria-controls="faqres1">
+                        <h5 class="panel-title">
+                            <a>
+                                ¿Quiero dejar de perder el cabello lo más pronto posible, qué puedo hacer?
+                            </a>
+                            <i class="ree-icon-faq lni-plus"></i>
+                        </h5>
+                    </div>
+                    <div id="faqres1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq1">
+                        <div class="panel-body">
+                            Empieza a usar el tratamiento Reelance con el activo minoxidil (clínicamente comprobado) y notarás los resultados a partir de la semana 6. Verás cómo recuperas tu cabello en 4 meses.
+
+                            Para ver los resultados será necesario aplicar dos veces al día la loción. Aproximadamente 7 atomizaciones en la mañana y 7 atomizaciones en la noche, a continuación de un masaje capilar en la zona afectada del cuero cabelludo durante por 30 segundos, y cambia tu shampoo habitual por Reelance shampoo para obtener mejores resultados.
+                        </div>
+                    </div>
+                    
+                    <div class="panel-heading" role="tab" id="faq2" data-toggle="collapse" data-parent="#faq" href="#faqres2" aria-expanded="false" aria-controls="faqres2">
+                        <h5 class="panel-title">
+                            <a>
+                                ¿Cómo puedo tener la certeza de que un determinado tratamiento será beneficioso?
+                            </a>
+                            <i class="ree-icon-faq lni-plus"></i>
+                        </h5>
+                    </div>
+                    <div id="faqres2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq2">
+                        <div class="panel-body">
+                            Solo probando podrás descubrir y descartar opciones. Ningún tratamiento es 100% garantizado, ya que para algunas personas puede funcionar de manera excepcional y para otras no.
+
+                            Consulta con tu médico y haz el intento con la fuerte convicción de que en tu caso sí funcionará, especialmente inicia con aquel tratamiento que en muchas personas ya haya sido probado.
+                        </div>
+                    </div>
+                    
+                    <div class="panel-heading" role="tab" id="faq3" data-toggle="collapse" data-parent="#faq" href="#faqres3" aria-expanded="false" aria-controls="faqres3">
+                        <h5 class="panel-title">
+                            <a>
+                                ¿Funciona el Minoxidil?
+                            </a>
+                            <i class="ree-icon-faq lni-plus"></i>
+                        </h5>
+                    </div>
+                    <div id="faqres3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq3">
+                        <div class="panel-body">
+                            Sí, el Minoxidil funciona en un amplio porcentaje de las personas que deciden utilizarlo, pero depende en gran parte su efectividad de la disciplina con la que sea aplicado.
+
+                            Solo con constancia y seguimiento estricto de las indicaciones se podrán ver los resultados esperados.
+                        </div>
+                    </div>
+                    
+                    <div class="panel-heading" role="tab" id="faq4" data-toggle="collapse" data-parent="#faq" href="#faqres4" aria-expanded="false" aria-controls="faqres4">
+                        <h5 class="panel-title">
+                            <a>
+                                Resultados y tiempos (Acción Minoxidil)
+                            </a>
+                            <i class="ree-icon-faq lni-plus"></i>
+                        </h5>
+                    </div>
+                    <div id="faqres4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq4">
+                        <div class="panel-body">
+                            Con el uso del Minoxidil 2 veces al día y en la cantidad recomendada el cabello se deja de caer a partir de la segunda semana y la aparición de nuevo cabello será notable desde la 6-8 semana.
+
+                            El uso del Minoxidil es indefinido y sus resultados son perdurables.
+                        </div>
+                    </div>
+                    
+                    <div class="panel-heading" role="tab" id="faq5" data-toggle="collapse" data-parent="#faq" href="#faqres5" aria-expanded="false" aria-controls="faqres5">
+                        <h5 class="panel-title">
+                            <a>
+                                Reelance y otros productos de para el cabello
+                            </a>
+                            <i class="ree-icon-faq lni-plus"></i>
+                        </h5>
+                    </div>
+                    <div id="faqres5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq5">
+                        <div class="panel-body">
+                            Cuando se inicia el tratamiento con Reelance es ideal que el cuero cabelludo se encuentre limpio y libre de residuos de otros productos para el cabello, como geles, lacas, etc., que puedan tapar el poro del cabello.
+
+                            En caso que sea necesario hacer uso de ese tipo de productos, se recomienda aplicar Reelance y dejar secar totalmente. Cuando ya se haya absorbido el medicamento podrás utilizar los productos cosméticos que sean necesarios.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn-page txt-upper">Más preguntas</a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <img src="images/assets/preguntas-frecuentes.jpg">
+        </div>
     </div>
 </section>
