@@ -18,3 +18,128 @@
     padding: 80px 0px;
     color: #fff;
 }
+
+.pricing-table {
+    margin-top: 60px;
+}
+
+.pricing-column {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    padding: 0px;
+    background-color: #fff;
+    -webkit-transition: box-shadow 0.2s linear;
+    transition: box-shadow 0.2s linear;
+}
+
+.pricing-column.highlight {
+    position: relative;
+    z-index: 100;
+    margin: -20px -1px 0px -1px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, .09);
+}
+
+.pricing-table > div:first-child .pricing-column-content, .pricing-table > div:first-child h3 {
+    border-left: 1px solid #e4e4e4;
+}
+
+.pricing-column .pricing-column-content {
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0px 0px 20px 0px;
+}
+
+.pricing-column.highlight .pricing-column-content {
+    border-right: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.pricing-column h3 {
+    background-color: #fff;
+    color: #19283f;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #EFEFEF;
+    border-top: 1px solid #e4e4e4;
+    padding: 18px 0px 18px 0px;
+}
+
+.pricing-column.highlight h3 {
+    color: #fff;
+    background-color: #19283f;
+    padding: 15px 0px;
+    margin-bottom: 0px;
+}
+
+.pricing-column.highlight h3 .highlight-reason {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: rgba(255, 255, 225, 0.4);
+}
+
+.pricing-column.pricing-custom h3 {
+    padding: 14.5px 0px;
+}
+
+.pricing-column .btn-price {
+    margin: 18px 0 0;
+}
+
+.pricing-column.highlight .btn-price {
+    margin: 22px 0 15px;
+}
+
+.pricing-column h4 {
+    margin-left: -22px;
+    padding: 20px 30px 6px 30px;
+    font-size: 54px;
+    margin-bottom: 0px;
+}
+
+.pricing-column h4 .dollar-sign {
+    font-size: 22px;
+    line-height: 22px;
+    top: -14px;
+    right: -6px;
+    position: relative;
+}
+
+.pricing-column .interval {
+    display: block;
+    font-size: 16px;
+    color: #999;
+    min-height: 38px;
+    display: block;
+    padding-bottom: 17px;
+}
+
+.pricing-column .qty {
+    width: 2.8em;
+    text-align: center;
+    padding: 6px 0px;
+    font-family: inherit;
+    font-size: 16px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    margin-right: 4px;
+    font-weight: bold;
+    border: 1px solid #19283f;
+}
+
+.banner-fedex {
+    background: rgb(84, 16, 148);
+    padding: 30px 0;
+    color: #fff;
+}
+
+.fedex-img img {
+    width: 170px;
+    margin: 0 auto;
+}
