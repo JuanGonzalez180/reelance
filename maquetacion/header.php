@@ -74,7 +74,7 @@
                                             <li><a class="active" href="inicio" title="">INICIO</a></li>
                                             <li><a class="" href="tienda" title="">TIENDA</a></li>
                                             <li><a class="" href="blog" title="">NOTICIAS</a></li>
-                                            <li><a class="" href="#" title="">CONTACTO</a></li>
+                                            <li><a class="" href="contacto" title="">CONTACTO</a></li>
                                         </ul>
                                     </nav>
                                 </div>

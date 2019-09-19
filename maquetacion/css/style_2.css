@@ -1,3 +1,9 @@
+.dp-ib {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 .images-banner {
     position: relative;
     overflow: hidden;
