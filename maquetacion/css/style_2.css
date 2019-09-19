@@ -85,7 +85,7 @@
 }
 
 .pricing-column.pricing-custom h3 {
-    padding: 14.5px 0px;
+    padding: 13px 0px;
 }
 
 .pricing-column .btn-price {
@@ -123,7 +123,7 @@
 .pricing-column .qty {
     width: 2.8em;
     text-align: center;
-    padding: 6px 0px;
+    padding: 4px 0px;
     font-family: inherit;
     font-size: 16px;
     -webkit-transition: all 0.2s;
