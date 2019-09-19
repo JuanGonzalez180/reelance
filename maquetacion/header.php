@@ -62,16 +62,16 @@
                         <div class="container">
                             <div class="row row-header">
                                 <div class="col-xs-12 col-md-3">
-                                    <a class="logo" title="" href="#">
+                                    <a class="logo" title="" href="inicio">
                                         <img  src="images/assets/logo.png" alt="">
                                     </a>
                                 </div>
                                 <div class="col-xs-12 col-md-6 col-menu">
                                     <nav>
                                         <ul class="main-nav nav-tabs" id="main-menu">
-                                            <li><a class="active" href="#" title="">INICIO</a></li>
-                                            <li><a class="" href="#" title="">TIENDA</a></li>
-                                            <li><a class="" href="#" title="">NOTICIAS</a></li>
+                                            <li><a class="active" href="inicio" title="">INICIO</a></li>
+                                            <li><a class="" href="tienda" title="">TIENDA</a></li>
+                                            <li><a class="" href="blog" title="">NOTICIAS</a></li>
                                             <li><a class="" href="#" title="">CONTACTO</a></li>
                                         </ul>
                                     </nav>
