@@ -50,7 +50,9 @@ footer .copyright p .bluer a,
 .swiper-content-row,
 h2.tit-ree,
 .ree-item-nosotros h3,
-.swiper-container-func h3{
+.swiper-container-func h3,
+.btns-right.btn-cart,
+.content-blog .item-blog .extra{
     color: #19283f;
 }
 
@@ -63,9 +65,9 @@ footer .copyright{
     background-color: #141f31;
 }
 
-.btns-right.btn-cart{
+.btns-right.btn-cart,
+.header-ree-interna{
     background: #f9f9f9;
-    color: #19283f;
 }
 
 .header-content .my-cart .menu-shop{
@@ -97,4 +99,21 @@ footer .copyright{
 .ree-panel .panel-default>.panel-heading{
     background-color: rgba(0, 0, 0, 0.045);
     color: #19283f;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: #19283f;
+    background-color: #fff;
+    border-color: transparent;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    color: #19283f;
+    background-color: #fdcf09;
+    border-color: #fdcf09;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    background-color: #fdcf09;
+    border-color: transparent;
 }

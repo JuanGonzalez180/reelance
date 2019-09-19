@@ -357,3 +357,41 @@ nav > ul > li{
 .latest-blog .box-content .blog-content{
     margin: 0px;
 }
+
+.header-ree-interna{
+    padding: 50px 0px 30px;
+}
+
+.content-blog .item-blog {
+    padding: 30px 0px;
+    border-bottom: 1px solid #dedede;
+}
+
+.content-blog .row:last-child .item-blog{
+    border-bottom: 0px;
+}
+
+.latest-blog{
+    padding-bottom: 30px;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span,
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.pagination>li>a, .pagination>li>span {
+    font-size: 1.3em;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    border-radius: 0px;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    background-color: #fdcf09;
+    border-color: transparent;
+}
