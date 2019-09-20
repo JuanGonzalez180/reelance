@@ -154,3 +154,63 @@
     width: 100%;
     height: 350px;
 }
+
+.ree-redes-sociales {
+    position: relative;
+    padding: 50px 0px;
+    background-image: url(../images/assets/ree-redes-sociales.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: #19283f;
+}
+
+.ree-redes-sociales:before {
+    background-color: #fdcf09;
+    opacity: 0.92;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ree-redes-sociales h4 {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.ree-redes-sociales ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ree-redes-sociales ul li {
+    display: inline-block;
+}
+
+.ree-redes-sociales li a {
+    font-size: 22px;
+    display: block;
+    background: #fff;
+    color: #19283f;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+.ree-redes-sociales li a:hover {
+    background: #19283f;
+    color: #fff;
+}
+
+.ree-redes-sociales li:not(:last-child) a {
+    margin-right: 22px;
+}
+
+.ree-redes-sociales li i {
+    width: 1em;
+    height: 1em;
+    position: relative;
+     display: block;
+}
