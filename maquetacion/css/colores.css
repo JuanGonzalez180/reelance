@@ -13,6 +13,11 @@
     color: #19283f;
 }
 
+.bl-fecha{
+    background: #19283f;
+    color: #fdcf09;
+}
+
 .swiper-promo .price-promo{
     background: #19283f;
     color: #ffffff;
@@ -52,7 +57,8 @@ h2.tit-ree,
 .ree-item-nosotros h3,
 .swiper-container-func h3,
 .btns-right.btn-cart,
-.content-blog .item-blog .extra{
+.content-blog .item-blog .extra,
+.latest-blog .box-content .blog-content .extra a{
     color: #19283f;
 }
 
