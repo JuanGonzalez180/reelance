@@ -174,50 +174,12 @@
     </ul>
 </section>
 
-<div class="box-bottom">
-    <section class="container container-padd-ree">
-        <h2 class="tit-ree">Resultados</h2>
 
-        <div class="swiper-container swiper-container-testi">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p>Antes</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p>Después</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p>Antes</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p>Después</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-
-<section class="bkg-ree-two">
+<section class="bkg-ree-faq" style="background-image: url(images/assets/preguntas-frecuentes-fondo.jpg);">
     <div class="container container-padd-ree">
         <h2 class="tit-ree">Preguntas frecuentes</h2>
 
-        <div class="col-sm-6">
+        <div class="col-sm-12">
             <div id="faq" class="ree-panel"  role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="faq1" data-toggle="collapse" data-parent="#faq" href="#faqres1" aria-expanded="false" aria-controls="faqres1">
@@ -305,8 +267,44 @@
                 <a href="#" class="btn-page txt-upper">Más preguntas</a>
             </div>
         </div>
-        <div class="col-sm-6">
-            <img src="images/assets/preguntas-frecuentes.jpg">
-        </div>
     </div>
 </section>
+
+<div class="box-bottom bkg-ree-two">
+    <section class="container container-padd-ree">
+        <h2 class="tit-ree">Resultados</h2>
+
+        <div class="swiper-container swiper-container-testi">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-testi">
+                        <h3></h3>
+                        <img src="images/assets/testimonio-1.png" />
+                        <p>Antes</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-testi">
+                        <h3></h3>
+                        <img src="images/assets/testimonio-1.png" />
+                        <p>Después</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-testi">
+                        <h3></h3>
+                        <img src="images/assets/testimonio-1.png" />
+                        <p>Antes</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-testi">
+                        <h3></h3>
+                        <img src="images/assets/testimonio-1.png" />
+                        <p>Después</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
