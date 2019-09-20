@@ -33,73 +33,24 @@
     <div class="swiper-pagination swiper-ban-pagination"></div>
 </div>
 
-<section class="container container-padd-ree">
-    <h2 class="tit-ree">Testimonios</h2>
-
-    <div class="swiper-container swiper-container-testi">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="swiper-testi">
-                    <h3>Pedro Buendia</h3>
-                    <img src="images/assets/testimonio-1.png" />
-                    <p>Alopecia Congenia</p>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-testi">
-                    <h3>Cesar Millan</h3>
-                    <img src="images/assets/testimonio-1.png" />
-                    <p>Crecimiento Barba</p>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-testi">
-                    <h3>Gerardo Goméz</h3>
-                    <img src="images/assets/testimonio-1.png" />
-                    <p>Alopecia Congenia</p>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-testi">
-                    <h3>Pedro Buendia</h3>
-                    <img src="images/assets/testimonio-1.png" />
-                    <p>Alopecia Congenia</p>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-testi">
-                    <h3>Pedro Buendia</h3>
-                    <img src="images/assets/testimonio-1.png" />
-                    <p>Alopecia Congenia</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section class="box-bottom">
-    <div class="container container-padd-ree">
+    <div class="container container-padd-quienes">
         <ul class="row ree-container-nosotros">
-            <li class="col-md-4 ree-item-nosotros">
-                <i class="lni-users"></i>
-                <h3>QUIENES SOMOS</h3>
-                <p>Somos una empresa con más de 7 años de experiencia en el estudio cercano de la alopecia y la caída del cabello en general. Nos diferenciamos de otras empresas principalmente porque compartimos todos los datos obtenidos a través de nuestros estudios para que te mantengas informado y conozcas al detalle lo que guarda estrecha relación con la alopecia.</p>
-                <div class="separator-btn"></div>
-                <a href="#" class="btn-page txt-upper">Leer más</a>
-            </li>
-            <li class="col-md-4 ree-item-nosotros">
-                <i class="lni-star"></i>
-                <h3>QUÉ HACEMOS</h3>
-                <p>Nuestra misión principal se basa en la investigación constante de la alopecia y en nuestro esfuerzo diario por mantener informados a los usuarios, que de una u otra manera acuden a Internet para entender el por qué de la pérdida del cabello, diferenciar la alopecia de la caída normal, entre otras dudas más.</p>
-                <div class="separator-btn"></div>
-                <a href="#" class="btn-page txt-upper">Leer más</a>
-            </li>
-            <li class="col-md-4 ree-item-nosotros">
-                <i class="lni-question-circle"></i>
-                <h3>POR QUÉ NOSOTROS</h3>
-                <p>Al iniciar la lectura de “Por qué Reelance y no otro” seguro pensarás: A ver que tienen estos por contar. Y en realidad nosotros, así como la competencia, también estamos interesados en vender nuestros productos, pero trabajamos por cada uno de ustedes un poco más.</p>
-                <div class="separator-btn"></div>
-                <a href="#" class="btn-page txt-upper">Leer más</a>
+            <li class="col-md-12 ree-item-nosotros">
+                <div class="col-sm-4">
+                    <img src="images/assets/quienes-somos.jpg">
+                </div>
+                <div class="col-sm-8 wow fadeIn animated">
+                    <h3>QUIENES SOMOS</h3>
+                    <p>Somos una empresa con más de 7 años de experiencia en el estudio cercano de la alopecia y la caída del cabello en general. Nos diferenciamos de otras empresas principalmente porque compartimos todos los datos obtenidos a través de nuestros estudios para que te mantengas informado y conozcas al detalle lo que guarda estrecha relación con la alopecia.</p>
+
+                    <h3>QUÉ HACEMOS</h3>
+                    <p>Nuestra misión principal se basa en la investigación constante de la alopecia y en nuestro esfuerzo diario por mantener informados a los usuarios, que de una u otra manera acuden a Internet para entender el por qué de la pérdida del cabello, diferenciar la alopecia de la caída normal, entre otras dudas más.</p>
+
+                    <h3>POR QUÉ NOSOTROS</h3>
+                    <p>Al iniciar la lectura de “Por qué Reelance y no otro” seguro pensarás: A ver que tienen estos por contar. Y en realidad nosotros, así como la competencia, también estamos interesados en vender nuestros productos, pero trabajamos por cada uno de ustedes un poco más.</p>
+                    <a href="#" class="btn-page txt-upper">Conócenos</a>
+                </div>
             </li>
         </ul>
     </div>
@@ -178,42 +129,89 @@
 
 <section class="container container-padd-ree">
     <h2 class="tit-ree">¿Cómo funcionan nuestros productos?</h2>
-    <div class="swiper-container swiper-container-func">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div>
-                    <h3>ETAPA 1: Primera y segunda semana</h3>
-                    <div class="separator-line"></div>
-                    <p>La primera etapa del tratamiento es más que nada un proceso de adaptación al ritmo de la aplicación diaria y la aceptación del Minoxidil por parte del organismo, especialmente su absorción a través del cuero cabelludo.
+
+    <ul class="row ">
+        <li class="col-md-12 ree-item-nosotros">
+            <div class="col-sm-3">
+                <img src="images/assets/producto-1.png" alt="">
+            </div>
+            <div class="col-sm-9 wow fadeInRight animated">
+                <h3>ETAPA 1: Primera y segunda semana</h3>
+                <p>La primera etapa del tratamiento es más que nada un proceso de adaptación al ritmo de la aplicación diaria y la aceptación del Minoxidil por parte del organismo, especialmente su absorción a través del cuero cabelludo.
                     Durante las dos primeras semanas del tratamiento notarás que el cabello se cae mucho menos, incluso en la mayoría de los casos se detiene la caída completamente.</p>
-                </div>                    
             </div>
-            <div class="swiper-slide">
-                <div>
-                    <h3>ETAPA 2: Cuarta y octava semana</h3>
-                    <div class="separator-line"></div>
-                    <p>Al cumplir el primer mes se recomienda duplicar la aplicación del Minoxidil, es decir, se puede usar en la mañana y antes de acostarse. Además, los resultados son superiores cuando se complementa con otros productos para la caída del cabello que sean recomendados. En esta etapa ya te encuentras en el segundo mes del tratamiento y es muy probable que notes los primeros cambios.</p>
+        </li>
+
+        <li class="col-md-12 ree-item-nosotros">
+            <div class="col-sm-9 wow fadeInLeft animated">
+                <h3>ETAPA 2: Cuarta y octava semana</h3>
+                <p>Al cumplir el primer mes se recomienda duplicar la aplicación del Minoxidil, es decir, se puede usar en la mañana y antes de acostarse. Además, los resultados son superiores cuando se complementa con otros productos para la caída del cabello que sean recomendados. En esta etapa ya te encuentras en el segundo mes del tratamiento y es muy probable que notes los primeros cambios.</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="images/assets/producto-1.png" alt="">
+            </div>
+        </li>
+
+        <li class="col-md-12 ree-item-nosotros">
+            <div class="col-sm-3">
+                <img src="images/assets/producto-1.png" alt="">
+            </div>
+            <div class="col-sm-9 wow fadeInRight animated">
+                <h3>ETAPA 3: Tercer y cuarto mes</h3>
+                <p>Aplicando la loción capilar dos veces al día y con la constancia requerida el cabello empieza a nacer a paso lento, pero irás notando su crecimiento. La circulación de la sangre es mucho mejor por el uso del Minoxidil y los folículos ya logran estar más fortalecidos con el ingreso de nuevas células.</p>
+            </div>
+        </li>
+
+        <li class="col-md-12 ree-item-nosotros">
+            <div class="col-sm-9 wow fadeInLeft animated">
+                <h3>ETAPA 4: Un año</h3>
+                <p>Después de un año la zonas sin cabello se ven repobladas, y poco a poco se van llenado con cabello nuevo. Es muy importante saber que no se debe suspender el tratamiento aún cuando se vea el cabello completo. El tiempo de uso del Minoxidil es indefinido, su desuso podría ocasionar la caída del cabello después de 3 o 4 meses.</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="images/assets/producto-1.png" alt="">
+            </div>
+        </li>
+    </ul>
+</section>
+
+<div class="box-bottom">
+    <section class="container container-padd-ree">
+        <h2 class="tit-ree">Resultados</h2>
+
+        <div class="swiper-container swiper-container-testi">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-testi">
+                        <h3></h3>
+                        <img src="images/assets/testimonio-1.png" />
+                        <p>Antes</p>
+                    </div>
                 </div>
-            </div>
-            <div class="swiper-slide">
-                <div>
-                    <h3>ETAPA 3: Tercer y cuarto mes</h3>
-                    <div class="separator-line"></div>
-                    <p>Aplicando la loción capilar dos veces al día y con la constancia requerida el cabello empieza a nacer a paso lento, pero irás notando su crecimiento. La circulación de la sangre es mucho mejor por el uso del Minoxidil y los folículos ya logran estar más fortalecidos con el ingreso de nuevas células.</p>
+                <div class="swiper-slide">
+                    <div class="swiper-testi">
+                        <h3></h3>
+                        <img src="images/assets/testimonio-1.png" />
+                        <p>Después</p>
+                    </div>
                 </div>
-            </div>
-            <div class="swiper-slide">
-                <div>
-                    <h3>ETAPA 4: Un año</h3>
-                    <div class="separator-line"></div>
-                    <p>Después de un año la zonas sin cabello se ven repobladas, y poco a poco se van llenado con cabello nuevo. Es muy importante saber que no se debe suspender el tratamiento aún cuando se vea el cabello completo. El tiempo de uso del Minoxidil es indefinido, su desuso podría ocasionar la caída del cabello después de 3 o 4 meses.</p>
+                <div class="swiper-slide">
+                    <div class="swiper-testi">
+                        <h3></h3>
+                        <img src="images/assets/testimonio-1.png" />
+                        <p>Antes</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-testi">
+                        <h3></h3>
+                        <img src="images/assets/testimonio-1.png" />
+                        <p>Después</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination swiper-func-pagination"></div>
-    </div>
-</section>
+    </section>
+</div>
 
 <section class="bkg-ree-two">
     <div class="container container-padd-ree">

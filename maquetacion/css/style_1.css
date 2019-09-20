@@ -37,6 +37,10 @@ h2.tit-ree:before{
     padding: 60px 0px;
 }
 
+.container-padd-quienes{
+    padding-top: 60px;
+}
+
 .page-header{
     position: fixed;
     width: 100%;
@@ -195,7 +199,7 @@ nav > ul > li{
 }
 
 .ree-item-nosotros{
-    text-align: center;
+    text-align: left;
 }
 
 .ree-container-nosotros{
@@ -209,25 +213,20 @@ nav > ul > li{
     height: 38px;
 }
 
-.ree-item-nosotros .btn-page{
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-
 .ree-item-nosotros i{
     font-size: 4.5em;
     display: block;
 }
 
-.ree-item-nosotros i, .ree-item-nosotros h3, .ree-item-nosotros p{
+.ree-item-nosotros i, .ree-item-nosotros p{
     margin-bottom: 15px;
 }
 
 .ree-item-nosotros h3{
     font-size: 1.8em;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .ree-item-nosotros p{
