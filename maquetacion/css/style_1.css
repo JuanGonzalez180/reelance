@@ -371,6 +371,21 @@ nav > ul > li{
     border-bottom: 0px;
 }
 
+.bl-fecha{
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.bl-day {
+    font-size: 1.8em;
+}
+
+.bl-month {
+    font-size: 1.1em;
+}
+
 .latest-blog{
     padding-bottom: 30px;
 }

@@ -10,6 +10,10 @@
                 <div class="row">
                     <div class="col-sm-12 item-blog item wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0ms">
                         <div class="col-sm-4 blog-images">
+                            <div class="bl-fecha">
+                                <div class="bl-day">15</div>
+                                <div class="bl-month">SEP</div>
+                            </div>
                             <img src="images/assets/producto-1.png" alt="">
                         </div>
                         <div class="col-sm-8 blog-content">
@@ -27,6 +31,10 @@
                 <div class="row">
                     <div class="col-sm-12 item-blog item wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0ms">
                         <div class="col-sm-4 blog-images">
+                            <div class="bl-fecha">
+                                <div class="bl-day">30</div>
+                                <div class="bl-month">AGO</div>
+                            </div>
                             <img src="images/assets/producto-1.png" alt="">
                         </div>
                         <div class="col-sm-8 blog-content">
@@ -44,6 +52,10 @@
                 <div class="row">
                     <div class="col-sm-12 item-blog item wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0ms">
                         <div class="col-sm-4 blog-images">
+                            <div class="bl-fecha">
+                                <div class="bl-day">14</div>
+                                <div class="bl-month">AGO</div>
+                            </div>
                             <img src="images/assets/producto-1.png" alt="">
                         </div>
                         <div class="col-sm-8 blog-content">
