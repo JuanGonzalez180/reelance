@@ -9,6 +9,7 @@
       var map, infoWindow;
       function initMap() {
         map = new google.maps.Map(document.getElementById('gmaps-ree'), {
+          gestureHandling: 'cooperative',
           center: {lat: 4.662390, lng: -74.109183},
           zoom: 6
         });
