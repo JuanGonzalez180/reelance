@@ -1,12 +1,15 @@
 <div class="header-ree-interna">
     <div class="box-title">
-        <h2 class="tit-ree">Noticias</h2>
+        <h2 class="tit-ree">Resultados de búsqueda</h2>
     </div>
 </div>
 
 <div class="latest-blog margin-top-0">
     <div class="container">
         <div class="col-sm-9">
+            <div class="msj-resultado">
+                Resultados de búsqueda de: <b>cejas</b>
+            </div>
             <div class="box-content content-blog">
                 <div class="row">
                     <div class="col-sm-12 item-blog item wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0ms">

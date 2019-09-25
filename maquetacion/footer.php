@@ -66,7 +66,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6">
-                                    <p class="a-center">© 2019 Reelance Minoxidil Alopecia | <span class="bluer"><a href="#">Políticas de Privacidad</a></span> | <span class="bluer"><a href="#">Términos de Uso</a></span></p>
+                                    <p class="a-center">© 2019 Reelance Minoxidil Alopecia | <span class="bluer"><a href="politicas-de-privacidad">Políticas de Privacidad</a></span> | <span class="bluer"><a href="terminos-y-condiciones">Términos de Uso</a></span></p>
 
                                 </div>
                                 <div class="col-sm-6">

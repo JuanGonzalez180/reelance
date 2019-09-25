@@ -1,34 +1,43 @@
-/* Amarillo Logo #fdcf09 */
-/* Azul Logo #19283f */
+/* 
+https://colorhunt.co/palette/2763
+#222831
+#393e46
+#00adb5
+#eeeeee
+ */
+
+body{
+    color: #393e46;
+}
 
 .topbar, footer, .btns-right{
-    background: #19283f;
-    color: #fff;
+    background: #222831;
+    color: #eeeeee;
 }
 
 .bkg-404{
-    background: #6258fa;
+    background: #393e46;
 }
 
 .header-content .my-cart .menu-shop li .list-view .list-check,
 .search-header .search-icon,
 .btn-page{
-    background: #fdcf09;
-    color: #19283f;
+    background: #00adb5;
+    color: #eeeeee;
 }
 
 .bl-fecha{
-    background: #19283f;
-    color: #fdcf09;
+    background: #222831;
+    color: #00adb5;
 }
 
 .swiper-promo .price-promo{
-    background: #19283f;
-    color: #ffffff;
+    background: #222831;
+    color: #eeeeee;
 }
 
 .topbar .left-topbar p a{
-    color: #fdcf09;
+    color: #00adb5;
     font-weight: 700;
 }
 
@@ -40,7 +49,8 @@
 .header-content .col-menu nav ul>li a.active,
 .header-content .col-menu nav ul>li a:hover,
 h2.tit-ree:before{
-    background: #fdcf09;
+    background: #00adb5;
+    color: #eeeeee;
 }
 
 .topbar .left-topbar p a:hover,
@@ -52,7 +62,7 @@ footer .copyright p .bluer a,
 .header-content .my-cart .menu-shop li .list-names a:hover,
 .btns-right.btn-cart:hover i,
 .ree-item-nosotros i{
-    color: #fdcf09;
+    color: #00adb5;
 }
 
 .header-content nav ul>li>a,
@@ -63,12 +73,12 @@ h2.tit-ree,
 .btns-right.btn-cart,
 .content-blog .item-blog .extra,
 .latest-blog .box-content .blog-content .extra a{
-    color: #19283f;
+    color: #222831;
 }
 
 .bkg-ree-faq h2.tit-ree,
 .bkg-ree-faq .panel-body{
-    color: #ffffff;
+    color: #eeeeee;
 }
 
 footer .footer-bootom .col-md-2-width ul li a,
@@ -77,7 +87,7 @@ footer .copyright{
 }
 
 footer .copyright{
-    background-color: #141f31;
+    background-color: #393e46;
 }
 
 .btns-right.btn-cart,
@@ -91,12 +101,12 @@ footer .copyright{
 }
 
 .header-content .my-cart .menu-shop li{
-    border-bottom: 2px solid #141f31;
+    border-bottom: 2px solid #393e46;
 }
 
 .search-header input{
     background: transparent;
-    color: #ffffff;
+    color: #eeeeee;
 }
 .swiper-promo .img-promo{
     background: #eee;
@@ -104,7 +114,7 @@ footer .copyright{
 
 .swiper-pagination-bullet-active, .swiper-container-func .swiper-pagination-bullet-active {
     color:#fff;
-    background: #19283f;
+    background: #222831;
 }
 
 .bkg-ree-two{
@@ -113,22 +123,31 @@ footer .copyright{
 
 .ree-panel .panel-default>.panel-heading{
     background-color: rgba(0, 0, 0, 0.045);
-    color: #ffffff;
+    color: #eeeeee;
 }
 
 .pagination>li>a, .pagination>li>span {
-    color: #19283f;
+    color: #222831;
     background-color: #fff;
     border-color: transparent;
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
-    color: #19283f;
-    background-color: #fdcf09;
-    border-color: #fdcf09;
+    color: #eeeeee;
+    background-color: #00adb5;
+    border-color: #00adb5;
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-    background-color: #fdcf09;
+    background-color: #00adb5;
     border-color: transparent;
+    color: #eeeeee;
 }
+
+.pricing-column.highlight h3 .highlight-reason{
+     color: #eeeeee;
+ }
+
+ .bkg-ree-faq:before{
+     background-color: rgba(34, 40, 49, 0.7);
+ }

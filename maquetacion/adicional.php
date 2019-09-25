@@ -1,5 +1,5 @@
 <section class="content-grid">
-	<div class="ree-redes-sociales">
+    <div class="ree-redes-sociales">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center">
@@ -14,5 +14,5 @@
                 </div>
             </div>
         </div>
-	</div>
+    </div>
 </section>

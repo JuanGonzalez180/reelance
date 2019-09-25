@@ -28,7 +28,7 @@
             <link href="css/style_1.css" media="all" type="text/css" rel="stylesheet"/>
             <!-- Omar -->
             <link href="css/style_2.css" media="all" type="text/css" rel="stylesheet"/>
-            <link href="css/colores.css" media="all" type="text/css" rel="stylesheet"/>
+            <link href="css/colores-two.css" media="all" type="text/css" rel="stylesheet"/>
 
             <!--stylesheet include-->
             <!-- <link rel="stylesheet" type="text/css" media="all" href="ant/css/settings.css"> -->
@@ -151,9 +151,9 @@
                                                         <i class="lni-search"></i>
                                                     </a>
                                                     <ul class="menu-shop menu-search">
-                                                        <form method="get" class="search-header clearfix" action="#"> 
+                                                        <form method="get" class="search-header clearfix" action="resultados-de-busqueda"> 
                                                             <label>
-                                                                <input type="text" name="fname" class="form-control" placeholder="Comienza a escribir..."  required />
+                                                                <input type="text" name="search" class="form-control" placeholder="Comienza a escribir..."  required />
                                                             </label>
                                                             <button type="submit" class="search-icon">
                                                                 <i class="lni-search"></i>

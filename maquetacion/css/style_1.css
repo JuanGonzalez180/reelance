@@ -1,3 +1,7 @@
+body,html{
+    
+}
+
 a:focus, a:hover{
     text-decoration: none;
 }
@@ -5,6 +9,10 @@ a:focus, a:hover{
 input:focus,
 button:focus{
     outline: none;
+}
+
+.text-center{
+    text-align: center;
 }
 
 input::placeholder {
@@ -425,4 +433,40 @@ nav > ul > li{
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
     background-color: #fdcf09;
     border-color: transparent;
+}
+
+.container-ree{
+    font-size: 15px;
+    line-height: 1.8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-ree h3{
+    margin: 20px 0px 10px;
+}
+
+.container-ree p{
+    margin-bottom: 20px;
+}
+
+.bkg-404{
+    padding: 70px 0px;
+    color: #ffffff;
+}
+
+.bkg-404 h3 {
+    font-size: 4em;
+}
+
+.bkg-404 p {
+    font-size: 1.7em;
+}
+
+.bkg-404 .btn-volver{
+    margin-top: 30px;
+}
+
+.msj-resultado{
+    font-size: 2em;
 }
