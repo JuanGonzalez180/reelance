@@ -7,7 +7,7 @@
                         <h2>Los dermatólogos <br>lo recomiendan</h2>
                         <p>Producto grado farmaceútico</p>
 
-                        <a href="#" class="btn-page txt-upper">Consulta opiniones de expertos</a>
+                        <a href="#" class="btn-page">Consulta opiniones de expertos</a>
                     </div>
                 </div>
             </div>
@@ -19,8 +19,8 @@
                         <h2>Minoxidil</h2>
                         <p>El mejor activo para la regeneración del cabello.</p>
 
-                        <a href="#" class="btn-page txt-upper">Para saber más</a>
-                        <a href="#" class="btn-page txt-upper">Comprar ahora</a>
+                        <a href="#" class="btn-page">Para saber más</a>
+                        <a href="#" class="btn-page">Comprar ahora</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
 
                     <h3>POR QUÉ NOSOTROS</h3>
                     <p>Al iniciar la lectura de “Por qué Reelance y no otro” seguro pensarás: A ver que tienen estos por contar. Y en realidad nosotros, así como la competencia, también estamos interesados en vender nuestros productos, pero trabajamos por cada uno de ustedes un poco más.</p>
-                    <a href="#" class="btn-page txt-upper">Conócenos</a>
+                    <a href="#" class="btn-page">Conócenos</a>
                 </div>
             </li>
         </ul>
@@ -70,7 +70,7 @@
                         </div>
                         <h3>Tratamiento Nutritivo Restaurador + Reelance Mujer</h3>
                         <div class="separator-line"></div>
-                        <a href="#" class="btn-page txt-upper">Añadir al carrito</a>
+                        <a href="#" class="btn-page">Añadir al carrito</a>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -81,7 +81,7 @@
                         </div>
                         <h3>Dos Tratamiento Nutritivo Restaurador</h3>
                         <div class="separator-line"></div>
-                        <a href="#" class="btn-page txt-upper">Añadir al carrito</a>
+                        <a href="#" class="btn-page">Añadir al carrito</a>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -92,7 +92,7 @@
                         </div>
                         <h3>Potenciador para Crecimiento de Pestañas</h3>
                         <div class="separator-line"></div>
-                        <a href="#" class="btn-page txt-upper">Añadir al carrito</a>
+                        <a href="#" class="btn-page">Añadir al carrito</a>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -103,7 +103,7 @@
                         </div>
                         <h3>Alopecia Congenia</h3>
                         <div class="separator-line"></div>
-                        <a href="#" class="btn-page txt-upper">Añadir al carrito</a>
+                        <a href="#" class="btn-page">Añadir al carrito</a>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -114,7 +114,7 @@
                         </div>
                         <h3>Alopecia Congenia</h3>
                         <div class="separator-line"></div>
-                        <a href="#" class="btn-page txt-upper">Añadir al carrito</a>
+                        <a href="#" class="btn-page">Añadir al carrito</a>
                     </div>
                 </div>
             </div>
@@ -264,13 +264,13 @@
                 </div>
             </div>
             <div class="text-center">
-                <a href="#" class="btn-page txt-upper">Más preguntas</a>
+                <a href="#" class="btn-page">Más preguntas</a>
             </div>
         </div>
     </div>
 </section>
 
-<div class="box-bottom bkg-ree-two">
+<div class="box-bottom">
     <section class="container container-padd-ree">
         <h2 class="tit-ree">Resultados</h2>
 

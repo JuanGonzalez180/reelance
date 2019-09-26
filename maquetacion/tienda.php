@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1 class="images-titulo-ree txt-upper">Enmarca tu mirada</h1>
+					<h1 class="images-titulo-ree">Enmarca tu mirada</h1>
 				</div>
 			</div>
 		</div>
@@ -65,7 +65,7 @@
                 </h4>
                 <span class="interval">Envío gratis</span>
                 <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_1-300x221.png" alt="" width="300" height="221">
-                <a href="#" class="btn-price btn-page txt-upper">Comprar</a>
+                <a href="#" class="btn-price btn-page">Comprar</a>
             </div>
         </div><div class="col-xs-3 pricing-column highlight">
             <h3>
@@ -78,7 +78,7 @@
                 </h4>
                 <span class="interval">Envío gratis</span>
                 <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_4-300x221.png" alt="" width="300" height="221">
-                <a href="#" class="btn-price btn-page txt-upper">Comprar</a>
+                <a href="#" class="btn-price btn-page">Comprar</a>
             </div>
         </div><div class="col-xs-3 pricing-column">
             <h3>
@@ -90,7 +90,7 @@
                 </h4>
                 <span class="interval">Envío gratis</span>
                 <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_2-300x221.png" alt="" width="300" height="221">
-                <a href="#" class="btn-price btn-page txt-upper">Comprar</a>
+                <a href="#" class="btn-price btn-page">Comprar</a>
             </div>
         </div><div class="col-xs-3 pricing-column pricing-custom">
             <h3>
@@ -102,7 +102,7 @@
                 </h4>
                 <span class="interval">Envío gratis</span>
                 <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_1-300x221.png" alt="" width="300" height="221">
-                <a href="#" class="btn-price btn-page txt-upper">Comprar</a>
+                <a href="#" class="btn-price btn-page">Comprar</a>
             </div>
         </div>
     </div>

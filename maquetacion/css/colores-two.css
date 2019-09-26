@@ -2,7 +2,7 @@
 https://colorhunt.co/palette/2763
 #222831
 #393e46
-#00adb5
+#0070c9
 #eeeeee
  */
 
@@ -10,9 +10,13 @@ body{
     color: #393e46;
 }
 
-.topbar, footer, .btns-right{
+.topbar, .btns-right{
     background: #222831;
     color: #eeeeee;
+}
+
+.footer{
+    background: #f5f5f7;
 }
 
 .bkg-404{
@@ -20,15 +24,32 @@ body{
 }
 
 .header-content .my-cart .menu-shop li .list-view .list-check,
-.search-header .search-icon,
-.btn-page{
-    background: #00adb5;
+.search-header .search-icon{
+    background: #0070c9;
     color: #eeeeee;
+}
+
+.btn-page, .btn-page:hover, .btn-page:focus{
+    color: #0070c9;
+}
+
+.btn-page:hover, .btn-page:focus{
+    text-decoration: underline;
+}
+
+.btn-price.btn-page{
+    background: #0071e3;
+    color: #fff;
+}
+
+.btn-price.btn-page:hover, .btn-price.btn-page:focus{
+    background: #147ce5;
+    text-decoration: none;
 }
 
 .bl-fecha{
     background: #222831;
-    color: #00adb5;
+    color: #f5f5f7;
 }
 
 .swiper-promo .price-promo{
@@ -37,7 +58,7 @@ body{
 }
 
 .topbar .left-topbar p a{
-    color: #00adb5;
+    color: #0070c9;
     font-weight: 700;
 }
 
@@ -49,7 +70,7 @@ body{
 .header-content .col-menu nav ul>li a.active,
 .header-content .col-menu nav ul>li a:hover,
 h2.tit-ree:before{
-    background: #00adb5;
+    background: #0070c9;
     color: #eeeeee;
 }
 
@@ -62,7 +83,7 @@ footer .copyright p .bluer a,
 .header-content .my-cart .menu-shop li .list-names a:hover,
 .btns-right.btn-cart:hover i,
 .ree-item-nosotros i{
-    color: #00adb5;
+    color: #0070c9;
 }
 
 .header-content nav ul>li>a,
@@ -83,11 +104,20 @@ h2.tit-ree,
 
 footer .footer-bootom .col-md-2-width ul li a,
 footer .copyright{
-    color: #d0d0d0;
+    color: #515154;
+}
+
+footer .footer-bootom .col-md-2-width ul li a:hover{
+    text-decoration: underline;
+    color: #1d1d1f;
 }
 
 footer .copyright{
-    background-color: #393e46;
+    background-color: transparent;
+}
+
+.copyright .container {
+    border-top: 1px solid #d2d2d7;
 }
 
 .btns-right.btn-cart,
@@ -134,20 +164,28 @@ footer .copyright{
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
     color: #eeeeee;
-    background-color: #00adb5;
-    border-color: #00adb5;
+    background-color: #0070c9;
+    border-color: #0070c9;
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-    background-color: #00adb5;
+    background-color: #0070c9;
     border-color: transparent;
     color: #eeeeee;
 }
 
 .pricing-column.highlight h3 .highlight-reason{
-     color: #eeeeee;
- }
+    color: #eeeeee;
+}
 
- .bkg-ree-faq:before{
-     background-color: rgba(34, 40, 49, 0.7);
- }
+.bkg-ree-faq:before{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.bkg-ree-faq h2.tit-ree:before{
+    background: #6bf;
+}
+
+.bkg-ree-faq .btn-page, .bkg-ree-faq .btn-page:hover, .bkg-ree-faq .btn-page:focus{
+    color: #6bf;
+}

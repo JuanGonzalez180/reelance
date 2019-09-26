@@ -121,8 +121,30 @@ nav > ul > li{
 }
 
 .btn-page{
-    padding: 12px 20px;
+    padding: 8px 0px;
     display: inline-block;
+    font-size: 21px;
+    position: relative;
+}
+
+.btn-price.btn-page{
+    padding: 8px 22px;
+    border-radius: 23px;
+    font-size: 17px;
+}
+
+.btn-page:after {
+    position: absolute;
+    content: "\EA46";
+    font-family: LineIcons;
+    font-size: 11px;
+    top: 15px;
+    font-weight: 700;
+    right: -15px;
+}
+
+.btn-price.btn-page:after{
+    display: none;
 }
 
 .swiper-container .btn-page{
@@ -278,10 +300,6 @@ nav > ul > li{
     margin: 12px auto 0px;
 }
 
-.swiper-promo .btn-page{
-    font-size: 0.7em;
-}
-
 .swiper-container-func{
     height: 240px;
 }
@@ -373,9 +391,27 @@ nav > ul > li{
     transform: translateY(-50%);
 }
 
+footer .footer-bootom{
+    padding: 0px;
+}
+
+.footer-bootom h3{
+    font-size: 17px;
+}
+
+.footer-bootom .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .footer.links > li > a > i {
     font-size: 10px;
     margin-right: 5px;
+    display: none;
+}
+
+.copyright .container {
+    padding: 10px 0px;
 }
 
 .latest-blog .box-content .blog-content{
