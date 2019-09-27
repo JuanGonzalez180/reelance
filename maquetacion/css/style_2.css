@@ -4,6 +4,31 @@
     float: none;
 }
 
+.transition {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.submenu-reel-tienda {
+    padding: 20px 0px;
+    background: rgba(0,0,0,0.8);
+}
+
+.submenu-reel-tienda a {
+    color: #fff;
+}
+
+.submenu-reel-tienda a:hover {
+    opacity: 0.65;
+    color: rgba(255,255,255,0.65);
+}
+
+.submenu-reel-tienda h2 {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 8px;
+}
+
 .images-banner {
     position: relative;
     overflow: hidden;

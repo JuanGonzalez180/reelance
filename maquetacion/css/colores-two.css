@@ -62,8 +62,10 @@ body,
 }
 
 .header-content .col-menu nav ul>li a.active,
-.header-content .col-menu nav ul>li a:hover{
-    opacity: .65;
+.header-content .col-menu nav ul>li a:hover,
+.btns-right:hover {
+    opacity: 0.65;
+    color: #fff;
 }
 
 h2.tit-ree:before{
@@ -186,7 +188,6 @@ footer .copyright{
 
 .bkg-ree-faq .btn-page, 
 .bkg-ree-faq .btn-page:hover, 
-.bkg-ree-faq .btn-page:focus,
-.btns-right:hover i{
+.bkg-ree-faq .btn-page:focus{
     color: #6bf;
 }

@@ -64,8 +64,12 @@ h2.tit-ree:before{
     border: 0px;
 }
 
-.space-header{
-    height: 50px;
+.main-nav li {
+    padding: 0 25px;
+}
+
+.header-content, .space-header{
+    min-height: 55px;
 }
 
 .header-content .logo img{
@@ -95,7 +99,7 @@ nav > ul > li{
 }
 
 .btns-right{
-    padding: 15px;
+    padding: 17px;
     font-size: 20px;
     cursor: pointer;
 }

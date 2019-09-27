@@ -71,16 +71,16 @@
                                 <div class="col-xs-12 col-md-6 col-menu">
                                     <nav>
                                         <ul class="main-nav nav-tabs" id="main-menu">
-                                            <li><a class="active" href="inicio" title="">INICIO</a></li>
-                                            <li><a class="" href="tienda" title="">TIENDA</a></li>
-                                            <li><a class="" href="blog" title="">NOTICIAS</a></li>
-                                            <li><a class="" href="contacto" title="">CONTACTO</a></li>
+                                            <li><a class="transition active" href="inicio" title="">INICIO</a></li>
+                                            <li><a class="transition " data-toggle="collapse" href="#submenuReelTienda" aria-expanded="false" role="button" aria-controls="submenuReelTienda" title="">TIENDA</a></li>
+                                            <li><a class="transition " href="blog" title="">NOTICIAS</a></li>
+                                            <li><a class="transition " href="contacto" title="">CONTACTO</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                                 <div class="col-xs-12 col-md-3">
                                     <nav class="nav-botons">
-                                        <ul class="main-nav nav-tabs">
+                                        <ul class="nav-tabs">
                                             <li>
                                                 <div class="my-cart"> 
                                                     <a class="btns-right btn-cart">
@@ -191,3 +191,42 @@
                     <!-- end header content -->
                 </header>
                 <div class="space-header"></div>
+                <div class="collapse" id="submenuReelTienda">
+                    <div class="submenu-reel-tienda">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-2">
+                                    <a class="transition" href="tienda" title="">
+                                        <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_for_men_icon.png">
+                                        <h2>Reelance para Hombre</h2>
+                                    </a>
+                                </div><div class="col-xs-2">
+                                    <a class="transition" href="tienda" title="">
+                                        <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_for_woman_icon.png">
+                                        <h2>Reelance para Mujer</h2>
+                                    </a>
+                                </div><div class="col-xs-2">
+                                    <a class="transition" href="tienda" title="">
+                                        <img src="https://www.reelance.mx/wp-content/uploads/2015/08/reelance-potenciador-de-ceja-icon.png">
+                                        <h2>Crecimiento de ceja</h2>
+                                    </a>
+                                </div><div class="col-xs-2">
+                                    <a class="transition" href="tienda" title="">
+                                        <img src="https://www.reelance.mx/wp-content/uploads/2017/04/reelance-potenciador-de-pestanas-icon.png">
+                                        <h2>Potenciador para crecimiento de pestañas</h2>
+                                    </a>
+                                </div><div class="col-xs-2">
+                                    <a class="transition" href="tienda" title="">
+                                        <img src="https://www.reelance.mx/wp-content/uploads/2017/04/reelance-potenciador-de-pestanas-icon.png">
+                                        <h2>Reelance gel híbrido</h2>
+                                    </a>
+                                </div><div class="col-xs-2">
+                                    <a class="transition" href="tienda" title="">
+                                        <img src="https://www.reelance.mx/wp-content/uploads/2016/03/tratamiento-nutritivo-restaurador-icon.png">
+                                        <h2>Tratamiento nutritivo restaurador</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
