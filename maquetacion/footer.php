@@ -8,7 +8,7 @@
                             <div class="row">						    	
                                 <div class="col-sm-3">
                                     <div class="col-md-2-width">
-                                        <h3 class="">Nosotros</h3>
+                                        <h3 class="tit-color-ree">Nosotros</h3>
                                         <ul class="footer links">
                                             <li><a href="#"><i class="lni-chevron-right"></i>Nuestros Objetivos</a></li>
                                             <li><a href="#"><i class="lni-chevron-right"></i>Nuestra Misión</a></li>
@@ -19,7 +19,7 @@
 
                                 <div class="col-sm-3">
                                     <div class="col-md-2-width">
-                                        <h3 class="">Info Minoxidil</h3>
+                                        <h3 class="tit-color-ree">Info Minoxidil</h3>
                                         <ul class="footer links">
                                             <li><a href="#"><i class="lni-chevron-right"></i>Minoxidil </a></li>
                                             <li><a href="#"><i class="lni-chevron-right"></i>Minoxidil 5 </a></li>
@@ -32,7 +32,7 @@
 
                                 <div class="col-sm-3">
                                     <div class="col-md-2-width ">
-                                        <h3 class="">Infi Alopecia</h3>
+                                        <h3 class="tit-color-ree">Infi Alopecia</h3>
                                         <ul class="footer links">
                                             <li><a href="#"><i class="lni-chevron-right"></i>Alopecia</a></li>
                                             <li><a href="#"><i class="lni-chevron-right"></i>Alopecia en Mujeres</a></li>
@@ -45,7 +45,7 @@
 
                                 <div class="col-sm-3">
                                     <div class="col-md-2-width col-footer">
-                                        <h3 class="">Info Tratamientos</h3>
+                                        <h3 class="tit-color-ree">Info Tratamientos</h3>
                                         <ul class="footer links">
                                             <li><a href="#"><i class="lni-chevron-right"></i>Crecimiento del cabello</a></li>
                                             <li><a href="#"><i class="lni-chevron-right"></i>Calvicie en mujeres</a></li>

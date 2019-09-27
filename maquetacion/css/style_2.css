@@ -11,16 +11,10 @@
 
 .submenu-reel-tienda {
     padding: 20px 0px;
-    background: rgba(0,0,0,0.8);
-}
-
-.submenu-reel-tienda a {
-    color: #fff;
 }
 
 .submenu-reel-tienda a:hover {
     opacity: 0.65;
-    color: rgba(255,255,255,0.65);
 }
 
 .submenu-reel-tienda h2 {
@@ -47,7 +41,6 @@
     position: relative;
     z-index: 1;
     padding: 80px 0px;
-    color: #fff;
 }
 
 .pricing-table {
@@ -59,7 +52,6 @@
     overflow: hidden;
     text-align: center;
     padding: 0px;
-    background-color: #fff;
     -webkit-transition: box-shadow 0.2s linear;
     transition: box-shadow 0.2s linear;
 }
@@ -68,41 +60,21 @@
     position: relative;
     z-index: 100;
     margin: -20px -1px 0px -1px;
-    background-color: #FFF;
     box-shadow: 0px 0px 13px rgba(0, 0, 0, .09);
 }
 
-.pricing-table > div:first-child .pricing-column-content, .pricing-table > div:first-child h3 {
-    border-left: 1px solid #e4e4e4;
-}
-
 .pricing-column .pricing-column-content {
-    border-right: 1px solid #e4e4e4;
-    border-bottom: 1px solid #e4e4e4;
     padding: 0px 0px 20px 0px;
 }
 
-.pricing-column.highlight .pricing-column-content {
-    border-right: 1px solid #e4e4e4;
-    border-left: 1px solid #e4e4e4;
-    border-bottom: 1px solid #e4e4e4;
-}
-
 .pricing-column h3 {
-    background-color: #fff;
-    color: #19283f;
     margin-bottom: 0px;
     font-size: 18px;
     line-height: 26px;
-    border-right: 1px solid #e4e4e4;
-    border-bottom: 1px solid #EFEFEF;
-    border-top: 1px solid #e4e4e4;
     padding: 18px 0px 18px 0px;
 }
 
 .pricing-column.highlight h3 {
-    color: #fff;
-    background-color: #19283f;
     padding: 15px 0px;
     margin-bottom: 0px;
 }
@@ -112,7 +84,6 @@
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: rgba(255, 255, 225, 0.4);
 }
 
 .pricing-column.pricing-custom h3 {
@@ -145,7 +116,6 @@
 .pricing-column .interval {
     display: block;
     font-size: 16px;
-    color: #999;
     min-height: 38px;
     display: block;
     padding-bottom: 17px;
@@ -161,13 +131,10 @@
     transition: all 0.2s;
     margin-right: 4px;
     font-weight: bold;
-    border: 1px solid #19283f;
 }
 
 .banner-fedex {
-    background: rgb(84, 16, 148);
     padding: 30px 0;
-    color: #fff;
 }
 
 .fedex-img img {
@@ -183,14 +150,9 @@
 .ree-redes-sociales {
     position: relative;
     padding: 50px 0px;
-    background-image: url(../images/assets/ree-redes-sociales.jpg);
-    background-position: center center;
-    background-size: cover;
-    color: #19283f;
 }
 
 .ree-redes-sociales:before {
-    background-color: #fdcf09;
     opacity: 0.92;
     content: "";
     position: absolute;
@@ -218,15 +180,8 @@
 .ree-redes-sociales li a {
     font-size: 22px;
     display: block;
-    background: #fff;
-    color: #19283f;
     border-radius: 50%;
     padding: 0.5em;
-}
-
-.ree-redes-sociales li a:hover {
-    background: #19283f;
-    color: #fff;
 }
 
 .ree-redes-sociales li:not(:last-child) a {
@@ -237,5 +192,5 @@
     width: 1em;
     height: 1em;
     position: relative;
-     display: block;
+    display: block;
 }

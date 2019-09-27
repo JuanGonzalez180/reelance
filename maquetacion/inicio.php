@@ -68,7 +68,7 @@
                             <img src="images/assets/producto-1.png" />
                             <div class="price-promo">$1.000,00</div>
                         </div>
-                        <h3>Tratamiento Nutritivo Restaurador + Reelance Mujer</h3>
+                        <h3 class="tit-color-ree">Tratamiento Nutritivo Restaurador + Reelance Mujer</h3>
                         <div class="separator-line"></div>
                         <a href="#" class="btn-page">Añadir al carrito</a>
                     </div>
@@ -79,7 +79,7 @@
                             <img src="images/assets/producto-2.png" />
                             <div class="price-promo">$1.000,00</div>
                         </div>
-                        <h3>Dos Tratamiento Nutritivo Restaurador</h3>
+                        <h3 class="tit-color-ree">Dos Tratamiento Nutritivo Restaurador</h3>
                         <div class="separator-line"></div>
                         <a href="#" class="btn-page">Añadir al carrito</a>
                     </div>
@@ -90,7 +90,7 @@
                             <img src="images/assets/producto-3.png" />
                             <div class="price-promo">$1.000,00</div>
                         </div>
-                        <h3>Potenciador para Crecimiento de Pestañas</h3>
+                        <h3 class="tit-color-ree">Potenciador para Crecimiento de Pestañas</h3>
                         <div class="separator-line"></div>
                         <a href="#" class="btn-page">Añadir al carrito</a>
                     </div>
@@ -101,7 +101,7 @@
                             <img src="images/assets/producto-1.png" />
                             <div class="price-promo">$1.000,00</div>
                         </div>
-                        <h3>Alopecia Congenia</h3>
+                        <h3 class="tit-color-ree">Alopecia Congenia</h3>
                         <div class="separator-line"></div>
                         <a href="#" class="btn-page">Añadir al carrito</a>
                     </div>
@@ -112,7 +112,7 @@
                             <img src="images/assets/producto-2.png" />
                             <div class="price-promo">$1.000,00</div>
                         </div>
-                        <h3>Alopecia Congenia</h3>
+                        <h3 class="tit-color-ree">Alopecia Congenia</h3>
                         <div class="separator-line"></div>
                         <a href="#" class="btn-page">Añadir al carrito</a>
                     </div>
@@ -280,28 +280,28 @@
                     <div class="swiper-testi">
                         <h3></h3>
                         <img src="images/assets/testimonio-1.png" />
-                        <p>Antes</p>
+                        <p class="tit-color-ree">Antes</p>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-testi">
                         <h3></h3>
                         <img src="images/assets/testimonio-1.png" />
-                        <p>Después</p>
+                        <p class="tit-color-ree">Después</p>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-testi">
                         <h3></h3>
                         <img src="images/assets/testimonio-1.png" />
-                        <p>Antes</p>
+                        <p class="tit-color-ree">Antes</p>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiper-testi">
                         <h3></h3>
                         <img src="images/assets/testimonio-1.png" />
-                        <p>Después</p>
+                        <p class="tit-color-ree">Después</p>
                     </div>
                 </div>
             </div>

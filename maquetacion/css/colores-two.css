@@ -4,13 +4,16 @@ https://colorhunt.co/palette/2763
 #393e46
 #0070c9
 #eeeeee
+
+#1d1d1f
+#8c8c8c
  */
 
 body,
 .header-content .my-cart .menu-shop li p,
 .header-content .my-cart .menu-shop li .list-qty p,
 .header-content .my-cart .menu-shop li .price{
-    color: #393e46;
+    color: #8c8c8c;
 }
 
 .footer{
@@ -47,12 +50,12 @@ body,
 }
 
 .bl-fecha{
-    background: #222831;
+    background: #1d1d1f;
     color: #f5f5f7;
 }
 
 .swiper-promo .price-promo{
-    background: #222831;
+    background: #1d1d1f;
     color: #eeeeee;
 }
 
@@ -86,11 +89,12 @@ footer .copyright p .bluer a,
 .header-content nav ul>li>a,
 .swiper-content-row,
 h2.tit-ree,
+.tit-color-ree,
 .ree-item-nosotros h3,
 .swiper-container-func h3,
 .content-blog .item-blog .extra,
 .latest-blog .box-content .blog-content .extra a{
-    color: #222831;
+    color: #1d1d1f;
 }
 
 .header-content nav ul.main-nav>li>a,
@@ -136,7 +140,7 @@ footer .copyright{
 
 .search-header input{
     background: transparent;
-    color: #222831;
+    color: #1d1d1f;
 }
 .swiper-promo .img-promo{
     background: #eee;
@@ -144,7 +148,7 @@ footer .copyright{
 
 .swiper-pagination-bullet-active, .swiper-container-func .swiper-pagination-bullet-active {
     color:#fff;
-    background: #222831;
+    background: #1d1d1f;
 }
 
 .bkg-ree-two{
@@ -157,7 +161,7 @@ footer .copyright{
 }
 
 .pagination>li>a, .pagination>li>span {
-    color: #222831;
+    color: #1d1d1f;
     background-color: #fff;
     border-color: transparent;
 }
@@ -190,4 +194,8 @@ footer .copyright{
 .bkg-ree-faq .btn-page:hover, 
 .bkg-ree-faq .btn-page:focus{
     color: #6bf;
+}
+
+.latest-blog .box-content .blog-content .des {
+    color: inherit;
 }

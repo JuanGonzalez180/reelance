@@ -29,6 +29,7 @@
             <!-- Omar -->
             <link href="css/style_2.css" media="all" type="text/css" rel="stylesheet"/>
             <link href="css/colores-two.css" media="all" type="text/css" rel="stylesheet"/>
+            <link href="css/colores-omar.css" media="all" type="text/css" rel="stylesheet"/>
 
             <!--stylesheet include-->
             <!-- <link rel="stylesheet" type="text/css" media="all" href="ant/css/settings.css"> -->
