@@ -15,9 +15,9 @@
             <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 
             <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+            <link href='https://fonts.googleapis.com/css?family=Lato:400,600,700' rel='stylesheet' type='text/css'>
             <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"> -->
             <link href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css" rel="stylesheet">
-            <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
 
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
@@ -65,7 +65,7 @@
                             <div class="row row-header">
                                 <div class="col-xs-12 col-md-3">
                                     <a class="logo" title="" href="inicio">
-                                        <img  src="images/assets/logo.png" alt="">
+                                        <img  src="images/assets/logo-blanco.png" alt="">
                                     </a>
                                 </div>
                                 <div class="col-xs-12 col-md-6 col-menu">
@@ -138,8 +138,8 @@
                                                             </div>
                                                             
                                                             <span class="list-view">
-                                                                <a href="#" class="view-cart">VIEW CART</a>
-                                                                <button type="submit" class="btn btn-primary list-check">CHECKOUT</button>
+                                                                <a href="#" class="btn btn-primary list-check">Ver Carrito</a>
+                                                                <button type="submit" class="btn btn-primary list-check">Finalizar Compra</button>
                                                             </span>
                                                         </li>
                                                     </ul>
@@ -163,10 +163,14 @@
                                                 </div>
                                             </li>
                                             <li>
-                                                <div>
+                                                <div class="my-cart">
                                                     <a class="btns-right">
                                                         <i class="lni-user"></i>
                                                     </a>
+                                                    <ul class="menu-shop menu-account">
+                                                        <li><a href="#">Iniciar sesión</a></li>
+                                                        <li><a href="#">Registrarse</a></li>
+                                                    </ul>
                                                 </div>
                                             </li>
                                         </ul>

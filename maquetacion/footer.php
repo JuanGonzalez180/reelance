@@ -36,7 +36,7 @@
                                         <ul class="footer links">
                                             <li><a href="#"><i class="lni-chevron-right"></i>Alopecia</a></li>
                                             <li><a href="#"><i class="lni-chevron-right"></i>Alopecia en Mujeres</a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>iAlopecia tratamiento</a></li>
+                                            <li><a href="#"><i class="lni-chevron-right"></i>Alopecia tratamiento</a></li>
                                             <li><a href="#"><i class="lni-chevron-right"></i>Caida de Cabello</a></li>
                                             <li><a href="#"><i class="lni-chevron-right"></i>Perdida de Cabello</a></li>
                                         </ul>
