@@ -157,7 +157,7 @@
                                                                 <input type="text" name="search" class="form-control" placeholder="Comienza a escribir..."  required />
                                                             </label>
                                                             <button type="submit" class="search-icon">
-                                                                <i class="lni-search"></i>
+                                                                <i class="lni-chevron-right"></i>
                                                             </button>
                                                         </form>
                                                     </ul>

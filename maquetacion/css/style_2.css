@@ -9,6 +9,16 @@
     transition: all 0.3s linear;
 }
 
+.header-content .my-cart:hover .menu-shop {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+}
+
+.header-content .my-cart .menu-search,
+.header-content .my-cart .menu-search .form-control {
+    min-height: 41px;
+}
+
 .submenu-reel-tienda {
     padding: 20px 0px;
 }
