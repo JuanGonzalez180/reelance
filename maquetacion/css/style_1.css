@@ -128,7 +128,7 @@ nav > ul > li{
 .btn-page{
     padding: 8px 0px;
     display: inline-block;
-    font-size: 21px;
+    font-size: 17px;
     position: relative;
 }
 
@@ -143,7 +143,7 @@ nav > ul > li{
     content: "\EA46";
     font-family: LineIcons;
     font-size: 11px;
-    top: 15px;
+    top: 13px;
     font-weight: 700;
     right: -15px;
 }
@@ -533,4 +533,34 @@ footer .footer-bootom{
 
 .header-content nav ul>li>a{
     font-weight: 400;
+}
+
+.mbsc-ios .mbsc-checkbox-box{
+    border-radius: 6px;
+}
+
+.mbsc-ios .mbsc-checkbox-box{
+    left: 1em;
+    right: auto;
+}
+.mbsc-ios .mbsc-label{
+    position: relative;
+    left: 42px;
+}
+
+.btn-page.no-arrow:after{
+    display: none;
+}
+
+.mbsc-ios.mbsc-input-box.mbsc-control-w, 
+.mbsc-ios.mbsc-input-outline.mbsc-control-w{
+    margin-bottom: 20px;
+}
+
+.mbsc-err-msg{
+    display: none;
+}
+
+.is-error .mbsc-err-msg{
+    display: inline-block;
 }

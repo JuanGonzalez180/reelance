@@ -54,55 +54,57 @@
         <div class="swiper-pagination swiper-products-pagination"></div>
     </div>
 </section>
-<section class="container container-padd-ree">
-    <h2 class="tit-ree">Promociones</h2>
-    <div class="pricing-table">
-        <div class="col-xs-4 pricing-column">
-            <h3>1 MES DE TRATAMIENTO</h3>
-            <div class="pricing-column-content">
-                <h4 class="tit-color-ree">
-                    <span class="dollar-sign">$</span> 600
-                </h4>
-                <span class="interval">Envío gratis</span>
-                <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_1-300x221.png" alt="" width="300" height="221">
-                <a href="#" class="btn-price btn-page">Comprar</a>
-            </div>
-        </div><div class="col-xs-4 pricing-column highlight">
-            <h3>
-                3 MESES DE TRATAMIENTO
-                <span class="highlight-reason">Recomendado</span>
-            </h3>
-            <div class="pricing-column-content">
-                <h4 class="tit-color-ree">
-                    <span class="dollar-sign">$</span> 600
-                </h4>
-                <span class="interval">Envío gratis</span>
-                <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_4-300x221.png" alt="" width="300" height="221">
-                <a href="#" class="btn-price btn-page">Comprar</a>
-            </div>
-        </div><div class="col-xs-4 pricing-column">
-            <h3>
-                2 MESES DE TRATAMIENTO
-            </h3>
-            <div class="pricing-column-content">
-                <h4 class="tit-color-ree">
-                    <span class="dollar-sign">$</span> 600
-                </h4>
-                <span class="interval">Envío gratis</span>
-                <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_2-300x221.png" alt="" width="300" height="221">
-                <a href="#" class="btn-price btn-page">Comprar</a>
-            </div>
-        </div><div class="col-xs-3 pricing-column pricing-custom hidden">
-            <h3>
-                <input type="number" class="qty" step="1" min="1" max="" name="quantity" value="1" title="Cantidad" size="4" inputmode="numeric"> MESES DE TRATAMIENTO
-            </h3>
-            <div class="pricing-column-content">
-                <h4 class="tit-color-ree">
-                    <span class="dollar-sign">$</span> 600
-                </h4>
-                <span class="interval">Envío gratis</span>
-                <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_1-300x221.png" alt="" width="300" height="221">
-                <a href="#" class="btn-price btn-page">Comprar</a>
+<section class="bkg-ree-two">
+    <div class="container container-padd-ree">
+        <h2 class="tit-ree">Promociones</h2>
+        <div class="pricing-table">
+            <div class="col-xs-4 pricing-column">
+                <h3>1 MES DE TRATAMIENTO</h3>
+                <div class="pricing-column-content">
+                    <h4 class="tit-color-ree">
+                        <span class="dollar-sign">$</span> 600
+                    </h4>
+                    <span class="interval">Envío gratis</span>
+                    <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_1-300x221.png" alt="" width="300" height="221">
+                    <a href="#" class="btn-price btn-page">Comprar</a>
+                </div>
+            </div><div class="col-xs-4 pricing-column highlight">
+                <h3>
+                    3 MESES DE TRATAMIENTO
+                    <span class="highlight-reason">Recomendado</span>
+                </h3>
+                <div class="pricing-column-content">
+                    <h4 class="tit-color-ree">
+                        <span class="dollar-sign">$</span> 600
+                    </h4>
+                    <span class="interval">Envío gratis</span>
+                    <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_4-300x221.png" alt="" width="300" height="221">
+                    <a href="#" class="btn-price btn-page">Comprar</a>
+                </div>
+            </div><div class="col-xs-4 pricing-column">
+                <h3>
+                    2 MESES DE TRATAMIENTO
+                </h3>
+                <div class="pricing-column-content">
+                    <h4 class="tit-color-ree">
+                        <span class="dollar-sign">$</span> 600
+                    </h4>
+                    <span class="interval">Envío gratis</span>
+                    <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_2-300x221.png" alt="" width="300" height="221">
+                    <a href="#" class="btn-price btn-page">Comprar</a>
+                </div>
+            </div><div class="col-xs-3 pricing-column pricing-custom hidden">
+                <h3>
+                    <input type="number" class="qty" step="1" min="1" max="" name="quantity" value="1" title="Cantidad" size="4" inputmode="numeric"> MESES DE TRATAMIENTO
+                </h3>
+                <div class="pricing-column-content">
+                    <h4 class="tit-color-ree">
+                        <span class="dollar-sign">$</span> 600
+                    </h4>
+                    <span class="interval">Envío gratis</span>
+                    <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_1-300x221.png" alt="" width="300" height="221">
+                    <a href="#" class="btn-price btn-page">Comprar</a>
+                </div>
             </div>
         </div>
     </div>

@@ -20,6 +20,8 @@
             <link href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css" rel="stylesheet">
 
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" href="dist/mobiscroll/css/mobiscroll.jquery.min.css">
+
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
@@ -169,8 +171,8 @@
                                                         <i class="lni-user"></i>
                                                     </a>
                                                     <ul class="menu-shop menu-account">
-                                                        <li><a href="#">Iniciar sesión</a></li>
-                                                        <li><a href="#">Registrarse</a></li>
+                                                        <li><a href="iniciar-sesion">Iniciar sesión</a></li>
+                                                        <li><a href="registrarse">Registrarse</a></li>
                                                     </ul>
                                                 </div>
                                             </li>

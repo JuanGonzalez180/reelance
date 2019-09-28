@@ -31,10 +31,11 @@ body,
 }
 
 .btn-page, .btn-page:hover, .btn-page:focus{
-    color: #0070c9;
+    color: #007bff;
 }
 
-.btn-price.btn-page{
+.btn-price.btn-page,
+.mbsc-ios.mbsc-btn{
     background: #0071e3;
     color: #fff;
 }
@@ -198,4 +199,28 @@ footer .copyright{
 
 .latest-blog .box-content .blog-content .des {
     color: inherit;
+}
+
+.mbsc-ios.mbsc-form{
+    background: #fff;
+}
+
+.mbsc-ios.mbsc-input-box.mbsc-control-w, 
+.mbsc-ios.mbsc-input-outline.mbsc-control-w{
+    border-color: #d6d6d6;
+}
+
+.mbsc-ios.mbsc-input-box.mbsc-control-w.is-error, 
+.mbsc-ios.mbsc-input-outline.mbsc-control-w.is-error{
+    border-color: #de071c;
+}
+.mbsc-ios.mbsc-label-floating.mbsc-input.is-error .mbsc-label{
+    color: #de071c;
+}
+
+.mbsc-ios.mbsc-input:before, 
+.mbsc-ios.mbsc-input:after, 
+.mbsc-ios.mbsc-form .mbsc-control-w:before, 
+.mbsc-ios.mbsc-form .mbsc-control-w:after{
+    border-color: transparent;
 }
