@@ -5,7 +5,7 @@ https://colorhunt.co/palette/2763
 #0070c9
 #eeeeee
 
-#11d1d1f
+#1d1d1f
 #8c8c8c
  */
 
@@ -69,7 +69,7 @@ body,
 .header-content .col-menu nav ul>li a:hover,
 .btns-right:hover {
     opacity: 0.65;
-    color: #fff;
+    color: #333333;
 }
 
 h2.tit-ree:before{
@@ -100,7 +100,7 @@ h2.tit-ree,
 
 .header-content nav ul.main-nav>li>a,
 .btns-right{
-    color: #ffffff;
+    color: #333333;
 }
 
 .bkg-ree-faq h2.tit-ree,

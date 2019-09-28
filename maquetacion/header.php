@@ -26,6 +26,11 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
             <link href="css/styles.css" media="all" type="text/css" rel="stylesheet"/>
+
+            <!-- Fonts -->
+            <link href="fonts/BebasNeue/styles.css" media="all" type="text/css" rel="stylesheet"/>
+            <link href="fonts/HelveticaNeue-Thin/styles.css" media="all" type="text/css" rel="stylesheet"/>
+            
             <!-- Juan -->
             <link href="css/style_1.css" media="all" type="text/css" rel="stylesheet"/>
             <!-- Omar -->
@@ -68,16 +73,16 @@
                             <div class="row row-header">
                                 <div class="col-xs-12 col-md-3">
                                     <a class="logo" title="" href="inicio">
-                                        <img  src="images/assets/logo-blanco.png" alt="">
+                                        <img  src="images/assets/logo.png" alt="">
                                     </a>
                                 </div>
                                 <div class="col-xs-12 col-md-6 col-menu">
                                     <nav>
                                         <ul class="main-nav nav-tabs" id="main-menu">
-                                            <li><a class="transition active" href="inicio" title="">INICIO</a></li>
-                                            <li><a class="transition " data-toggle="collapse" href="#submenuReelTienda" aria-expanded="false" role="button" aria-controls="submenuReelTienda" title="">TIENDA</a></li>
-                                            <li><a class="transition " href="blog" title="">NOTICIAS</a></li>
-                                            <li><a class="transition " href="contacto" title="">CONTACTO</a></li>
+                                            <li><a class="font-bebasneue transition active" href="inicio" title="">INICIO</a></li>
+                                            <li><a class="font-bebasneue transition " data-toggle="collapse" href="#submenuReelTienda" aria-expanded="false" role="button" aria-controls="submenuReelTienda" title="">TIENDA</a></li>
+                                            <li><a class="font-bebasneue transition " href="blog" title="">NOTICIAS</a></li>
+                                            <li><a class="font-bebasneue transition " href="contacto" title="">CONTACTO</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -195,7 +200,7 @@
                 </header>
                 <div class="space-header"></div>
                 <div class="collapse" id="submenuReelTienda">
-                    <div class="submenu-reel-tienda">
+                    <div class="submenu-reel-tienda bkg-ree-two">
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-2">

@@ -1,13 +1,10 @@
-.submenu-reel-tienda {
-    background: rgba(0,0,0,0.8);
-}
-
 .submenu-reel-tienda a {
-    color: #fff;
+    color: #333333;
 }
 
 .submenu-reel-tienda a:hover {
-    color: rgba(255,255,255,0.65);
+    color: #333333;
+    opacity: 0.65;
 }
 
 .images-banner .images-titulo-ree {
