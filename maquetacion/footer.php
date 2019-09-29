@@ -96,8 +96,8 @@
 
         <script src="dist/mobiscroll/js/mobiscroll.jquery.min.js"></script>
 
-        <script src="js/custom.js"></script>
-		<script src="js/custom_2.js"></script>
+        <script src="js/custom.js<?php print $ver; ?>"></script>
+		<script src="js/custom_2.js<?php print $ver; ?>"></script>
 
     </body>
 </html>

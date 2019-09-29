@@ -6,18 +6,22 @@
 
 <div class="latest-blog margin-top-0">
     <div class="container">
-        <div class="col-sm-9">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-8">
             <div class="box-content content-blog">
+
+                <?php foreach ( [0,1,2] as $key => $value) { ?>
                 <div class="row">
                     <div class="col-sm-12 item-blog item wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0ms">
-                        <div class="col-sm-4 blog-images">
-                            <div class="bl-fecha">
-                                <div class="bl-day">15</div>
-                                <div class="bl-month">SEP</div>
-                            </div>
-                            <img src="images/assets/producto-1.png" alt="">
+                        <div class="bl-fecha">
+                            <div class="bl-day">15</div>
+                            <div class="bl-month">SEP</div>
                         </div>
-                        <div class="col-sm-8 blog-content">
+                        <div class="col-sm-12 blog-images">
+                            <img src="images/assets/quieres-poblar-cejas.png" alt="">
+                        </div>
+                        <div class="col-sm-12 blog-content">
                             <div class="extra">
                                 <h2 class=""><a href="#">¿Quieres poblar tus cejas?</a></h2>
                             </div>
@@ -28,48 +32,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-sm-12 item-blog item wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0ms">
-                        <div class="col-sm-4 blog-images">
-                            <div class="bl-fecha">
-                                <div class="bl-day">30</div>
-                                <div class="bl-month">AGO</div>
-                            </div>
-                            <img src="images/assets/producto-1.png" alt="">
-                        </div>
-                        <div class="col-sm-8 blog-content">
-                            <div class="extra">
-                                <h2 class=""><a href="#">Engrosa facilmente tus cejas en 12 semanas</a></h2>
-                            </div>
-                            <div class="des">
-                                Nuestras cejas son una de las cualidades de la cara màs importantes, aunque no lo creas nos ayudan a dar personalidad a la mirada y enmarcan el rostro de una forma determinada, ahora la tendencia en cejas es gruesa ya que hace vernos màs jóvenes y nos dan naturalidad, si no has podido hacerla crecer ràpido aquí te diremos como...
-                            </div>
-                            <a href="#" class="btn-page">Leer más</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12 item-blog item wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0ms">
-                        <div class="col-sm-4 blog-images">
-                            <div class="bl-fecha">
-                                <div class="bl-day">14</div>
-                                <div class="bl-month">AGO</div>
-                            </div>
-                            <img src="images/assets/producto-1.png" alt="">
-                        </div>
-                        <div class="col-sm-8 blog-content">
-                            <div class="extra">
-                                <h2 class=""><a href="#">Tratamiento Garantizado Para Engrosar Las Cejas</a></h2>
-                            </div>
-                            <div class="des">
-                                Si lo que quieres es engrosar tus cejas y nos has tenido exito aqui te daremos las herramientas para que lo logres, no es complicado solo debes tener disciplina para lograrlo.
-                            </div>
-                            <a href="#" class="btn-page">Leer más</a>
-                        </div>
-                    </div>
-                </div>
+                <?php }  ?>
 
             </div>
 

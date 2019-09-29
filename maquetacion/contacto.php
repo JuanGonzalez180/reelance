@@ -1,6 +1,61 @@
-<section class="content-grid">
-	<div id="gmaps-ree" class="gmaps-ree"></div>
-</section>
+<div class="sec-contacto">
+  <section class="content-grid">
+    <div class="google-map">
+      <div class="text-map">
+        <div class="text-center">
+          <h2>Localiza un punto de venta <b>Reelance</b></h2>
+          <p>Reelance te guiará para que encuentres el punto de ventas más cercano a tu ubicación actual</p>
+          <a id="buscarPunto" class="btn-page" data-toggle="collapse" href="#submenuReelContacto" aria-expanded="false" role="button" aria-controls="submenuReelContacto">Buscar</a>
+        </div>
+      </div>
+      <img class="google-fondo" src="images/assets/fondo-mapa.jpg" />
+      <div id="gmaps-ree" class="gmaps-ree"></div>
+    </div>
+  </section>
+
+  <div class="collapse" id="submenuReelContacto">
+    <section class="cont-puntos">
+      <div class="container">
+        <div class="row">
+          <?php foreach ( [0,1,2] as $key => $value) { ?>
+          <div class="col-sm-4 item-punto">
+            <ul>
+              <li><h3>Nombre Establecimiento</h3></li>
+              <li><i class="lni-map-marker"></i> 2km</li>
+              <li><i class="lni-envelope"></i> Guadalajara, Jalisco, México</li>
+              <li><i class="lni-phone-handset"></i> 044-331-554 - 18-93</li>
+            </ul>
+          </div>
+          <?php }  ?>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="cont-escribenos">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2>Escríbenos</h2>
+          <p>Guadalajara, Jalisco, México</p>
+          <ul>
+            <li><i class="lni-envelope"></i> ventas@reelance.mx </li>
+            <li><i class="lni-phone-handset"></i> 044-331-554 - 18-93 </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 text-right">
+          <a href="#" class="btn-redes btn-whatsapp"><i class="lni-whatsapp"></i> WhatsApp</a>
+        </div>
+        <div class="col-sm-6">
+          <a href="#" class="btn-redes btn-messenger"><i class="lni-facebook-messenger"></i> Messenger</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
 <script>
       // Note: This example requires that you consent to location sharing when
       // prompted by your browser. If you see the error "The Geolocation service

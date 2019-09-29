@@ -83,7 +83,8 @@ footer .footer-bootom .col-md-2-width ul li a.active,
 footer .copyright p .bluer a,
 .header-content .my-cart .menu-shop li .list-names a,
 .header-content .my-cart .menu-shop li .list-names a:hover,
-.ree-item-nosotros i{
+.ree-item-nosotros i,
+.sec-contacto i{
     color: #0070c9;
 }
 
@@ -94,7 +95,9 @@ h2.tit-ree,
 .ree-item-nosotros h3,
 .swiper-container-func h3,
 .content-blog .item-blog .extra,
-.latest-blog .box-content .blog-content .extra a{
+.latest-blog .box-content .blog-content .extra a,
+.cont-escribenos h2,
+.cont-puntos h3{
     color: #333333;
 }
 
@@ -154,6 +157,10 @@ footer .copyright{
 
 .bkg-ree-two{
     background: #f8f8f8;
+}
+
+.cont-puntos .item-punto ul{
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.1);
 }
 
 .ree-panel .panel-default>.panel-heading{
@@ -223,4 +230,27 @@ footer .copyright{
 .mbsc-ios.mbsc-form .mbsc-control-w:before, 
 .mbsc-ios.mbsc-form .mbsc-control-w:after{
     border-color: transparent;
+}
+
+.cont-escribenos:before{
+    border-top: 1px solid #333;
+}
+
+.btn-redes, 
+.btn-redes:hover, 
+.btn-redes:focus{
+    color: #fff;
+}
+
+.btn-whatsapp{
+    background-color: #25D366;
+}
+
+.btn-messenger{
+    background-color: #00C6FF;
+}
+
+.btn-whatsapp i, 
+.btn-messenger i{
+    color: #fff;
 }

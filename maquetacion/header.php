@@ -25,18 +25,18 @@
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
-            <link href="css/styles.css" media="all" type="text/css" rel="stylesheet"/>
+            <link href="css/styles.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
 
             <!-- Fonts -->
             <link href="fonts/BebasNeue/styles.css" media="all" type="text/css" rel="stylesheet"/>
             <link href="fonts/HelveticaNeue-Thin/styles.css" media="all" type="text/css" rel="stylesheet"/>
             
             <!-- Juan -->
-            <link href="css/style_1.css" media="all" type="text/css" rel="stylesheet"/>
+            <link href="css/style_1.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
             <!-- Omar -->
-            <link href="css/style_2.css" media="all" type="text/css" rel="stylesheet"/>
-            <link href="css/colores-two.css" media="all" type="text/css" rel="stylesheet"/>
-            <link href="css/colores-omar.css" media="all" type="text/css" rel="stylesheet"/>
+            <link href="css/style_2.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
+            <link href="css/colores-two.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
+            <link href="css/colores-omar.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
 
             <!--stylesheet include-->
             <!-- <link rel="stylesheet" type="text/css" media="all" href="ant/css/settings.css"> -->

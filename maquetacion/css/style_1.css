@@ -439,6 +439,16 @@ footer .footer-bootom{
 .content-blog .item-blog {
     padding: 30px 0px;
     border-bottom: 1px solid #dedede;
+    position: relative;
+}
+
+.content-blog .row:first-child .item-blog{
+    padding-top: 0px;
+}
+
+.content-blog .item-blog .blog-images img{
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .content-blog .row:last-child .item-blog{
@@ -450,6 +460,7 @@ footer .footer-bootom{
     padding: 10px;
     text-align: center;
     font-weight: 700;
+    right: calc(100% + 10px);
 }
 
 .bl-day {
@@ -572,4 +583,82 @@ footer .footer-bootom{
 
 .is-error .mbsc-err-msg{
     display: inline-block;
+}
+
+.page-404{
+    padding: 70px 0px;
+}
+
+.page-404 h1{
+    font-size: 15em;
+    line-height: 1em;
+}
+
+.sec-contacto{
+    font-size: 15px;
+}
+
+.sec-contacto ul li{
+    margin-bottom: 7px;
+}
+
+.sec-contacto i{
+    width: 23px;
+    display: inline-block;
+    text-align: left;
+}
+
+.cont-puntos, .cont-escribenos{
+    padding: 50px 0px;
+    position: relative;
+}
+
+.cont-escribenos:before {
+    position: absolute;
+    content: " ";
+    width: 40%;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.google-map h2,
+.google-map p,
+.google-map ul li,
+.cont-escribenos h2,
+.cont-escribenos p,
+.cont-escribenos ul li{
+    margin-bottom: 7px;
+}
+
+.cont-puntos h3{
+    font-size: 1.2em;
+}
+
+.cont-puntos{
+    /* display: none;*/
+}
+
+.cont-puntos .item-punto{
+    display: flex;
+    justify-content: center;
+}
+
+.cont-puntos .item-punto ul{
+    padding: 15px 25px;
+    border-radius: 6px;
+}
+
+.btn-redes{
+    padding: 7px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 15px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-whatsapp i, .btn-messenger i{
+    font-size: 25px;
+    margin-right: 10px;
 }

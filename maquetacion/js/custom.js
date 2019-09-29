@@ -40,6 +40,11 @@ var swiperFunc = new Swiper('.swiper-container-func', {
 
 $( document ).ready(function() {
 
+    $(document).on("click", "#buscarPunto", function(){
+        $(".text-map, .google-fondo").hide();
+        // $(".cont-puntos").show();
+    });
+
     $(document).on("click", ".ree-registrarse, .ree-iniciarsesion", function(){
         $("#nombres").closest(".mbsc-control-w").addClass("is-error");
         $("#pass").closest(".mbsc-control-w").addClass("is-error");
