@@ -1,4 +1,5 @@
-body,html{
+body,html,
+.latest-blog .box-content .blog-content .des{
     font-family: 'HelveticaNeue-Thin', Lato;
 }
 
