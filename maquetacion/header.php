@@ -146,7 +146,7 @@
                                                             </div>
                                                             
                                                             <span class="list-view">
-                                                                <a href="#" class="btn btn-primary list-check">Ver Carrito</a>
+                                                                <a href="carrito" class="btn btn-primary list-check">Ver Carrito</a>
                                                                 <button type="submit" class="btn btn-primary list-check">Finalizar Compra</button>
                                                             </span>
                                                         </li>
