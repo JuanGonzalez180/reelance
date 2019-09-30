@@ -113,7 +113,7 @@
                                                                     <span class="amount-3">$ 240.000 </span>
                                                                 </span>
                                                                 <div class="list-qty">
-                                                                    <p>QTY: 01</p>
+                                                                    <p>Cantidad: 01</p>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -135,7 +135,7 @@
                                                                     <span class="amount-3">$ 240.000 </span>
                                                                 </span>
                                                                 <div class="list-qty">
-                                                                    <p>QTY: 01</p>
+                                                                    <p>Cantidad: 01</p>
                                                                 </div>
                                                             </div>
                                                         </li>

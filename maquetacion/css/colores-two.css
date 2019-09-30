@@ -30,12 +30,15 @@ body,
     color: #eeeeee;
 }
 
-.btn-page, .btn-page:hover, .btn-page:focus{
+.btn-page, .btn-page:hover, .btn-page:focus,
+.plantillas ul li:before{
     color: #007bff;
 }
 
 .btn-price.btn-page,
-.mbsc-ios.mbsc-btn{
+.mbsc-ios.mbsc-btn,
+.btn-cart-page, 
+a.btn-cart-page{
     background: #0071e3;
     color: #fff;
 }
@@ -43,7 +46,9 @@ body,
 .btn-price.btn-page:hover, 
 .btn-price.btn-page:focus,
 .header-content .my-cart .menu-shop li .list-view .list-check:hover,
-.header-content .my-cart .menu-shop li .list-view .list-check:focus{
+.header-content .my-cart .menu-shop li .list-view .list-check:focus,
+.btn-cart-page:hover,.btn-cart-page:focus, 
+a.btn-cart-page:hover, a.btn-cart-page:focus{
     background: #147ce5;
     color: #fff;
     text-decoration: none;
@@ -84,10 +89,12 @@ footer .copyright p .bluer a,
 .header-content .my-cart .menu-shop li .list-names a,
 .header-content .my-cart .menu-shop li .list-names a:hover,
 .ree-item-nosotros i,
-.sec-contacto i{
+.sec-contacto i,
+.producto-rela a.nombre-prod{
     color: #0070c9;
 }
 
+h1, h2, h3, h4, h5, h6,
 .header-content nav ul>li>a,
 .swiper-content-row,
 h2.tit-ree,
@@ -97,7 +104,8 @@ h2.tit-ree,
 .content-blog .item-blog .extra,
 .latest-blog .box-content .blog-content .extra a,
 .cont-escribenos h2,
-.cont-puntos h3{
+.cont-puntos h3,
+.plantillas h2, .plantillas h3, .plantillas h4, .plantillas h5, .plantillas h6{
     color: #333333;
 }
 
@@ -121,7 +129,8 @@ footer .footer-bootom .col-md-2-width ul li a:hover{
     color: #333333;
 }
 
-footer .copyright{
+footer .copyright,
+.latest-blog .box-content .blog-content{
     background-color: transparent;
 }
 
@@ -138,7 +147,12 @@ footer .copyright{
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
 }
 
-.header-content .my-cart .menu-shop li{
+.producto-rela{
+    border-bottom: 1px solid rgba(57, 62, 70, 0.1);
+}
+
+.header-content .my-cart .menu-shop li,
+.blog-last{
     border-bottom: 1px solid rgba(57, 62, 70, 0.3);
 }
 
@@ -213,7 +227,9 @@ footer .copyright{
 }
 
 .mbsc-ios.mbsc-input-box.mbsc-control-w, 
-.mbsc-ios.mbsc-input-outline.mbsc-control-w{
+.mbsc-ios.mbsc-input-outline.mbsc-control-w,
+.main-content .product-name .product-code .product-form .form-inline .form-group .form-control,
+.main-content .product-name .product-code .product-dis .form-inline .form-group .form-control{
     border-color: #d6d6d6;
 }
 

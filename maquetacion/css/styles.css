@@ -1959,7 +1959,8 @@ img {
     margin-top: 10px;
 }
 
-.header-content .my-cart .menu-shop li .list-names a {
+.header-content .my-cart .menu-shop li .list-names a,
+.producto-rela a.nombre-prod{
     color: #fff;
     margin-top: 20px;
     margin-left: 10px;

@@ -12,8 +12,11 @@ a:focus, a:hover{
 }
 
 input:focus,
-button:focus{
+button:focus,
+.form-control:focus
+{
     outline: none;
+    box-shadow: none;
 }
 
 .text-center{
@@ -135,17 +138,25 @@ nav > ul > li{
     cursor: pointer;
 }
 
-.btn-page{
+.btn-page, .btn-cart-page{
     padding: 8px 0px;
     display: inline-block;
     font-size: 17px;
     position: relative;
 }
 
-.btn-price.btn-page{
+.btn-price.btn-page, .btn-cart-page{
     padding: 8px 22px;
     border-radius: 23px;
     font-size: 17px;
+}
+
+.btn-cart-page{
+    margin-bottom: 10px;
+}
+
+.btn-checkout {
+    margin-top: 15px;
 }
 
 .btn-page:after {
@@ -662,4 +673,72 @@ footer .footer-bootom{
 .btn-whatsapp i, .btn-messenger i{
     font-size: 25px;
     margin-right: 10px;
+}
+
+.plantillas{
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 50px 0px;
+}
+
+.plantillas p, .plantillas  h1, .plantillas h2, .plantillas h3, .plantillas h4, .plantillas h5, .plantillas h6{
+    margin-bottom: 15px;
+}
+
+.plantillas ul li{
+    position: relative;
+    padding-left: 20px;
+}
+.plantillas ul li:before{
+    position: absolute;
+    content: "\EA4C";
+    margin-right: 5px;
+    left: 0px;
+    font-family: LineIcons;
+}
+
+.blog-last{
+    padding: 50px 0px 10px;
+}
+
+.table-cart img {
+    max-width: 100px;
+}
+
+.product-dis{
+    margin-bottom: 15px;
+}
+
+.product-name{
+    padding: 10px 0px 50px;
+}
+
+.main-content .product-name .product-code .product-related h3,
+.main-content .product-name .product-code .product-dis h3,
+.main-content .product-name .product-code .product-total h3,
+.main-content .product-name .product-code .product-form h3{
+    font-size: 22px;
+}
+
+.producto-rela{
+    display: block;
+    margin-top: 15px;
+    padding: 10px 0px;
+    max-width: 320px;
+}
+
+.producto-rela a.nombre-prod{
+    margin-left: 0px;
+}
+
+.producto-rela .price{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+@media (min-width: 768px){
+    .form-inline .form-group {
+        display: block;
+    }
 }

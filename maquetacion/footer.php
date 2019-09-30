@@ -21,11 +21,11 @@
                                     <div class="col-md-2-width">
                                         <h3 class="tit-color-ree">Info Minoxidil</h3>
                                         <ul class="footer links">
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Minoxidil </a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Minoxidil 5 </a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Minoxidil México </a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Minoxidil Precio </a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Minoxidil Shampoo </a></li>
+                                            <li><a href="plantilla-2"><i class="lni-chevron-right"></i>Minoxidil </a></li>
+                                            <li><a href="plantilla-2"><i class="lni-chevron-right"></i>Minoxidil 5 </a></li>
+                                            <li><a href="plantilla-2"><i class="lni-chevron-right"></i>Minoxidil México </a></li>
+                                            <li><a href="plantilla-2"><i class="lni-chevron-right"></i>Minoxidil Precio </a></li>
+                                            <li><a href="plantilla-2"><i class="lni-chevron-right"></i>Minoxidil Shampoo </a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -34,11 +34,11 @@
                                     <div class="col-md-2-width ">
                                         <h3 class="tit-color-ree">Infi Alopecia</h3>
                                         <ul class="footer links">
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Alopecia</a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Alopecia en Mujeres</a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Alopecia tratamiento</a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Caida de Cabello</a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Perdida de Cabello</a></li>
+                                            <li><a href="plantilla-1"><i class="lni-chevron-right"></i>Alopecia</a></li>
+                                            <li><a href="plantilla-1"><i class="lni-chevron-right"></i>Alopecia en Mujeres</a></li>
+                                            <li><a href="plantilla-1"><i class="lni-chevron-right"></i>Alopecia tratamiento</a></li>
+                                            <li><a href="plantilla-1"><i class="lni-chevron-right"></i>Caida de Cabello</a></li>
+                                            <li><a href="plantilla-1"><i class="lni-chevron-right"></i>Perdida de Cabello</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -47,11 +47,11 @@
                                     <div class="col-md-2-width col-footer">
                                         <h3 class="tit-color-ree">Info Tratamientos</h3>
                                         <ul class="footer links">
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Crecimiento del cabello</a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Calvicie en mujeres</a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Tratamiento para la Alopecia</a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Tratamiento para la calvicie</a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Tratamiento para la caída del cabello</a></li>
+                                            <li><a href="plantilla-3"><i class="lni-chevron-right"></i>Crecimiento del cabello</a></li>
+                                            <li><a href="plantilla-3"><i class="lni-chevron-right"></i>Calvicie en mujeres</a></li>
+                                            <li><a href="plantilla-3"><i class="lni-chevron-right"></i>Tratamiento para la Alopecia</a></li>
+                                            <li><a href="plantilla-3"><i class="lni-chevron-right"></i>Tratamiento para la calvicie</a></li>
+                                            <li><a href="plantilla-correos.php" style="color: red;"><i class="lni-chevron-right"></i>PLANTILLA CORREOS</a></li>
                                         </ul>
                                     </div>
                                 </div>
