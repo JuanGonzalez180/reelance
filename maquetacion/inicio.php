@@ -42,7 +42,7 @@
                 </div>
                 <div class="col-sm-8 wow fadeIn animated">
                     <h3>QUIENES SOMOS</h3>
-                    <p>Somos una empresa con más de 7 años de experiencia en el estudio cercano de la alopecia y la caída del cabello en general. Nos diferenciamos de otras empresas principalmente porque compartimos todos los datos obtenidos a través de nuestros estudios para que te mantengas informado y conozcas al detalle lo que guarda estrecha relación con la alopecia.</p>
+                    <p>Reelance es una empresa con gran experiencia para la creación de productos innovadores, que lleva más de 8 años aportando soluciones al tema de la belleza. Somos una empresa especializada en l a investigación para brindar soluciones a necesidades para la imagen personal con excelentes resultados. Los estudios, que se han llevado a cabo en diversos laboratorios franceses, demuestran que aportamos soluciones reales, fiables y con total garantía de seriedad.</p>
 
                     <h3>QUÉ HACEMOS</h3>
                     <p>Nuestra misión principal se basa en la investigación constante de la alopecia y en nuestro esfuerzo diario por mantener informados a los usuarios, que de una u otra manera acuden a Internet para entender el por qué de la pérdida del cabello, diferenciar la alopecia de la caída normal, entre otras dudas más.</p>

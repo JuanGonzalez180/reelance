@@ -8,50 +8,54 @@
                             <div class="row">						    	
                                 <div class="col-sm-3">
                                     <div class="col-md-2-width">
-                                        <h3 class="tit-color-ree">Nosotros</h3>
+                                        <h3 class="tit-color-ree">Nuestra empresa</h3>
                                         <ul class="footer links">
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Nuestros Objetivos</a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Nuestra Misión</a></li>
-                                            <li><a href="#"><i class="lni-chevron-right"></i>Nuestra Visión</a></li>
+                                            <li><a href="#"><i class="lni-chevron-right"></i>Quienes somos</a></li>
+                                            <li><a href="#"><i class="lni-chevron-right"></i>Que hacemos</a></li>
+                                            <li><a href="#"><i class="lni-chevron-right"></i>Porque nosotros</a></li>
+                                            <li><a href="#"><i class="lni-chevron-right"></i>Bolsa de trabajo</a></li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="col-sm-3">
                                     <div class="col-md-2-width">
-                                        <h3 class="tit-color-ree">Info Minoxidil</h3>
+                                        <h3 class="tit-color-ree">Soporte</h3>
                                         <ul class="footer links">
-                                            <li><a href="plantilla-2"><i class="lni-chevron-right"></i>Minoxidil </a></li>
-                                            <li><a href="plantilla-2"><i class="lni-chevron-right"></i>Minoxidil 5 </a></li>
-                                            <li><a href="plantilla-2"><i class="lni-chevron-right"></i>Minoxidil México </a></li>
-                                            <li><a href="plantilla-2"><i class="lni-chevron-right"></i>Minoxidil Precio </a></li>
-                                            <li><a href="plantilla-2"><i class="lni-chevron-right"></i>Minoxidil Shampoo </a></li>
+                                            <li><a href="plantilla-1"><i class="lni-chevron-right"></i>Contacto</a></li>
+                                            <li><a href="plantilla-2"><i class="lni-chevron-right"></i>Preguntas frecuentes</a></li>
+                                            <li><a href="plantilla-3"><i class="lni-chevron-right"></i>Colaboración</a></li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="col-sm-3">
                                     <div class="col-md-2-width ">
-                                        <h3 class="tit-color-ree">Infi Alopecia</h3>
+                                        <h3 class="tit-color-ree">Tienda</h3>
                                         <ul class="footer links">
-                                            <li><a href="plantilla-1"><i class="lni-chevron-right"></i>Alopecia</a></li>
-                                            <li><a href="plantilla-1"><i class="lni-chevron-right"></i>Alopecia en Mujeres</a></li>
-                                            <li><a href="plantilla-1"><i class="lni-chevron-right"></i>Alopecia tratamiento</a></li>
-                                            <li><a href="plantilla-1"><i class="lni-chevron-right"></i>Caida de Cabello</a></li>
-                                            <li><a href="plantilla-1"><i class="lni-chevron-right"></i>Perdida de Cabello</a></li>
+                                            <li><a href="#"><i class="lni-chevron-right"></i>Distribuidores</a></li>
+                                            <li><a href="#"><i class="lni-chevron-right"></i>Reembolso y cancelación</a></li>
+                                            <li><a href="plantilla-correos.php" style="color: red;"><i class="lni-chevron-right"></i>PLANTILLA CORREOS</a></li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="col-sm-3">
-                                    <div class="col-md-2-width col-footer">
-                                        <h3 class="tit-color-ree">Info Tratamientos</h3>
-                                        <ul class="footer links">
-                                            <li><a href="plantilla-3"><i class="lni-chevron-right"></i>Crecimiento del cabello</a></li>
-                                            <li><a href="plantilla-3"><i class="lni-chevron-right"></i>Calvicie en mujeres</a></li>
-                                            <li><a href="plantilla-3"><i class="lni-chevron-right"></i>Tratamiento para la Alopecia</a></li>
-                                            <li><a href="plantilla-3"><i class="lni-chevron-right"></i>Tratamiento para la calvicie</a></li>
-                                            <li><a href="plantilla-correos.php" style="color: red;"><i class="lni-chevron-right"></i>PLANTILLA CORREOS</a></li>
+                                    <ul class="footer redes">
+                                        <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                                        <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
+                                        <li><a href="#"><i class="lni-youtube"></i></a></li>
+                                        <li><a href="#"><i class="lni-facebook-original"></i></a></li>
+                                    </ul>
+                                    <!-- Split button -->
+                                    <div class="btn-group ree-lenguaje">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                            <i class="lni-world"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">United States</button>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">United States</a></li>
+                                            <li><a href="#">México</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -65,18 +69,8 @@
                     <div class="copyright">
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-12 col-sm-6">
-                                    <p class="a-center">© 2019 Reelance Minoxidil Alopecia | <span class="bluer"><a href="politicas-de-privacidad">Políticas de Privacidad</a></span> | <span class="bluer"><a href="terminos-y-condiciones">Términos de Uso</a></span></p>
-
-                                </div>
-                                <div class="col-sm-6">
-                                    <!-- <ul>
-                                        <li><a href="#"><img src="images/assets/link-1.png" alt=""></a></li>
-                                        <li><a href="#"><img src="images/assets/link-2.png" alt=""></a></li>
-                                        <li><a href="#"><img src="images/assets/link-3.png" alt=""></a></li>
-                                        <li><a href="#"><img src="images/assets/link-4.png" alt=""></a></li>
-                                        <li><a href="#"><img src="images/assets/link5.png" alt=""></a></li>
-                                    </ul> -->
+                                <div class="col-xs-12 text-center">
+                                    <p class="w-100">© 2019 Reelance Minoxidil Alopecia | <span class=""><a href="politicas-de-privacidad">Políticas de Privacidad</a></span> | <span class=""><a href="terminos-y-condiciones">Términos de Uso</a></span></p>
                                 </div>
                             </div>
                         </div>

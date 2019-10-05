@@ -4,6 +4,10 @@
     float: none;
 }
 
+.w-100 {
+    width: 100%;
+}
+
 .transition {
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
@@ -227,4 +231,23 @@
     height: 1em;
     position: relative;
     display: block;
+}
+
+.footer.redes {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ree-lenguaje {
+    margin-top: 25px;
+}
+
+.footer.redes li a:hover {
+    color: #333333;
+}
+
+.copyright a:hover {
+    color: #333333;
+    text-decoration: underline;
 }
