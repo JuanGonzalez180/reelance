@@ -155,6 +155,10 @@ footer .copyright,
     border-top: 1px solid #d2d2d7;
 }
 
+.copyright a, .copyright a:hover, .copyright a:focus{
+    color: #333;
+}
+
 .header-ree-interna{
     background: #f9f9f9;
 }
