@@ -19,7 +19,7 @@
 
                     <div class="col-sm-3">
                         <div class="col-md-2-width">
-                            <h3 class="tit-color-ree">Contacto</h3>
+                            <h3 class="tit-color-ree">Soporte</h3>
                             <ul class="footer links">
                                 <li><a href="#"><i class="lni-chevron-right"></i>Contacto</a></li>
                                 <li><a href="#"><i class="lni-chevron-right"></i>Preguntas Frecuentes</a></li>
