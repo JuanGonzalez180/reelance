@@ -1,5 +1,5 @@
 <?php
-    $ver = '?0.013';
+    $ver = '?0.014';
 
     $archivo_actual = 'inicio';
     if(isset($_GET['page'])){
