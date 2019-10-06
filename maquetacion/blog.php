@@ -1,8 +1,8 @@
-<div class="header-ree-interna">
+<!--div class="header-ree-interna">
     <div class="box-title">
         <h2 class="tit-ree">Noticias</h2>
     </div>
-</div>
+</div-->
 
 <div class="latest-blog margin-top-0">
     <div class="container">
@@ -15,9 +15,16 @@
                 <div class="row">
                     <div class="col-sm-12 item-blog item wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0ms">
                         <div class="bl-fecha">
+                            <i class="icre-circular-wall-clock"></i>
                             <div class="bl-day">15</div>
                             <div class="bl-month">SEP</div>
                         </div>
+
+                        <div class="bl-tag">
+                            <i class="icre-tag"></i>
+                            <div class="bl-save">Guardar</div>
+                        </div>
+
                         <div class="col-sm-12 blog-images">
                             <img src="images/assets/quieres-poblar-cejas.png" alt="">
                         </div>
@@ -57,7 +64,16 @@
             </nav>
         </div>
         <div class="col-sm-3">
-            <img src="images/assets/sp-1.jpg" alt="">
+            <div class="input-group input-search">
+                <input type="text" class="form-control" placeholder="Buscar en el blog...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Buscar</button>
+                </span>
+            </div>
+            <div class="blog-float">
+                Flotante<br>
+                <img src="images/assets/sp-1.jpg" alt="">
+            </div>
         </div>
     </div>
 </div>

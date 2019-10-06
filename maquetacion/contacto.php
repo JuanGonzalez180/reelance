@@ -21,9 +21,9 @@
           <div class="col-sm-4 item-punto">
             <ul>
               <li><h3>Nombre Establecimiento</h3></li>
-              <li><i class="lni-map-marker"></i> 2km</li>
-              <li><i class="lni-envelope"></i> Guadalajara, Jalisco, México</li>
-              <li><i class="lni-phone-handset"></i> 044-331-554 - 18-93</li>
+              <li>2km</li>
+              <li>Guadalajara, Jalisco, México</li>
+              <li><i class="icre-phone-call"></i> 044-331-554 - 18-93</li>
             </ul>
           </div>
           <?php }  ?>
@@ -39,17 +39,17 @@
           <h2>Escríbenos</h2>
           <p>Guadalajara, Jalisco, México</p>
           <ul>
-            <li><i class="lni-envelope"></i> ventas@reelance.mx </li>
-            <li><i class="lni-phone-handset"></i> 044-331-554 - 18-93 </li>
+            <li><i class="icre-mail"></i> ventas@reelance.mx </li>
+            <li><i class="icre-phone-call"></i> 044-331-554 - 18-93 </li>
           </ul>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-6 text-right">
-          <a href="#" class="btn-redes btn-whatsapp"><i class="lni-whatsapp"></i> WhatsApp</a>
+          <a href="#" class="btn-redes btn-whatsapp"><i class="icre-whatsapp"></i> WhatsApp</a>
         </div>
         <div class="col-sm-6">
-          <a href="#" class="btn-redes btn-messenger"><i class="lni-facebook-messenger"></i> Messenger</a>
+          <a href="#" class="btn-redes btn-messenger"><i class="icre-messenger"></i> Messenger</a>
         </div>
       </div>
     </div>

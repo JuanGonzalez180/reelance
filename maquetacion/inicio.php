@@ -34,22 +34,23 @@
 </div>
 
 <section class="box-bottom">
-    <div class="container container-padd-quienes">
-        <ul class="row ree-container-nosotros">
+    <div class="container container-padd-ree">
+        <ul class="row">
             <li class="col-md-12 ree-item-nosotros">
-                <div class="col-sm-4">
-                    <img src="images/assets/quienes-somos.jpg">
-                </div>
-                <div class="col-sm-8 wow fadeIn animated">
-                    <h3>QUIENES SOMOS</h3>
+                <div class="col-sm-6 wow fadeIn animated">
                     <p>Reelance es una empresa con gran experiencia para la creación de productos innovadores, que lleva más de 8 años aportando soluciones al tema de la belleza. Somos una empresa especializada en l a investigación para brindar soluciones a necesidades para la imagen personal con excelentes resultados. Los estudios, que se han llevado a cabo en diversos laboratorios franceses, demuestran que aportamos soluciones reales, fiables y con total garantía de seriedad.</p>
-
-                    <h3>QUÉ HACEMOS</h3>
-                    <p>Nuestra misión principal se basa en la investigación constante de la alopecia y en nuestro esfuerzo diario por mantener informados a los usuarios, que de una u otra manera acuden a Internet para entender el por qué de la pérdida del cabello, diferenciar la alopecia de la caída normal, entre otras dudas más.</p>
-
-                    <h3>POR QUÉ NOSOTROS</h3>
-                    <p>Al iniciar la lectura de “Por qué Reelance y no otro” seguro pensarás: A ver que tienen estos por contar. Y en realidad nosotros, así como la competencia, también estamos interesados en vender nuestros productos, pero trabajamos por cada uno de ustedes un poco más.</p>
-                    <a href="#" class="btn-page">Conócenos</a>
+                </div>
+                <div class="col-sm-6 row-reelance-icons">
+                    <div class="row">
+                        <div class="col-xs-4 text-right">
+                            <i class="icon-big icre-charity"></i>
+                        </div>
+                        <div class="col-xs-3 text-center">
+                            <i class="lni-plus"></i>
+                        </div>
+                        <div class="col-xs-4">
+                            <i class="icon-big icre-atom"></i>
+                        </div>
                 </div>
             </li>
         </ul>
@@ -270,41 +271,4 @@
     </div>
 </section>
 
-<div class="box-bottom">
-    <section class="container container-padd-ree">
-        <h2 class="tit-ree">Resultados</h2>
-
-        <div class="swiper-container swiper-container-testi">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p class="tit-color-ree">Antes</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p class="tit-color-ree">Después</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p class="tit-color-ree">Antes</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p class="tit-color-ree">Después</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
+<?php include 'testimonios-include.php'; ?>

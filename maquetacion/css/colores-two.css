@@ -16,6 +16,10 @@ body,
     color: #8c8c8c;
 }
 
+hr{
+    border-top: 1px solid #c5c5c5;
+}
+
 .footer{
     background: #f5f5f7;
 }
@@ -41,6 +45,18 @@ body,
 a.btn-cart-page{
     background: #0071e3;
     color: #fff;
+}
+
+.ree-facebook.mbsc-ios.mbsc-btn{
+    background: #3b5998;
+}
+
+.ree-google.mbsc-ios.mbsc-btn{
+    background: #db4a39;
+}
+
+.ree-btn-two.mbsc-ios.mbsc-btn{
+    background: #559be2;
 }
 
 .btn-price.btn-page:hover, 
@@ -73,8 +89,8 @@ a.btn-cart-page:hover, a.btn-cart-page:focus{
 .header-content .col-menu nav ul>li a.active,
 .header-content .col-menu nav ul>li a:hover,
 .btns-right:hover {
-    opacity: 0.65;
-    color: #333333;
+    opacity: 0.85;
+    color: #131313;
 }
 
 h2.tit-ree:before{
@@ -90,7 +106,8 @@ footer .copyright p .bluer a,
 .header-content .my-cart .menu-shop li .list-names a:hover,
 .ree-item-nosotros i,
 .sec-contacto i,
-.producto-rela a.nombre-prod{
+.producto-rela a.nombre-prod,
+.row-pagos i{
     color: #0070c9;
 }
 
@@ -111,7 +128,7 @@ h2.tit-ree,
 
 .header-content nav ul.main-nav>li>a,
 .btns-right{
-    color: #333333;
+    color: #131313;
 }
 
 .bkg-ree-faq h2.tit-ree,
@@ -222,12 +239,15 @@ footer .copyright,
     color: inherit;
 }
 
-.mbsc-ios.mbsc-form{
-    background: #fff;
+.mbsc-ios.mbsc-form,
+.mbsc-ios.mbsc-page,
+.mbsc-ios.mbsc-input{
+    background: transparent;
 }
 
 .mbsc-ios.mbsc-input-box.mbsc-control-w, 
 .mbsc-ios.mbsc-input-outline.mbsc-control-w,
+.mbsc-ios.mbsc-select.mbsc-control-w,
 .main-content .product-name .product-code .product-form .form-inline .form-group .form-control,
 .main-content .product-name .product-code .product-dis .form-inline .form-group .form-control{
     border-color: #d6d6d6;
@@ -269,4 +289,20 @@ footer .copyright,
 .btn-whatsapp i, 
 .btn-messenger i{
     color: #fff;
+}
+
+.ul-redes li i, .arma-paquete {
+    color: #131313;
+}
+
+.ul-redes li a:hover i, .ul-redes li a:focus i{
+    opacity: 0.8;
+}
+
+.califications{
+    color: #ffa800;
+}
+
+.mbsc-ios .mbsc-segmented-content{
+    background-color: transparent;
 }

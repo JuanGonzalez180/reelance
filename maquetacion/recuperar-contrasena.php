@@ -4,7 +4,11 @@
             <div class="mbsc-form-group">
                 <div class="mbsc-row mbsc-justify-content-center">
                     <div class="mbsc-col-md-7 mbsc-col-xl-5 mbsc-form-grid">
-                        <div class="mbsc-form-group-title">Recuperar Contraeña</div>
+                        <a href="inicio" class="img-inicio">
+                            <img src="images/assets/logo-internas.png" alt="">
+                        </a>
+                        <hr>
+                        <div class="mbsc-form-group-title">Recuperar Contraseña</div>
                         <div class="mbsc-row">
                             <div class="mbsc-col-12">
                                 <div>
@@ -13,16 +17,22 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center">
+                        <div class="text-center btn-complete">
                             <button mbsc-button>Enviar</button>
                         </div>
-                        <div class="">
-                            <div>
-                                <a href="iniciar-sesion" class="btn-page no-arrow">Iniciar sesión</a>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6 btn-complete">
+                                <button mbsc-button  type="button" class="ree-facebook">
+                                    <i class="lni-facebook-original"></i>
+                                    Iniciar con Facebook
+                                </button>
                             </div>
+                            <div class="col-sm-6 btn-complete">
+                                <a mbsc-button href="iniciar-sesion" type="button" class="ree-btn-two">
+                                    Iniciar sesión
+                                </a>
                             </div>
-                                <a href="registrarse" class="btn-page no-arrow">No tienes cuenta, Cree una ahora</a>
-                            <div>
                         </div>
                     </div>
                 </div>

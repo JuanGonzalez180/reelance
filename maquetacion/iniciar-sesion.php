@@ -4,6 +4,28 @@
             <div class="mbsc-form-group">
                 <div class="mbsc-row mbsc-justify-content-center">
                     <div class="mbsc-col-md-7 mbsc-col-xl-5 mbsc-form-grid">
+                        
+                        <a href="inicio" class="img-inicio">
+                            <img src="images/assets/logo-internas.png" alt="">
+                        </a>
+
+                        <div class="row">
+                            <div class="col-sm-12 btn-complete">
+                                <button mbsc-button  type="button" class="ree-facebook">
+                                    <i class="lni-facebook-original"></i>
+                                    Iniciar con Facebook
+                                </button>
+                            </div>
+                            <!--div class="col-sm-6 btn-complete">
+                                <button mbsc-button  type="button" class="ree-google">
+                                    <i class="lni-google"></i>
+                                    Iniciar con Google
+                                </button>
+                            </div-->
+                        </div>
+
+                        <hr>
+
                         <div class="mbsc-form-group-title">Iniciar Sesión</div>
                         <div class="mbsc-row">
                             <div class="mbsc-col-12">
@@ -27,16 +49,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center">
+                        <div class="text-center btn-complete">
                             <button mbsc-button  type="button" class="ree-iniciarsesion">Iniciar Sesión</button>
                         </div>
                         <div class="">
                             <div>
-                                <a href="recuperar-contrasena" class="btn-page no-arrow">Recuperar su contraseña en Reelance</a>
+                                <a href="recuperar-contrasena" class="btn-page no-arrow">¿Tienes problemas para inciar sesión?</a>
                             </div>
-                            </div>
-                                <a href="registrarse" class="btn-page no-arrow">No tienes cuenta, Cree una ahora</a>
-                            <div>
+                        </div>
+                        <hr>
+                        <div class="text-center btn-complete">
+                            <a mbsc-button href="registrarse" type="button" class="ree-btn-two">Registrarse</a>
                         </div>
                     </div>
                 </div>

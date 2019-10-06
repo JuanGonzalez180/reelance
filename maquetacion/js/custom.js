@@ -29,6 +29,7 @@ var swiperPromo = new Swiper('.swiper-container-promociones', {
 });
 
 var swiperFunc = new Swiper('.swiper-container-func', {
+    slidesPerView: 4,
     pagination: {
         el: '.swiper-func-pagination',
         clickable: true,
@@ -55,4 +56,121 @@ $( document ).ready(function() {
             $("#email").closest(".mbsc-control-w").removeClass("is-error");
         }
     });
+
+    $(document).on("change", "#check-enviar-direccion", function(){
+        if( $('#check-enviar-direccion').prop('checked') ) {
+            $( '.mbsc-address-other' ).show();
+        }else{
+            $( '.mbsc-address-other' ).hide();
+        }
+    })
+
+    $(document).on("change", "#check-crear-cuenta", function(){
+        if( $('#check-crear-cuenta').prop('checked') ) {
+            $( '.mbsc-account-new' ).show();
+        }else{
+            $( '.mbsc-account-new' ).hide();
+        }
+    })
+
 });
+
+// Fixed.
+(function($){
+    var cbAllow = $('.md-allow'),
+        stepperLuggage = $('.md-luggage');
+
+    cbAllow.change(function () {
+        stepperLuggage.prop('disabled', !this.checked);
+    });
+    
+    $(function() {
+        let element = $(".blog-float");
+        let current_top = $(document).scrollTop();
+        let topBoxInsc = 140;
+
+        let element2 = $(".compra-float");
+        let tienda = $(".tienda");
+        let itemBeforeTienda = $(".item-after-tienda");
+
+        let topMax = 90;
+
+        function scrollFloat() {
+            // Element 1
+            if( element.length ){
+                current_top = $(document).scrollTop();
+                
+                let sumTop = 0;
+                console.log($("#submenuReelTienda"));
+                if( $("#submenuReelTienda").hasClass('in') ){
+                    sumTop = $("#submenuReelTienda").outerHeight();
+                }
+
+                if( ( current_top + element.outerHeight() + topBoxInsc + sumTop ) > $(".footer-luma").offset()['top'] ){
+                    element.css({
+                        top: topBoxInsc - ( ( current_top + element.outerHeight() + topBoxInsc + sumTop ) - $(".footer-luma").offset()['top'] + 20 ) ,
+                    });
+                }else{
+                    if(current_top > 70){
+                        element.css({
+                            top: 90,
+                        });
+                    }else{
+                        element.css({
+                            top: topBoxInsc + sumTop - current_top,
+                        });
+                    }
+                }
+            }
+
+            // Element 2
+            if( element2.length ){
+                current_top = $(document).scrollTop();
+
+                let elementHeight = element2.outerHeight();
+                let tiendaHeight = tienda.outerHeight();
+
+                console.log( 'current_top2: ', current_top );
+                console.log( 'tienda: ', itemBeforeTienda.offset()['top'] );
+
+                if( ( current_top + elementHeight + topMax ) > itemBeforeTienda.offset()['top'] ){
+                    element2.css({
+                        top: topMax - ( ( current_top + elementHeight + topMax + 70 ) - itemBeforeTienda.offset()['top'] + 20 ),
+                    });
+                }else{
+                    if( current_top > tienda.offset()['top'] ){
+                        element2.css({
+                            position: 'fixed',
+                            top: 90
+                        });
+                    }else{
+                        element2.css({
+                            position: 'relative',
+                            top: 0,
+                        });
+                    }
+                }
+            }
+
+        }
+
+		if (element.length || element2.length ) {
+	        $(document).on('scroll', scrollFloat);
+	        enquire.register('screen and (max-width: 767px)', {
+	            match: function() {
+	                $(document).off('scroll', scrollFloat);
+	            },
+	            unmatch: function() {
+	                $(document).on('scroll', scrollFloat);
+	            },
+	        });
+		}
+
+        $(document).on('click', ".openTienda", function(){
+            setTimeout(() => {
+                scrollFloat();
+            }, 400);
+        });
+
+    });
+})(jQuery);

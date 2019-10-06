@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icreelance';
+  src:  url('fonts/icreelance.eot?7lnwxc');
+  src:  url('fonts/icreelance.eot?7lnwxc#iefix') format('embedded-opentype'),
+    url('fonts/icreelance.ttf?7lnwxc') format('truetype'),
+    url('fonts/icreelance.woff?7lnwxc') format('woff'),
+    url('fonts/icreelance.svg?7lnwxc#icreelance') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icre-"], [class*=" icre-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icreelance' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icre-atom:before {
+  content: "\e900";
+}
+.icre-bag:before {
+  content: "\e901";
+}
+.icre-charity:before {
+  content: "\e902";
+}
+.icre-circular-wall-clock:before {
+  content: "\e903";
+}
+.icre-internet:before {
+  content: "\e904";
+}
+.icre-lupa:before {
+  content: "\e905";
+}
+.icre-mail:before {
+  content: "\e906";
+}
+.icre-messenger:before {
+  content: "\e907";
+}
+.icre-phone-call:before {
+  content: "\e908";
+}
+.icre-shield:before {
+  content: "\e909";
+}
+.icre-tag:before {
+  content: "\e90a";
+}
+.icre-whatsapp:before {
+  content: "\e90b";
+}
