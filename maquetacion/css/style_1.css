@@ -1,10 +1,89 @@
-body,html,
-.latest-blog .box-content .blog-content .des{
+body,
+.latest-blog .box-content .blog-content .des,
+.mbsc-form, 
+.mbsc-control-w, 
+.mbsc-btn, 
+.mbsc-segmented{
     font-family: 'HelveticaNeue-Thin', Lato;
 }
 
+body.arial,
+.arial .latest-blog .box-content .blog-content .des,
+.arial .mbsc-form, 
+.arial .mbsc-control-w, 
+.arial .mbsc-btn, 
+.arial .mbsc-segmented{
+    font-family: arial, verdana, sans-serf;
+}
+
+body.open-sans,
+.open-sans .latest-blog .box-content .blog-content .des,
+.open-sans .mbsc-form, 
+.open-sans .mbsc-control-w, 
+.open-sans .mbsc-btn, 
+.open-sans .mbsc-segmented
+{
+    font-family: "Open Sans", arial, verdana, sans-serf;
+    font-weight: 300;
+}
+
+body.museo-sans,
+.museo-sans .latest-blog .box-content .blog-content .des,
+.museo-sans .mbsc-form, 
+.museo-sans .mbsc-control-w, 
+.museo-sans .mbsc-btn, 
+.museo-sans .mbsc-segmented{
+    font-family: "Museo Sans W01_500", arial, verdana, sans-serf;
+}
+
+body.lato,
+.lato .latest-blog .box-content .blog-content .des,
+.lato .mbsc-form, 
+.lato .mbsc-control-w, 
+.lato .mbsc-btn, 
+.lato .mbsc-segmented{
+    font-family: "Lato", arial, verdana, sans-serf;
+    font-weight: 300;
+}
+
+body.color1, 
+.color1 .header-content .my-cart .menu-shop li p, 
+.color1 .header-content .my-cart .menu-shop li .list-qty p, 
+.color1 .header-content .my-cart .menu-shop li .price{
+    color: #8c8c8c;
+}
+
+body.color2, 
+.color2 .header-content .my-cart .menu-shop li p, 
+.color2 .header-content .my-cart .menu-shop li .list-qty p, 
+.color2 .header-content .my-cart .menu-shop li .price{
+    color: #353535;
+}
+
+.sin-bordes .mbsc-ios.mbsc-btn,
+.sin-bordes .btn-price.btn-page, 
+.sin-bordes .btn-cart-page,
+.sin-bordes .mbsc-ios.mbsc-ltr .mbsc-stepper-plus .mbsc-segmented-content, 
+.sin-bordes .mbsc-ios.mbsc-ltr .mbsc-segmented-item:last-child .mbsc-segmented-content, 
+.sin-bordes .mbsc-ios.mbsc-rtl .mbsc-stepper-minus .mbsc-segmented-content, 
+.sin-bordes .mbsc-ios.mbsc-rtl .mbsc-segmented-item:first-child .mbsc-segmented-content,
+.sin-bordes .mbsc-ios.mbsc-ltr .mbsc-stepper-minus .mbsc-segmented-content, 
+.sin-bordes .mbsc-ios.mbsc-ltr .mbsc-segmented-item:first-child .mbsc-segmented-content, 
+.sin-bordes .mbsc-ios.mbsc-rtl .mbsc-stepper-plus .mbsc-segmented-content, 
+.sin-bordes .mbsc-ios.mbsc-rtl .mbsc-segmented-item:last-child .mbsc-segmented-content,
+.sin-bordes .form-control,
+.sin-bordes .btn,
+.sin-bordes .header-content .my-cart .menu-shop li .list-view .list-check,
+.sin-bordes .btn-redes,
+.sin-bordes .cont-puntos .item-punto ul
+{
+    border-radius: 0px;
+}
+
+/* CODIGO NORMAL */
 h1, h2, h3, h4, h5, h6, .font-bebasneue {
-    font-family: 'BebasNeue', Lato;   
+    font-family: 'BebasNeue', Lato;
+    letter-spacing: 0.5px;
 }
 
 a:focus, a:hover{
@@ -630,6 +709,7 @@ footer .copyright p.text {
 
 .msj-resultado{
     font-size: 2em;
+    margin-bottom: 15px;
 }
 
 .header-content .my-cart .menu-shop li .list-view .list-check{
@@ -940,6 +1020,9 @@ footer .copyright p.text {
 .tienda .main-content .product-name .table-responsive table{
     margin-top: 0px;
 }
+.finalizar-compra.main-content .product-name .table-responsive table{
+    margin-top: 15px;
+}
 
 .compra-float{
     position: relative;
@@ -955,6 +1038,102 @@ footer .copyright p.text {
 .row-pagos i{
     font-size: 3.5em;
 }
+
+.main-content .product-name .table-responsive.table-pedido th,
+.main-content .product-name .table-responsive.table-pedido td{
+    text-align: left;
+}
+
+.mbsc-ios .mbsc-radio-box {
+    right: auto;
+    top: 9px;
+    border: 0.125em solid #1274de;
+    padding: 9px;
+    margin-top: 0px;
+}
+.mbsc-radio-box {
+    width: 1.6em;
+    height: 1.6em;
+}
+.mbsc-ios .mbsc-radio-box:after{
+    left: 40%;
+    top: 49%;
+    width: 0.8em;
+    height: 0.4em;
+}
+
+
+.check-href .mbsc-label {
+    display: inline-block;
+    padding-left: 42px;
+    left: 0;
+    margin-right: 6px;
+}
+
+.check-href a{
+    position: relative;
+    z-index: 4;
+}
+
+.cuenta{
+    margin: 4em 0em;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.row-cuenta > nav{
+    float: left;
+    width: 30%;
+}
+
+.row-cuenta > .container-account{
+    float: right;
+    width: 68%;
+    font-size: 17px;
+}
+
+.row-cuenta .ul-account a{
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+    border-bottom-width: 0;
+    display: block;
+    padding: 0.8em 1em;
+}
+
+.row-cuenta .ul-account li:last-child a{
+    border-bottom-width: 1px;
+}
+
+.row-cuenta .ul-account a.active{
+    background: #f3f3f3;
+}
+
+.float-fixed-fuentes{
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    z-index: 1001;
+    font-size: 18px;
+}
+
+.float-fixed-fuentes .icono-float{
+    background: #c7c7c7;
+    padding: 10px;
+}
+
+.fuentes{
+    background: #c7c7c7;
+    margin-top: 11px;
+    padding: 10px;
+}
+
+.fuentes a{
+    display: block;
+    cursor: pointer;
+}
+
 
 @media (min-width: 768px){
     .form-inline .form-group {

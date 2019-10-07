@@ -30,12 +30,12 @@
                         </div>
                         <div class="col-sm-12 blog-content">
                             <div class="extra">
-                                <h2 class=""><a href="#">¿Quieres poblar tus cejas?</a></h2>
+                                <h2 class=""><a href="blog-detalle">¿Quieres poblar tus cejas?</a></h2>
                             </div>
                             <div class="des">
                                 Las cejas influyen mucho en la forma que se ve nuestra cara, nos agrega expresión o nos resta dependiendo de cómo las tengamos, tenemos que dar con la forma adecuada ya que también nos podemos ver más jóvenes o de más edad, unas cejas pobladas son la base de un rostro joven, si quieres saber como poblarlas aquí te diremos como:
                             </div>
-                            <a href="#" class="btn-page">Leer más</a>
+                            <a href="blog-detalle" class="btn-page">Leer más</a>
                         </div>
                     </div>
                 </div>

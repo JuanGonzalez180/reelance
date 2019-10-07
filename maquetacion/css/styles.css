@@ -1918,7 +1918,7 @@ img {
     transform: translateY(10px);
     position: absolute;
     background: rgba(51, 51, 51, 0.9) none repeat scroll 0% 0%;
-    z-index: 399;
+    z-index: 1000;
     margin-left: 0px;
     top: 100%;
 }
@@ -6652,7 +6652,7 @@ footer .copyright ul li img {
     /*
       Label the data
       */
-    td:nth-of-type(1):before {
+    /* td:nth-of-type(1):before {
         content: "First Name";
     }
     td:nth-of-type(2):before {
@@ -6681,7 +6681,7 @@ footer .copyright ul li img {
     }
     td:nth-of-type(10):before {
         content: "Arbitrary Data";
-    }
+    } */
 }
 
 

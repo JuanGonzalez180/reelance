@@ -73,6 +73,20 @@ $( document ).ready(function() {
         }
     })
 
+    $(document).on("click", ".cambiarFuente", function(){
+        $("#font").val( $(this).attr("data-font") );
+        $( "#target-font" ).submit();
+    })
+
+    $(document).on("click", ".cambiarColor", function(){
+        $("#color").val( $(this).attr("data-color") );
+        $( "#target-colores" ).submit();
+    })
+
+    $(document).on("click", ".cambiarBorder", function(){
+        $("#border").val( $(this).attr("data-border") );
+        $( "#target-border" ).submit();
+    })
 });
 
 // Fixed.
@@ -101,9 +115,8 @@ $( document ).ready(function() {
                 current_top = $(document).scrollTop();
                 
                 let sumTop = 0;
-                console.log($("#submenuReelTienda"));
                 if( $("#submenuReelTienda").hasClass('in') ){
-                    sumTop = $("#submenuReelTienda").outerHeight();
+                    // sumTop = $("#submenuReelTienda").outerHeight();
                 }
 
                 if( ( current_top + element.outerHeight() + topBoxInsc + sumTop ) > $(".footer-luma").offset()['top'] ){

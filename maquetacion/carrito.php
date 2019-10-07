@@ -51,7 +51,7 @@
                             <div class="col-sm-7 col-md-8">
                                 <div class="clear-cart">
                                     <span class="">
-                                        <a href="#" class="btn-cart-page">Continuar comprando</a>
+                                        <a href="tienda" class="btn-cart-page">Continuar comprando</a>
                                     </span>
                                     
                                 </div>
@@ -151,7 +151,7 @@
                                             </div>
                                         </div>
                                         <div class="col-xs-12 text-right">
-                                            <a href="#" class="btn-cart-page btn-checkout">Finalizar compra</a>
+                                            <a href="finalizar-compra" class="btn-cart-page btn-checkout">Finalizar compra</a>
                                         </div>
                                     </div>
                                     

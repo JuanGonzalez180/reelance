@@ -184,12 +184,12 @@
             <div id="faq" class="ree-panel"  role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="faq1" data-toggle="collapse" data-parent="#faq" href="#faqres1" aria-expanded="false" aria-controls="faqres1">
-                        <h5 class="panel-title">
+                        <div class="panel-title">
                             <a>
                                 ¿Quiero dejar de perder el cabello lo más pronto posible, qué puedo hacer?
                             </a>
                             <i class="ree-icon-faq lni-plus"></i>
-                        </h5>
+                        </div>
                     </div>
                     <div id="faqres1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq1">
                         <div class="panel-body">
@@ -200,12 +200,12 @@
                     </div>
                     
                     <div class="panel-heading" role="tab" id="faq2" data-toggle="collapse" data-parent="#faq" href="#faqres2" aria-expanded="false" aria-controls="faqres2">
-                        <h5 class="panel-title">
+                        <div class="panel-title">
                             <a>
                                 ¿Cómo puedo tener la certeza de que un determinado tratamiento será beneficioso?
                             </a>
                             <i class="ree-icon-faq lni-plus"></i>
-                        </h5>
+                        </div>
                     </div>
                     <div id="faqres2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq2">
                         <div class="panel-body">
@@ -216,12 +216,12 @@
                     </div>
                     
                     <div class="panel-heading" role="tab" id="faq3" data-toggle="collapse" data-parent="#faq" href="#faqres3" aria-expanded="false" aria-controls="faqres3">
-                        <h5 class="panel-title">
+                        <div class="panel-title">
                             <a>
                                 ¿Funciona el Minoxidil?
                             </a>
                             <i class="ree-icon-faq lni-plus"></i>
-                        </h5>
+                        </div>
                     </div>
                     <div id="faqres3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq3">
                         <div class="panel-body">
@@ -232,12 +232,12 @@
                     </div>
                     
                     <div class="panel-heading" role="tab" id="faq4" data-toggle="collapse" data-parent="#faq" href="#faqres4" aria-expanded="false" aria-controls="faqres4">
-                        <h5 class="panel-title">
+                        <div class="panel-title">
                             <a>
                                 Resultados y tiempos (Acción Minoxidil)
                             </a>
                             <i class="ree-icon-faq lni-plus"></i>
-                        </h5>
+                        </div>
                     </div>
                     <div id="faqres4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq4">
                         <div class="panel-body">
@@ -248,12 +248,12 @@
                     </div>
                     
                     <div class="panel-heading" role="tab" id="faq5" data-toggle="collapse" data-parent="#faq" href="#faqres5" aria-expanded="false" aria-controls="faqres5">
-                        <h5 class="panel-title">
+                        <div class="panel-title">
                             <a>
                                 Reelance y otros productos de para el cabello
                             </a>
                             <i class="ree-icon-faq lni-plus"></i>
-                        </h5>
+                        </div>
                     </div>
                     <div id="faqres5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq5">
                         <div class="panel-body">

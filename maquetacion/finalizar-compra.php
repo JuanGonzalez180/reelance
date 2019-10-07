@@ -4,7 +4,7 @@
     </div>
 </div>
 
-<section class="main-content">
+<section class="finalizar-compra main-content">
     <div class="product-name">
         <div class="container">
             <div class="row">
@@ -46,7 +46,7 @@
                                                                     <div>
                                                                         <label>
                                                                             Recordarme
-                                                                            <input mbsc-checkbox id="agree" type="checkbox" />
+                                                                            <input mbsc-checkbox id="recordarme" type="checkbox" />
                                                                         </label>
                                                                     </div>
                                                                 </div>
@@ -334,37 +334,34 @@
                         <div class="col-md-12">
                             <div class="col-md-12">
                                 <h3>Tu Pedido</h3>
-                                <div class="table-responsive table-cart">
+                                <div class="table-responsive table-cart table-pedido">
                                     <table>
                                         <thead>
                                             <tr>
-                                                <th></th>
-                                                <th>Nombre del producto</th>
-                                                <th></th>
-                                                <th>Precio por unidad</th>
-                                                <th>Cantidad</th>
-                                                <th>Subtotal</th>
-                                                <th></th>
+                                                <th>PRODUCTO</th>
+                                                <th>TOTAL</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><img src="images/assets/producto-1.png" alt=""></td>
-                                                <td>Sample Product 01</td>
-                                                <td><a href="#">Editar</a></td>
-                                                <td>$75</td>
-                                                <td>1</td>
-                                                <td>$75</td>
-                                                <td><a href="#"><i class="lni-trash"></i></a></td>
+                                                <td><small>Reelance para Hombre 1 Mes  × 1</small></td>
+                                                <td>$600</td>
                                             </tr>
                                             <tr>
-                                                <td><img src="images/assets/producto-2.png" alt=""></td>
-                                                <td>Sample Product 01</td>
-                                                <td><a href="#">Editar</a></td>
-                                                <td>$75</td>
-                                                <td>1</td>
-                                                <td>$75</td>
-                                                <td><a href="#"><i class="lni-trash"></i></a></td>
+                                                <td><small>Reelance para Mujer 1 Mes  × 1</small></td>
+                                                <td>$600</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>SUBTOTAL</b></td>
+                                                <td><b>$1200</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>ENVÍO</b></td>
+                                                <td><b>Envío gratuito / Solo aplica para México</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>TOTAL</b></td>
+                                                <td><b>$1200</b></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -372,7 +369,45 @@
                             </div>
                         </div>
                     </div>
-
+                    
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label>
+                                <input mbsc-radio type="radio" name="group" /> <span class="mbsc-label">Tarjetas de credito y debito, VISA y MasterCard</span>
+                                <span class="mbsc-desc">Pague con tarjeta de crédito de forma segura a través de Banamex. Tres meses sin interes con tu tarjeta Banamex.
+                                    <br><img src="https://www.reelance.mx/wuichy/visa.png" alt="Tarjeta de crédito Visa" style="height: 30px;"><img src="https://www.reelance.mx/wuichy/mastercard.png" alt="Tarjeta de crédito MasterCard" style="height: 30px;">
+                                </span>
+                            </label>
+                            <label>
+                                <input mbsc-radio type="radio" name="group" /> Pagos en Oxxo, Banamex y Transferencia Interbancaria
+                                <span class="mbsc-desc">Realiza tu pago directamente en nuestra cuenta bancaria u Oxxo. Por favor USA EL NUMERO DE PEDIDO como referencia de pago. El pedido no será enviado hasta que el importe completo haya sido recibido en nuestra cuenta.</span>
+                            </label>
+                            <label>
+                                <input mbsc-radio type="radio" name="group" /> Paypal
+                                <span class="mbsc-desc">Pagar via PayPal; Puedes pagar con tu tarjeta de crédito si no tienes una cuenta de PayPal.
+                                    <br><img src="https://www.reelance.mx/wp-content/themes/salient/img/paypal.png" alt="Indicador de aceptación de PayPal">
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <hr>
+                    
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="check-href">
+                                <div>
+                                    <label>
+                                        He leído y acepto los <a href="terminos-y-condiciones" target="_blank">términos y condiciones</a>
+                                        <input id="agree" type="checkbox" />
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <a mbsc-button href="#" type="button">Realizar el pedido</a>
+                        </div>
+                    </div>
                 </form>
             </div>
 
