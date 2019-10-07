@@ -81,7 +81,9 @@ body.color2,
 }
 
 /* CODIGO NORMAL */
-h1, h2, h3, h4, h5, h6, .font-bebasneue {
+h1, h2, h3, h4, h5, h6, .font-bebasneue,
+.mbsc-page h1, .mbsc-page h2, .mbsc-page h3, .mbsc-page h4, .mbsc-page h5, .mbsc-page h6
+{
     font-family: 'BebasNeue', Lato;
     letter-spacing: 0.5px;
 }
