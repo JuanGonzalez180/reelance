@@ -47,7 +47,7 @@
             <!-- <link href="ant/js/owl.carousel.css" rel="stylesheet"> -->
             <!-- <link href="ant/js/owl.theme.css" rel="stylesheet"> -->
         </head>
-        <body class="<?php print $_SESSION['font']. ' ' . $_SESSION['color']. ' ' . $_SESSION['border'];; ?>">
+        <body class="<?php print $_SESSION['font']. ' ' . $_SESSION['color']. ' ' . $_SESSION['border']; ?>">
             <div class="float-fixed-fuentes">
                 <a class="icono-float" data-toggle="collapse" href="#fuentes" aria-expanded="false" role="button" aria-controls="fuentes">
                     <i class="lni-grid-alt"></i>

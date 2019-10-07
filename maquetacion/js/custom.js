@@ -73,19 +73,56 @@ $( document ).ready(function() {
         }
     })
 
+    function cambiarVariables(type, value){
+        let data = {};
+
+        switch (type) {
+            case 'font':
+                data['font'] = value;
+                break;
+            
+            case 'color':
+                data['color'] = value;
+                break;
+
+            case 'border':
+                data['border'] = value;
+                break;
+        
+            default:
+                break;
+        }
+
+        console.log('cambiarVariables');
+        console.log(type,value);
+        $.ajax({
+            url: "dist/ajax.php",
+            type: "POST",
+            dataType: "json",
+            data: data,
+            beforeSend: function(json){
+                console.log('beforeSend');
+            },
+            success: function(json){
+                console.log('success');
+                $(location).attr('href', $(location).attr('href'));
+            }
+        });
+    }
+
     $(document).on("click", ".cambiarFuente", function(){
         $("#font").val( $(this).attr("data-font") );
-        $( "#target-font" ).submit();
+        cambiarVariables( 'font', $("#font").val() );
     })
 
     $(document).on("click", ".cambiarColor", function(){
         $("#color").val( $(this).attr("data-color") );
-        $( "#target-colores" ).submit();
+        cambiarVariables( 'color', $("#color").val() );
     })
 
     $(document).on("click", ".cambiarBorder", function(){
         $("#border").val( $(this).attr("data-border") );
-        $( "#target-border" ).submit();
+        cambiarVariables( 'border', $("#border").val() );
     })
 });
 
