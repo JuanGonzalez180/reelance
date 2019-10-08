@@ -9,7 +9,7 @@
                         <div class="col-md-2-width">
                             <h3 class="tit-color-ree">Nuestra Empresa</h3>
                             <ul class="footer links">
-                                <li><a href="#"><i class="lni-chevron-right"></i>Quéenes Somos</a></li>
+                                <li><a href="#"><i class="lni-chevron-right"></i>Quíenes Somos</a></li>
                                 <li><a href="#"><i class="lni-chevron-right"></i>Qué Hacemos</a></li>
                                 <li><a href="#"><i class="lni-chevron-right"></i>Por qué nosotros</a></li>
                                 <li><a href="#"><i class="lni-chevron-right"></i>Bolsa de trabajo</a></li>

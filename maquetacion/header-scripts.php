@@ -26,6 +26,7 @@
             <link href="css/styles.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
 
             <!-- Fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
             <link href='https://fonts.googleapis.com/css?family=Lato:400,600,700' rel='stylesheet' type='text/css'>
             <link href="fonts/BebasNeue/styles.css" media="all" type="text/css" rel="stylesheet"/>
@@ -58,6 +59,7 @@
                         <a class="cambiarFuente" data-font="helvetica">Helvetica Thin</a>
                         <a class="cambiarFuente" data-font="arial">Arial</a>
                         <a class="cambiarFuente" data-font="open-sans">Open Sans Light</a>
+                        <a class="cambiarFuente" data-font="work-sans">Work Sans</a>
                         <a class="cambiarFuente" data-font="museo-sans">Museo Sans</a>
                         <a class="cambiarFuente" data-font="lato">Lato</a>
                         <input type="hidden" name="font" id="font"/>

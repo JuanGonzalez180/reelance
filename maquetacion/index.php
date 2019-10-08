@@ -1,6 +1,18 @@
 <?php
     $ver = '?0.016';
     session_start();
+    
+    if(!isset($_SESSION['font']) ){
+        $_SESSION['font'] = '';
+    }
+
+    if(!isset($_SESSION['color'])){
+        $_SESSION['color'] = '';
+    }
+
+    if(!isset($_SESSION['border'])){
+        $_SESSION['border'] = '';
+    }
 
     $archivo_actual = 'inicio';
     if(isset($_GET['page'])){

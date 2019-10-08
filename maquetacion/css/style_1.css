@@ -27,6 +27,17 @@ body.open-sans,
     font-weight: 300;
 }
 
+body.work-sans,
+.work-sans .latest-blog .box-content .blog-content .des,
+.work-sans .mbsc-form, 
+.work-sans .mbsc-control-w, 
+.work-sans .mbsc-btn, 
+.work-sans .mbsc-segmented
+{
+    font-family: "Work Sans", arial, verdana, sans-serf;
+    font-weight: 300;
+}
+
 body.museo-sans,
 .museo-sans .latest-blog .box-content .blog-content .des,
 .museo-sans .mbsc-form, 

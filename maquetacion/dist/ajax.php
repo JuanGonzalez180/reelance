@@ -2,7 +2,7 @@
     session_start();
 
     if( isset($_POST['font']) ){
-        if( in_array( $_POST['font'], array("helvetica", "arial", "open-sans", "museo-sans", "lato")) ){
+        if( in_array( $_POST['font'], array("helvetica", "arial", "open-sans", "work-sans", "museo-sans", "lato")) ){
             $_SESSION['font'] = $_POST['font'];
         }
     }
