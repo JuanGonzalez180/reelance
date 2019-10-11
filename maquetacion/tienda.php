@@ -2,7 +2,7 @@
     <div class="container container-padd-ree">
         <div class="row row-tienda-prod">
             <div class="col-sm-6 img-col">
-                <img class="img-prod" src="images/assets/productos/crecimiento-ceja.png">
+                <img class="img-prod" src="images/assets/productos/cera-hibrida-producto.png">
             </div>
             <div class="col-sm-6 desc-col">
                 <h3>Crecimiento Ceja</h3>
@@ -150,7 +150,7 @@
 
                 <div class="arma-paquete">
                     <div>
-                        <img src="images/assets/productos/cera-hibrida.png">
+                        <img src="images/assets/productos/cera-hibrida-producto.png">
                     </div>
                     <div class="desc-paq">
                         <div class="califications">
@@ -171,7 +171,7 @@
 
                 <div class="arma-paquete">
                     <div>
-                        <img src="images/assets/productos/crecimiento-pestanas.png">
+                        <img src="images/assets/productos/crecimiento-pestanas-producto.png">
                     </div>
                     <div class="desc-paq">
                         <div class="califications">
@@ -192,7 +192,7 @@
 
                 <div class="arma-paquete">
                     <div>
-                        <img src="images/assets/productos/locion-mujer.png">
+                        <img src="images/assets/productos/locion-mujer-producto.png">
                     </div>
                     <div class="desc-paq">
                         <div class="califications">
@@ -213,7 +213,7 @@
 
                 <div class="arma-paquete">
                     <div>
-                        <img src="images/assets/productos/shampoo-hombre.png">
+                        <img src="images/assets/productos/shampoo-hombre-producto.png">
                     </div>
                     <div class="desc-paq">
                         <div class="califications">
@@ -237,7 +237,7 @@
 
                 <div class="arma-paquete">
                     <div>
-                        <img src="images/assets/productos/crecimiento-ceja.png">
+                        <img src="images/assets/productos/crecimiento-ceja-producto.png">
                     </div>
                     <div class="desc-paq">
                         <div class="califications">
@@ -258,7 +258,7 @@
 
                 <div class="arma-paquete">
                     <div>
-                        <img src="images/assets/productos/tratamiento-restaurador.png">
+                        <img src="images/assets/productos/tratamiento-restaurador-producto.png">
                     </div>
                     <div class="desc-paq">
                         <div class="califications">
@@ -279,7 +279,7 @@
 
                 <div class="arma-paquete">
                     <div>
-                        <img src="images/assets/productos/locion-hombre.png">
+                        <img src="images/assets/productos/locion-hombre-producto.png">
                     </div>
                     <div class="desc-paq">
                         <div class="califications">
@@ -300,7 +300,7 @@
 
                 <div class="arma-paquete">
                     <div>
-                        <img src="images/assets/productos/shampoo-mujer.png">
+                        <img src="images/assets/productos/shampoo-mujer-producto.png">
                     </div>
                     <div class="desc-paq">
                         <div class="califications">
@@ -381,7 +381,7 @@
     <div class="container container-padd-ree">
         <div class="row row-tienda-prod">
             <div class="col-sm-6 img-col">
-                <img class="img-prod" src="https://www.reelance.mx/wp-content/uploads/2015/08/gel_ceja.png">
+                <img class="img-prod" src="images/assets/productos/cera-hibrida-beneficios.png">
             </div>
             <div class="col-sm-6 desc-col">
                 <h2>Beneficios</h2>
@@ -405,7 +405,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div>
-                        <img src="images/assets/cart_1.jpg">
+                        <img src="images/assets/productos/dibujos-instructivos_final-29.png">
                         <div class="mus-content">
                             <div class="mus-number"><h1>1</h1></div>
                             <div class="mus-text">Complementa los tratamientos reelance aplicando reelance cera híbrida</div>
@@ -414,7 +414,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div>
-                        <img src="images/assets/cart_1.jpg">
+                        <img src="images/assets/productos/dibujos-instructivos_final-30.png">
                         <div class="mus-content">
                             <div class="mus-number"><h1>2</h1></div>
                             <div class="mus-text">Complementa los tratamientos reelance aplicando reelance cera híbrida</div>
@@ -423,7 +423,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div>
-                        <img src="images/assets/cart_1.jpg">
+                        <img src="images/assets/productos/dibujos-instructivos_final-31.png">
                         <div class="mus-content">
                             <div class="mus-number"><h1>3</h1></div>
                             <div class="mus-text">Complementa los tratamientos reelance aplicando reelance cera híbrida</div>
@@ -432,7 +432,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div>
-                        <img src="images/assets/cart_1.jpg">
+                        <img src="images/assets/productos/dibujos-instructivos_final-32.png">
                         <div class="mus-content">
                             <div class="mus-number"><h1>4</h1></div>
                             <div class="mus-text">Complementa los tratamientos reelance aplicando reelance cera híbrida</div>
@@ -449,19 +449,19 @@
     <div class="container container-padd-ree tienda">
         <div class="row row-pagos">
             <div class="col-sm-3 text-center">
-                <i class="icre-charity"></i>
+                <i class="icre-security"></i>
                 <p>Pago Seguro</p>
             </div>
             <div class="col-sm-3 text-center">
-                <i class="icre-charity"></i>
+                <i class="icre-honeymoon"></i>
                 <p>Envio Express</p>
             </div>
             <div class="col-sm-3 text-center">
-                <i class="icre-charity"></i>
+                <i class="icre-gift"></i>
                 <p>Envio Gratis</p>
             </div>
             <div class="col-sm-3 text-center">
-                <i class="icre-charity"></i>
+                <i class="icre-padlock"></i>
                 <p>Envio Garantizado</p>
             </div>
         </div>

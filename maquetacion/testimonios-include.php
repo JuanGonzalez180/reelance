@@ -1,6 +1,6 @@
 <div class="box-bottom">
     <section class="container container-padd-ree">
-        <h2 class="tit-ree">Resultados</h2>
+        <h2 class="tit-ree">Testimonios</h2>
 
         <div class="swiper-container swiper-container-testi">
             <div class="swiper-wrapper">

@@ -13,11 +13,11 @@
                         <table>
                             <thead>
                                 <tr>
-                                    <th></th>
+                                    <th><h4></h4></th>
                                     <th><h4>Producto</h4></th>
-                                    <th></th>
+                                    <th><h4>Cantidad</h4></th>
                                     <th><h4>Total</h4></th>
-                                    <th></th>
+                                    <th><h4></h4></th>
                                 </tr>
                             </thead>
                             <tbody>
