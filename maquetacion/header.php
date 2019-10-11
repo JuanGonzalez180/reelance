@@ -8,7 +8,7 @@
                         <img  src="images/assets/logo-internas.png" alt="">
                     </a>
                 </div>
-                <div class="col-xs-12 col-md-6 col-menu">
+                <div class="col-xs-12 col-md-6 siteSearchOp col-menu">
                     <nav>
                         <ul class="main-nav nav-tabs" id="main-menu">
                             <li><a class="font-bebasneue transition active" href="inicio" title="">INICIO</a></li>
@@ -20,13 +20,14 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-xs-12 col-md-3">
+                <div class="col-xs-12 col-md-3 siteSearchOp">
                     <nav class="nav-botons">
                         <ul class="nav-tabs">
                             <li>
                                 <div class="my-cart"> 
                                     <a class="btns-right btn-cart">
                                         <i class="icre-bag"></i>
+                                        <span class="badge">2</span>
                                     </a>
                                     <ul class="menu-shop">
                                         <li class="list-menu-shop">
@@ -88,20 +89,10 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="my-cart">
-                                    <a class="btns-right">
+                                <div>
+                                    <a class="btns-right buscarReelance">
                                         <i class="icre-lupa"></i>
                                     </a>
-                                    <ul class="menu-shop menu-search">
-                                        <form method="get" class="search-header clearfix" action="resultados-de-busqueda"> 
-                                            <label>
-                                                <input type="text" name="search" class="form-control" placeholder="Comienza a escribir..."  required />
-                                            </label>
-                                            <button type="submit" class="search-icon">
-                                                <i class="lni-chevron-right"></i>
-                                            </button>
-                                        </form>
-                                    </ul>
                                 </div>
                             </li>
                             <li>
@@ -118,6 +109,17 @@
                         </ul>
                     </nav>
                 </div>
+            </div>
+        </div>
+
+        <div id="siteHeaderSearch">
+            <div class="search-box">
+                <div dui-click="searchOff" class="search-box-cover"></div>
+                <form role="search" action="resultados-de-busqueda" method="get" class="search-form">
+                    <span class="search-btn"><i class="icre-lupa"></i></span>
+                    <input type="text" name="search" required placeholder="Busca en Reelance..." autocomplete="off" class="search-input">
+                    <span dui-click="searchOff" class="siteCloseSearch close-btn"><i class="lni-close"></i></span>
+                </form>
             </div>
         </div>
 

@@ -42,14 +42,16 @@
                 </div>
                 <div class="col-sm-6 row-reelance-icons">
                     <div class="row">
-                        <div class="col-xs-4 text-right">
+                        <div class="col-xs-4 text-center">
                             <i class="icon-big icre-charity"></i>
+                            <div class="tit-ree-c">Cuidado</div>
                         </div>
                         <div class="col-xs-3 text-center">
                             <i class="lni-plus"></i>
                         </div>
-                        <div class="col-xs-4">
+                        <div class="col-xs-4 text-center">
                             <i class="icon-big icre-atom"></i>
+                            <div class="tit-ree-c">Ciencia</div>
                         </div>
                 </div>
             </li>
@@ -129,7 +131,80 @@
 
 
 <section class="container container-padd-ree">
-    <h2 class="tit-ree">¿Cómo funcionan nuestros productos?</h2>
+    <div class="row row-suscribete">
+        <div class="">
+            <h3>Suscríbete:</h3>
+            <p>y recibe nuestros exclusivas noticias, descuentos y promociones</p>
+        </div>
+        <div class="">
+            <div class="input-group input-search">
+                <input type="text" class="form-control" placeholder="Correo electrónico">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Enviar</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="bkg-ree-two">
+    <div class="container container-padd-img">
+        <div class="grid">
+            <div class="cell is-6">
+                <a href="#" data-ga-category="pc-homepage" data-ga-action="click" data-ga-label="promotion_Professional" class="promotion-grid-item ga-data">
+                    <img class="grid-bg" src="//www5.djicdn.com/cms_uploads/grid_root/background_image/25/8f9bce35e1c78860ea9a350ee276e964.png">
+                    <div class="grid-content">
+                        <div class="grid-title">
+                            <h3 class="grid-title">Professional</h3>
+                            <span class="grid-arrow-right"></span>
+                        </div>
+                        <p class="grid-desc">Filmmaking Equipment for Pros</p>
+                    </div>
+                </a>
+            </div>
+            <div class="cell is-6">
+                <a href="#" data-ga-category="pc-homepage" data-ga-action="click" data-ga-label="promotion_Professional" class="promotion-grid-item ga-data">
+                    <img class="grid-bg" src="//www5.djicdn.com/cms_uploads/grid_root/background_image/25/8f9bce35e1c78860ea9a350ee276e964.png">
+                    <div class="grid-content">
+                        <div class="grid-title">
+                            <h3 class="grid-title">Professional</h3>
+                            <span class="grid-arrow-right"></span>
+                        </div>
+                        <p class="grid-desc">Filmmaking Equipment for Pros</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="grid">
+            <div class="cell is-6">
+                <a href="#" data-ga-category="pc-homepage" data-ga-action="click" data-ga-label="promotion_Professional" class="promotion-grid-item ga-data">
+                    <img class="grid-bg" src="//www5.djicdn.com/cms_uploads/grid_root/background_image/25/8f9bce35e1c78860ea9a350ee276e964.png">
+                    <div class="grid-content">
+                        <div class="grid-title">
+                            <h3 class="grid-title">Professional</h3>
+                            <span class="grid-arrow-right"></span>
+                        </div>
+                        <p class="grid-desc">Filmmaking Equipment for Pros</p>
+                    </div>
+                </a>
+            </div>
+            <div class="cell is-6">
+                <a href="#" data-ga-category="pc-homepage" data-ga-action="click" data-ga-label="promotion_Professional" class="promotion-grid-item ga-data">
+                    <img class="grid-bg" src="//www5.djicdn.com/cms_uploads/grid_root/background_image/25/8f9bce35e1c78860ea9a350ee276e964.png">
+                    <div class="grid-content">
+                        <div class="grid-title">
+                            <h3 class="grid-title">Professional</h3>
+                            <span class="grid-arrow-right"></span>
+                        </div>
+                        <p class="grid-desc">Filmmaking Equipment for Pros</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+        
+    <!-- <h2 class="tit-ree">¿Cómo funcionan nuestros productos?</h2>
 
     <ul class="row ">
         <li class="col-md-12 ree-item-nosotros">
@@ -172,7 +247,7 @@
                 <img src="images/assets/producto-1.png" alt="">
             </div>
         </li>
-    </ul>
+    </ul> -->
 </section>
 
 

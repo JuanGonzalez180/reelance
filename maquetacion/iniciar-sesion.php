@@ -1,4 +1,4 @@
-<div mbsc-page class="demo-desktop-single-multi-column">
+<div mbsc-page class="demo-desktop-single-multi-column forms-usuarios">
     <form id="formIniciarSesion" mbsc-form class="mbsc-form-box">
         <div class="mbsc-grid mbsc-grid-fixed">
             <div class="mbsc-form-group">
@@ -9,24 +9,6 @@
                             <img src="images/assets/logo-internas.png" alt="">
                         </a>
 
-                        <div class="row">
-                            <div class="col-sm-12 btn-complete">
-                                <button mbsc-button  type="button" class="ree-facebook">
-                                    <i class="lni-facebook-original"></i>
-                                    Iniciar con Facebook
-                                </button>
-                            </div>
-                            <!--div class="col-sm-6 btn-complete">
-                                <button mbsc-button  type="button" class="ree-google">
-                                    <i class="lni-google"></i>
-                                    Iniciar con Google
-                                </button>
-                            </div-->
-                        </div>
-
-                        <hr>
-
-                        <div class="mbsc-form-group-title">Iniciar Sesión</div>
                         <div class="mbsc-row">
                             <div class="mbsc-col-12">
                                 <div>
@@ -52,6 +34,16 @@
                         <div class="text-center btn-complete">
                             <button mbsc-button  type="button" class="ree-iniciarsesion">Iniciar Sesión</button>
                         </div>
+
+                        <div class="row">
+                            <div class="col-sm-12 btn-complete">
+                                <button mbsc-button  type="button" class="ree-facebook">
+                                    <i class="lni-facebook-original"></i>
+                                    Iniciar con Facebook
+                                </button>
+                            </div>
+                        </div>
+                        
                         <div class="">
                             <div>
                                 <a href="recuperar-contrasena" class="btn-page no-arrow">¿Tienes problemas para inciar sesión?</a>

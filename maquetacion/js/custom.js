@@ -41,6 +41,38 @@ var swiperFunc = new Swiper('.swiper-container-func', {
 
 $( document ).ready(function() {
 
+    $(document).on("click", ".buscarReelance", function(){
+        $(".siteSearchOp").stop().animate({
+            opacity:0
+        },300,function(){
+            $(this).css("display","none")
+        })
+        ,
+        $("#siteHeaderSearch").stop().animate({
+            opacity:1
+        },300,function(){
+            $(this).css("display","block")
+        })
+
+        window.setTimeout(function(){
+            $(".search-input").focus();
+        },500);
+    });
+
+    $(document).on("click", ".siteCloseSearch", function(){
+        $("#siteHeaderSearch").stop().animate({
+            opacity:0
+        },300,function(){
+            $(this).css("display","none")
+        })
+        ,
+        $(".siteSearchOp").stop().animate({
+            opacity:1
+        },300,function(){
+            $(this).css("display","")
+        })
+    })
+
     $(document).on("click", "#buscarPunto", function(){
         $(".text-map, .google-fondo").hide();
         // $(".cont-puntos").show();
@@ -72,6 +104,31 @@ $( document ).ready(function() {
             $( '.mbsc-account-new' ).hide();
         }
     })
+    
+    $(document).on("click", ".action-step1", function(){
+        $( '.step1, .step2-form' ).show();
+        $( '.step1-form, .step2' ).hide();
+        $(".step-container-2").removeClass("step-inactive");
+    });
+    
+    $(document).on("click", ".edit-step1", function(){
+        $( '.step1' ).hide();
+        $( '.step1-form' ).show();
+        $(".step-container-2").addClass("step-inactive");
+        $(".step-container-3").addClass("step-inactive");
+    });
+
+    $(document).on("click", ".action-step2", function(){
+        $( '.step2, .step3-form' ).show();
+        $( '.step2-form' ).hide();
+        $(".step-container-3").removeClass("step-inactive");
+    });
+
+    $(document).on("click", ".edit-step2", function(){
+        $( '.step2' ).hide();
+        $( '.step2-form' ).show();
+        $(".step-container-3").addClass("step-inactive");
+    });
 
     function cambiarVariables(type, value){
         let data = {};

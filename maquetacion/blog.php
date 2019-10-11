@@ -16,13 +16,12 @@
                     <div class="col-sm-12 item-blog item wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0ms">
                         <div class="bl-fecha">
                             <i class="icre-circular-wall-clock"></i>
-                            <div class="bl-day">15</div>
-                            <div class="bl-month">SEP</div>
+                            <div class="">SEPT 15</div>
                         </div>
 
                         <div class="bl-tag">
                             <i class="icre-tag"></i>
-                            <div class="bl-save">Guardar</div>
+                            <div class="">Guardar</div>
                         </div>
 
                         <div class="col-sm-12 blog-images">

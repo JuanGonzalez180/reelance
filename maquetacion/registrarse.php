@@ -1,4 +1,4 @@
-<div mbsc-page class="demo-desktop-single-multi-column">
+<div mbsc-page class="demo-desktop-single-multi-column forms-usuarios">
     <form id="formRegistrarse" mbsc-form class="mbsc-form-box">
         <div class="mbsc-grid mbsc-grid-fixed">
             <div class="mbsc-form-group">
@@ -7,8 +7,6 @@
                         <a href="inicio" class="img-inicio">
                             <img src="images/assets/logo-internas.png" alt="">
                         </a>
-                        <hr>
-                        <div class="mbsc-form-group-title">Registrarse</div>
                         <div class="mbsc-row">
                             <div class="mbsc-col-12">
                                 <div>
@@ -45,7 +43,7 @@
                             </div>
                         </div>
                         <div class="text-center btn-complete">
-                            <button mbsc-button type="button" class="ree-registrarse ">Enviar</button>
+                            <button mbsc-button type="button" class="ree-registrarse ">Registrarse</button>
                         </div>
                         <div class="">
                             <div>
@@ -53,7 +51,7 @@
                             </div>
                         </div>
                         <hr>
-                        <div class="row">
+                        <div class="row row-buttons-iniciar">
                             <div class="col-sm-6 btn-complete">
                                 <button mbsc-button  type="button" class="ree-facebook">
                                     <i class="lni-facebook-original"></i>

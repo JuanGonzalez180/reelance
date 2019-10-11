@@ -20,7 +20,11 @@
     }
 
     include 'header-scripts.php';
-    if( $archivo_actual !== 'iniciar-sesion' && $archivo_actual !== 'registrarse' && $archivo_actual !== 'recuperar-contrasena' ){
+    if( $archivo_actual !== 'iniciar-sesion' && 
+        $archivo_actual !== 'registrarse' && 
+        $archivo_actual !== 'recuperar-contrasena' &&
+        $archivo_actual !== 'finalizar-compra'
+    ){
         include 'header.php';
     }
     
@@ -35,7 +39,11 @@
         }
     }
 
-    if( $archivo_actual !== 'iniciar-sesion' && $archivo_actual !== 'registrarse' && $archivo_actual !== 'recuperar-contrasena' ){
+    if( $archivo_actual !== 'iniciar-sesion' && 
+        $archivo_actual !== 'registrarse' && 
+        $archivo_actual !== 'recuperar-contrasena' &&
+        $archivo_actual !== 'finalizar-compra'
+    ){
         include 'footer.php';
     }
     include 'footer-scripts.php';

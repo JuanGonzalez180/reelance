@@ -48,37 +48,5 @@
             <!-- <link href="ant/js/owl.carousel.css" rel="stylesheet"> -->
             <!-- <link href="ant/js/owl.theme.css" rel="stylesheet"> -->
         </head>
-        <body class="<?php print $_SESSION['font']. ' ' . $_SESSION['color']. ' ' . $_SESSION['border']; ?>">
-            <div class="float-fixed-fuentes">
-                <a class="icono-float" data-toggle="collapse" href="#fuentes" aria-expanded="false" role="button" aria-controls="fuentes">
-                    <i class="lni-grid-alt"></i>
-                </a>
-                <div class="collapse animated fuentes" id="fuentes">
-                    <h3>Fuentes</h3>
-                    <form id="target-font" action="" method="post">
-                        <a class="cambiarFuente" data-font="helvetica">Helvetica Thin</a>
-                        <a class="cambiarFuente" data-font="arial">Arial</a>
-                        <a class="cambiarFuente" data-font="open-sans">Open Sans Light</a>
-                        <a class="cambiarFuente" data-font="work-sans">Work Sans</a>
-                        <a class="cambiarFuente" data-font="museo-sans">Museo Sans</a>
-                        <a class="cambiarFuente" data-font="lato">Lato</a>
-                        <input type="hidden" name="font" id="font"/>
-                    </form>
-                    <br>
-                    <h3>Colores</h3>
-                    <form id="target-colores" action="" method="post">
-                        <a class="cambiarColor" data-color="color1"> <div style="width:30px; height: 15px; background: #8c8c8c;"></div> </a>
-                        <a class="cambiarColor" data-color="color2"> <div style="width:30px; height: 15px; background: #353535;"></div> </a>
-                        <input type="hidden" name="color" id="color"/>
-                    </form>
-                    <br>
-                    <h3>Botones Border</h3>
-                    <form id="target-border" action="" method="post">
-                        <a class="cambiarBorder" data-border="bordes"> Con bordes </a>
-                        <a class="cambiarBorder" data-border="sin-bordes"> Sin bordes </a>
-                        <input type="hidden" name="border" id="border"/>
-                    </form>
-                </div>
-            </div>
-
+        <body class="color2 sin-bordes">
             <div class="page-wrapper">

@@ -72,8 +72,8 @@ a.btn-cart-page:hover, a.btn-cart-page:focus{
 }
 
 .bl-fecha{
-    background: #333333;
-    color: #f5f5f7;
+    /* background: #333333; */
+    /* color: #f5f5f7; */
 }
 
 .swiper-promo .price-promo{
@@ -94,7 +94,7 @@ a.btn-cart-page:hover, a.btn-cart-page:focus{
 }
 
 h2.tit-ree:before{
-    background: #0070c9;
+    background: transparent;
     color: #eeeeee;
 }
 
@@ -106,8 +106,7 @@ footer .copyright p .bluer a,
 .header-content .my-cart .menu-shop li .list-names a:hover,
 .ree-item-nosotros i,
 .sec-contacto i,
-.producto-rela a.nombre-prod,
-.row-pagos i{
+.producto-rela a.nombre-prod{
     color: #0070c9;
 }
 
@@ -230,7 +229,7 @@ footer .copyright,
 }
 
 .bkg-ree-faq h2.tit-ree:before{
-    background: #6bf;
+    background: transparent;
 }
 
 .bkg-ree-faq .btn-page, 
@@ -276,9 +275,9 @@ footer .copyright,
     border-top: 1px solid #333;
 }
 
-.btn-redes, 
-.btn-redes:hover, 
-.btn-redes:focus{
+.btn-style-cont, 
+.btn-style-cont:hover, 
+.btn-style-cont:focus{
     color: #fff;
 }
 
@@ -288,6 +287,11 @@ footer .copyright,
 
 .btn-messenger{
     background-color: #00C6FF;
+}
+
+.btn-black, .input-search .btn-default{
+    background-color: #333333;
+    border-color: #333333;
 }
 
 .btn-whatsapp i, 
@@ -309,4 +313,17 @@ footer .copyright,
 
 .mbsc-ios .mbsc-segmented-content{
     background-color: transparent;
+}
+
+.bg-recuadros{
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.compra-float .bg-recuadros, .finalizar-compra .bg-recuadros{
+    background-color: #ffffff;
+}
+
+.finalizar-compra{
+    background-color: #f1f1f1;
 }

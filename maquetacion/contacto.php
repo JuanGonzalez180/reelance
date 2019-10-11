@@ -5,7 +5,7 @@
         <div class="text-center">
           <h2>Localiza un punto de venta <b>Reelance</b></h2>
           <p>Reelance te guiará para que encuentres el punto de ventas más cercano a tu ubicación actual</p>
-          <a id="buscarPunto" class="btn-page" data-toggle="collapse" href="#submenuReelContacto" aria-expanded="false" role="button" aria-controls="submenuReelContacto">Buscar</a>
+          <a id="buscarPunto" class="btn-style-cont btn-black" data-toggle="collapse" href="#submenuReelContacto" aria-expanded="false" role="button" aria-controls="submenuReelContacto">Buscar</a>
         </div>
       </div>
       <img class="google-fondo" src="images/assets/fondo-mapa.jpg" />
@@ -35,7 +35,7 @@
   <section class="cont-escribenos">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-sm-12 text-center text-escribenos">
           <h2>Escríbenos</h2>
           <p>Guadalajara, Jalisco, México</p>
           <ul>
@@ -46,10 +46,10 @@
       </div>
       <div class="row">
         <div class="col-sm-6 text-right">
-          <a href="#" class="btn-redes btn-whatsapp"><i class="icre-whatsapp"></i> WhatsApp</a>
+          <a href="#" class="btn-style-cont btn-whatsapp"><i class="icre-whatsapp"></i> WhatsApp</a>
         </div>
         <div class="col-sm-6">
-          <a href="#" class="btn-redes btn-messenger"><i class="icre-messenger"></i> Messenger</a>
+          <a href="#" class="btn-style-cont btn-messenger"><i class="icre-messenger"></i> Messenger</a>
         </div>
       </div>
     </div>

@@ -6293,7 +6293,6 @@ footer .copyright ul li img {
 }
 
 .main-content .product-name .table-responsive table {
-    margin-top: 60px;
     width: 100%;
     border-collapse: collapse;
 }
@@ -6312,7 +6311,7 @@ footer .copyright ul li img {
 .main-content .product-name .table-responsive td,
 .main-content .product-name .table-responsive th {
     padding: 15px;
-    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     text-align: center;
 }
 

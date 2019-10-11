@@ -5,6 +5,8 @@
                 <img class="img-prod" src="images/assets/productos/crecimiento-ceja.png">
             </div>
             <div class="col-sm-6 desc-col">
+                <h3>Crecimiento Ceja</h3>
+                <p>Resalta el esplendor de tus ojos y enmarca tu mirada con el potenciador de cejas de reelance, de sencilla aplicación cutánea. Su fórmula, traída de Francia, estimula el crecimiento del vello en la zona deseada. No esperes y dale a tus ojos la elegancia de una ceja natural, recuerda que “la belleza no mira, sólo es mirada”.</p>
                 <div class="califications">
                     <i class="lni-star-filled"></i>
                     <i class="lni-star-filled"></i>
@@ -12,8 +14,6 @@
                     <i class="lni-star-filled"></i>
                     <i class="lni-star"></i>
                 </div>
-                <h3>Crecimiento Ceja</h3>
-                <p>Resalta el esplendor de tus ojos y enmarca tu mirada con el potenciador de cejas de reelance, de sencilla aplicación cutánea. Su fórmula, traída de Francia, estimula el crecimiento del vello en la zona deseada. No esperes y dale a tus ojos la elegancia de una ceja natural, recuerda que “la belleza no mira, sólo es mirada”.</p>
                 <a mbsc-button href="carrito" type="button">Añadir al Carrito</a>
             </div>
         </div>
@@ -22,17 +22,24 @@
     
 <section class="">
     <div class="container container-padd-ree">
-        <h2 class="tit-ree">Promociones</h2>
         <div class="pricing-table">
             <div class="col-xs-4 pricing-column">
                 <h3>1 MES DE TRATAMIENTO</h3>
                 <div class="pricing-column-content">
-                    <h4 class="tit-color-ree">
-                        <span class="dollar-sign">$</span> 600
-                    </h4>
-                    <span class="interval">Envío gratis</span>
                     <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_1-300x221.png" alt="" width="300" height="221">
-                    <a href="#" class="btn-price btn-page">Comprar</a>
+                </div>
+                <div class="pricing-footer">
+                    <div class="col-xs-5">
+                        <h4 class="tit-color-ree">
+                            <span class="dollar-sign">$</span> 600
+                        </h4>
+                    </div>
+                    <div class="col-xs-2">
+                        <i class="lni-plus"></i> Info
+                    </div>
+                    <div class="col-xs-5 text-right">
+                        <a href="#" class="btn-price btn-page">Comprar</a>
+                    </div>
                 </div>
             </div><div class="col-xs-4 pricing-column highlight">
                 <h3>
@@ -40,24 +47,40 @@
                     <span class="highlight-reason">Recomendado</span>
                 </h3>
                 <div class="pricing-column-content">
-                    <h4 class="tit-color-ree">
-                        <span class="dollar-sign">$</span> 600
-                    </h4>
-                    <span class="interval">Envío gratis</span>
                     <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_4-300x221.png" alt="" width="300" height="221">
-                    <a href="#" class="btn-price btn-page">Comprar</a>
+                </div>
+                <div class="pricing-footer">
+                    <div class="col-xs-5">
+                        <h4 class="tit-color-ree">
+                            <span class="dollar-sign">$</span> 600
+                        </h4>
+                    </div>
+                    <div class="col-xs-2">
+                        <i class="lni-plus"></i> Info
+                    </div>
+                    <div class="col-xs-5 text-right">
+                        <a href="#" class="btn-price btn-page">Comprar</a>
+                    </div>
                 </div>
             </div><div class="col-xs-4 pricing-column">
                 <h3>
                     2 MESES DE TRATAMIENTO
                 </h3>
                 <div class="pricing-column-content">
-                    <h4 class="tit-color-ree">
-                        <span class="dollar-sign">$</span> 600
-                    </h4>
-                    <span class="interval">Envío gratis</span>
                     <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_2-300x221.png" alt="" width="300" height="221">
-                    <a href="#" class="btn-price btn-page">Comprar</a>
+                </div>
+                <div class="pricing-footer">
+                    <div class="col-xs-5">
+                        <h4 class="tit-color-ree">
+                            <span class="dollar-sign">$</span> 600
+                        </h4>
+                    </div>
+                    <div class="col-xs-2">
+                        <i class="lni-plus"></i> Info
+                    </div>
+                    <div class="col-xs-5 text-right">
+                        <a href="#" class="btn-price btn-page">Comprar</a>
+                    </div>
                 </div>
             </div><div class="col-xs-3 pricing-column pricing-custom hidden">
                 <h3>
@@ -299,34 +322,54 @@
             </div>
             <div class="col-xs-12 col-sm-4">
                 <div class="compra-float">
-                    <div class="main-content">
-                        <div class="product-name">
-                            <div class="table-responsive table-cart">
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td>Subtotal</td>
-                                        </tr>
-                                        <tr>
-                                            <td>$7000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>¡Ahorro por compra en paquete!</td>
-                                        </tr>
-                                        <tr>
-                                            <td>$1000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Total: <b>$6000</b></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                    <div class="product-total bg-recuadros">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="text-left">
+                                    <h4>Subtotal</h4>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="text-right">
+                                    <h4>$1200</h4>
+                                </div>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-xs-8">
+                                <div class="text-left">
+                                    <h5>¡Ahorro por compra en paquete!</h5>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="text-right">
+                                    <h4>-$400</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="text-left">
+                                    <h3><span class="the-after">Total</span></h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="text-right">
+                                    <h3><span class="the-after">$800</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <a href="carrito" class="btn-cart-page btn-checkout">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                        
                     </div>
-                    <div class="row-tienda-prod">
-                        <a mbsc-button href="carrito" type="button">Añadir al Carrito</a>
-                    </div>
+
                 </div>
 
             </div>
@@ -336,12 +379,12 @@
 
 <section class="item-after-tienda">
     <div class="container container-padd-ree">
-        <h2 class="tit-ree">Beneficios</h2>
         <div class="row row-tienda-prod">
             <div class="col-sm-6 img-col">
                 <img class="img-prod" src="https://www.reelance.mx/wp-content/uploads/2015/08/gel_ceja.png">
             </div>
             <div class="col-sm-6 desc-col">
+                <h2>Beneficios</h2>
                 <ul>
                     <li>Fortalece el cabello</li>
                     <li>Permite la oxigenación del cuero cabelludo</li>
@@ -356,40 +399,44 @@
 
 <section class="bkg-ree-two">
     <div class="container container-padd-ree tienda">
-        <h2 class="tit-ree">Modo de uso</h2>
+        <h2 class="tit-ree-mus">Modo de uso</h2>
 
         <div class="swiper-container swiper-container-func">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div>
                         <img src="images/assets/cart_1.jpg">
-                        <h3>Paso 1:</h3>
-                        <div class="separator-line"></div>
-                        <p>Complementa los tratamientos reelance aplicando reelance cera híbrida</p>
+                        <div class="mus-content">
+                            <div class="mus-number"><h1>1</h1></div>
+                            <div class="mus-text">Complementa los tratamientos reelance aplicando reelance cera híbrida</div>
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div>
                         <img src="images/assets/cart_1.jpg">
-                        <h3>Paso 2:</h3>
-                        <div class="separator-line"></div>
-                        <p>Complementa los tratamientos reelance aplicando reelance cera híbrida</p>
+                        <div class="mus-content">
+                            <div class="mus-number"><h1>2</h1></div>
+                            <div class="mus-text">Complementa los tratamientos reelance aplicando reelance cera híbrida</div>
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div>
                         <img src="images/assets/cart_1.jpg">
-                        <h3>Paso 3:</h3>
-                        <div class="separator-line"></div>
-                        <p>Complementa los tratamientos reelance aplicando reelance cera híbrida</p>
+                        <div class="mus-content">
+                            <div class="mus-number"><h1>3</h1></div>
+                            <div class="mus-text">Complementa los tratamientos reelance aplicando reelance cera híbrida</div>
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div>
                         <img src="images/assets/cart_1.jpg">
-                        <h3>Paso 4:</h3>
-                        <div class="separator-line"></div>
-                        <p>Complementa los tratamientos reelance aplicando reelance cera híbrida</p>
+                        <div class="mus-content">
+                            <div class="mus-number"><h1>4</h1></div>
+                            <div class="mus-text">Complementa los tratamientos reelance aplicando reelance cera híbrida</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -421,4 +468,41 @@
     </div>
 </section>
 
-<?php include 'testimonios-include.php'; ?>
+<div class="box-bottom">
+    <section class="container container-padd-ree">
+        <h2 class="tit-ree">Testimonios</h2>
+
+        <div class="swiper-container swiper-container-testi">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-testi">
+                        <h3></h3>
+                        <img src="images/assets/testimonio-1.png" />
+                        <p class="tit-color-ree">Antes</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-testi">
+                        <h3></h3>
+                        <img src="images/assets/testimonio-1.png" />
+                        <p class="tit-color-ree">Después</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-testi">
+                        <h3></h3>
+                        <img src="images/assets/testimonio-1.png" />
+                        <p class="tit-color-ree">Antes</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-testi">
+                        <h3></h3>
+                        <img src="images/assets/testimonio-1.png" />
+                        <p class="tit-color-ree">Después</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
