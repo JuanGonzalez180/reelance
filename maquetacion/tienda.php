@@ -20,7 +20,7 @@
     </div>
 </section>
     
-<section class="">
+<section class="container-promociones-tienda">
     <div class="container container-padd-ree">
         <div class="pricing-table">
             <div class="col-xs-4 pricing-column">
@@ -99,7 +99,7 @@
     </div>
 </section>
 
-<section class="bkg-ree-two">
+<section class="bkg-ree-two arma-tu-paquete">
     <div class="container container-padd-ree tienda">
         <h2 class="tit-ree">Arma tu paquete</h2>
         <!-- <div class="row row-productos">
@@ -146,22 +146,14 @@
             </div>
         </div> -->
         <div class="row">
-            <div class="col-xs-12 col-sm-4">
+            <div class="col-xs-12 col-sm-6 col-md-4">
 
                 <div class="arma-paquete">
                     <div>
                         <img src="images/assets/productos/cera-hibrida-producto.png">
                     </div>
                     <div class="desc-paq">
-                        <div class="califications">
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star"></i>
-                        </div>
                         <h4>Cera Híbrida</h4>
-                        <div class="cantidad">Cantidad:</div>
                         <div>
                             <input mbsc-stepper id="cant-cera-hibrida" type="number" min="0" value="0" max="100" />
                         </div>
@@ -174,15 +166,7 @@
                         <img src="images/assets/productos/crecimiento-pestanas-producto.png">
                     </div>
                     <div class="desc-paq">
-                        <div class="califications">
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                        </div>
                         <h4>Crecimiento Pestañas</h4>
-                        <div class="cantidad">Cantidad:</div>
                         <div>
                             <input mbsc-stepper id="cant-crecimiento-pestanas" type="number" min="0" value="0" max="100" />
                         </div>
@@ -195,15 +179,7 @@
                         <img src="images/assets/productos/locion-mujer-producto.png">
                     </div>
                     <div class="desc-paq">
-                        <div class="califications">
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star"></i>
-                        </div>
                         <h4>Loción Mujer</h4>
-                        <div class="cantidad">Cantidad:</div>
                         <div>
                             <input mbsc-stepper id="cant-locion-mujer" type="number" min="0" value="0" max="100" />
                         </div>
@@ -216,15 +192,7 @@
                         <img src="images/assets/productos/shampoo-hombre-producto.png">
                     </div>
                     <div class="desc-paq">
-                        <div class="califications">
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star"></i>
-                        </div>
                         <h4>Shampoo Hombre</h4>
-                        <div class="cantidad">Cantidad:</div>
                         <div>
                             <input mbsc-stepper id="cant-shampoo-hombre" type="number" min="0" value="0" max="100" />
                         </div>
@@ -233,22 +201,14 @@
                 </div>
 
             </div>
-            <div class="col-xs-12 col-sm-4">
+            <div class="col-xs-12 col-sm-6 col-md-4">
 
                 <div class="arma-paquete">
                     <div>
                         <img src="images/assets/productos/crecimiento-ceja-producto.png">
                     </div>
                     <div class="desc-paq">
-                        <div class="califications">
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star"></i>
-                        </div>
                         <h4>Crecimiento Ceja</h4>
-                        <div class="cantidad">Cantidad:</div>
                         <div>
                             <input mbsc-stepper id="cant-cre-ceja" type="number" min="0" value="0" max="100" />
                         </div>
@@ -261,15 +221,7 @@
                         <img src="images/assets/productos/tratamiento-restaurador-producto.png">
                     </div>
                     <div class="desc-paq">
-                        <div class="califications">
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star"></i>
-                        </div>
                         <h4>Tratamiento Restaurador</h4>
-                        <div class="cantidad">Cantidad:</div>
                         <div>
                             <input mbsc-stepper id="cant-tratamiento-restaurador" type="number" min="0" value="0" max="100" />
                         </div>
@@ -282,15 +234,7 @@
                         <img src="images/assets/productos/locion-hombre-producto.png">
                     </div>
                     <div class="desc-paq">
-                        <div class="califications">
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star"></i>
-                            <i class="lni-star"></i>
-                        </div>
                         <h4>Loción Hombre</h4>
-                        <div class="cantidad">Cantidad:</div>
                         <div>
                             <input mbsc-stepper id="cant-locion-hombre" type="number" min="0" value="0" max="100" />
                         </div>
@@ -303,15 +247,7 @@
                         <img src="images/assets/productos/shampoo-mujer-producto.png">
                     </div>
                     <div class="desc-paq">
-                        <div class="califications">
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star-filled"></i>
-                            <i class="lni-star"></i>
-                        </div>
                         <h4>Shampoo Mujer</h4>
-                        <div class="cantidad">Cantidad:</div>
                         <div>
                             <input mbsc-stepper id="cant-shampoo-mujer" type="number" min="0" value="0" max="100" />
                         </div>
@@ -320,7 +256,7 @@
                 </div>
                 
             </div>
-            <div class="col-xs-12 col-sm-4">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="compra-float">
                     <div class="product-total bg-recuadros">
                         <div class="row">
@@ -448,21 +384,21 @@
 <section class="">
     <div class="container container-padd-ree tienda">
         <div class="row row-pagos">
-            <div class="col-sm-3 text-center">
+            <div class="col-xs-6 col-sm-3 text-center">
                 <i class="icre-security"></i>
-                <p>Pago Seguro</p>
+                <p>Pago<br>Seguro</p>
             </div>
-            <div class="col-sm-3 text-center">
+            <div class="col-xs-6 col-sm-3 text-center">
                 <i class="icre-honeymoon"></i>
-                <p>Envio Express</p>
+                <p>Envio<br>Express</p>
             </div>
-            <div class="col-sm-3 text-center">
+            <div class="col-xs-6 col-sm-3 text-center">
                 <i class="icre-gift"></i>
-                <p>Envio Gratis</p>
+                <p>Envio<br>Gratis</p>
             </div>
-            <div class="col-sm-3 text-center">
+            <div class="col-xs-6 col-sm-3 text-center">
                 <i class="icre-padlock"></i>
-                <p>Envio Garantizado</p>
+                <p>Envio<br>Garantizado</p>
             </div>
         </div>
     </div>

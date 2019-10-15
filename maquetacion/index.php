@@ -1,5 +1,5 @@
 <?php
-    $ver = '?0.018';
+    $ver = '?0.022';
     session_start();
     
     if(!isset($_SESSION['font']) ){
@@ -31,7 +31,11 @@
     if( $archivo_actual && file_exists( $archivo_actual . '.php' ) ){
         if( 
             $archivo_actual !== 'mi-cuenta-escritorio' &&
-            $archivo_actual !== 'mi-cuenta-pedidos'
+            $archivo_actual !== 'mi-cuenta-pedidos' && 
+            $archivo_actual !== 'mi-cuenta-pedido-detalle' &&
+            $archivo_actual !== 'mi-cuenta-envio' &&
+            $archivo_actual !== 'mi-cuenta-facturacion' &&
+            $archivo_actual !== 'mi-cuenta-editar'
         ){
             require_once(basename(($archivo_actual!='' ? $archivo_actual : 'inicio') . '.php'));
         }else{

@@ -3,8 +3,8 @@
     <div class="google-map">
       <div class="text-map">
         <div class="text-center">
-          <h2>Localiza un punto de venta <b>Reelance</b></h2>
-          <p>Reelance te guiará para que encuentres el punto de ventas más cercano a tu ubicación actual</p>
+          <h2>Localiza un punto de venta <br>Reelance</h2>
+          <p>Reelance te guiará para que encuentres el punto de venta<br> más cercano a tu ubicación actual</p>
           <a id="buscarPunto" class="btn-style-cont btn-black" data-toggle="collapse" href="#submenuReelContacto" aria-expanded="false" role="button" aria-controls="submenuReelContacto">Buscar</a>
         </div>
       </div>
@@ -40,11 +40,11 @@
           <p>Guadalajara, Jalisco, México</p>
           <ul>
             <li><i class="icre-mail"></i> ventas@reelance.mx </li>
-            <li><i class="icre-phone-call"></i> 044-331-554 - 18-93 </li>
+            <li><i class="icre-phone-call"></i> 044-33-554-8-93 </li>
           </ul>
         </div>
       </div>
-      <div class="row">
+      <div class="row row-redes-cont">
         <div class="col-sm-6 text-right">
           <a href="#" class="btn-style-cont btn-whatsapp"><i class="icre-whatsapp"></i> WhatsApp</a>
         </div>

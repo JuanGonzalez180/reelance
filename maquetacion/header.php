@@ -3,10 +3,19 @@
     <div class="header-content">
         <div class="container">
             <div class="row row-header">
-                <div class="col-xs-12 col-md-3">
+                <div class="col-xs-7 col-md-3">
                     <a class="logo" title="" href="inicio">
                         <img  src="images/assets/logo-internas.png" alt="">
                     </a>
+                </div>
+                <div class="col-xs-5 nav-resp">
+                    <a class="btns-right btn-cart">
+                        <i class="icre-bag"></i>
+                        <span class="badge">2</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="lni-menu"></i>
+                    </button>
                 </div>
                 <div class="col-xs-12 col-md-6 siteSearchOp col-menu">
                     <nav>
@@ -20,7 +29,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-xs-12 col-md-3 siteSearchOp">
+                <div class="col-xs-12 col-md-3 siteSearchOp col-btns-right">
                     <nav class="nav-botons">
                         <ul class="nav-tabs">
                             <li>
@@ -44,8 +53,8 @@
                                                     <a href="#">Luxuri Casio G-shock </a>
                                                 </div>
                                                 <span class="price">
-                                                    <span class="amount">$ 120.000</span>
-                                                    <span class="amount-3">$ 240.000 </span>
+                                                    <span class="amount"><h4>$1.200</h4></span>
+                                                    <span class="amount-3"><h4>$2.400</h4></span>
                                                 </span>
                                                 <div class="list-qty">
                                                     <p>Cantidad: 01</p>
@@ -66,8 +75,8 @@
                                                     <a href="#">Luxuri Casio G-shock </a>
                                                 </div>
                                                 <span class="price">
-                                                    <span class="amount">$ 120.000</span>
-                                                    <span class="amount-3">$ 240.000 </span>
+                                                    <span class="amount"><h4>$1.200</h4></span>
+                                                    <span class="amount-3"><h4>$2.400</h4></span>
                                                 </span>
                                                 <div class="list-qty">
                                                     <p>Cantidad: 01</p>
@@ -76,8 +85,8 @@
                                         </li>
                                         <li class="shop-input">
                                             <div class="text-shop clearfix">
-                                                <p class="sub-total">SUBTOTAL</p>
-                                                <p class="shop-price">$105.000</p>
+                                                <h4><p class="sub-total">SUBTOTAL</p></h4>
+                                                <h4><p class="shop-price">$105.000</p></h4>
                                             </div>
                                             
                                             <span class="list-view">
@@ -101,8 +110,8 @@
                                         <i class="lni-user"></i>
                                     </a>
                                     <ul class="menu-shop menu-account">
-                                        <li><a href="iniciar-sesion">Iniciar sesión</a></li>
-                                        <li><a href="registrarse">Registrarse</a></li>
+                                        <li><a href="iniciar-sesion"><h4>Iniciar sesión</h4></a></li>
+                                        <li><a href="registrarse"><h4>Registrarse</h4></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -110,6 +119,61 @@
                     </nav>
                 </div>
             </div>
+        </div>
+
+        <div class="collapse animated" id="navbarSupportedContent">
+            <ul class="nav-menu-resp-ree mr-auto">
+                <li class="">
+                    <a class="" href="inicio">Inicio</a>
+                </li>
+                <li class="">
+                    <a class="" href="javascript:;">Tienda</a>
+                    <div class="row row-productos">
+                        <div class="col">
+                            <a class="transition" href="tienda" title="">
+                                <img src="images/assets/productos/cera-hibrida.png">
+                                <h2>Cera Híbrida</h2>
+                            </a>
+                        </div><div class="col">
+                            <a class="transition" href="tienda" title="">
+                                <img src="images/assets/productos/crecimiento-ceja.png">
+                                <h2>Crecimiento Ceja</h2>
+                            </a>
+                        </div><div class="col">
+                            <a class="transition" href="tienda" title="">
+                                <img src="images/assets/productos/crecimiento-pestanas.png">
+                                <h2>Crecimiento Pestañas</h2>
+                            </a>
+                        </div><div class="col">
+                            <a class="transition" href="tienda" title="">
+                                <img src="images/assets/productos/locion-hombre.png">
+                                <h2>Loción Hombre</h2>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="">
+                    <a class="" href="inicio">Noticias</a>
+                </li>
+                <li class="">
+                    <a class="" href="contacto">Contacto</a>
+                </li>
+                <hr>
+                <li class="">
+                    <a class="" href="iniciar-sesion">Iniciar sesión</a>
+                </li>
+                <li class="">
+                    <a class="" href="registrarse">Registrarse</a>
+                </li>
+                <li class="buscador-menu">
+                    <div class="input-group input-search">
+                        <input type="text" class="form-control" placeholder="Buscar en el blog...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Buscar</button>
+                        </span>
+                    </div>
+                </li>
+            </ul>
         </div>
 
         <div id="siteHeaderSearch">
@@ -172,6 +236,7 @@
                 </div>
             </div>
         </div>
+
     </div>
     <!-- end header content -->
 </header>

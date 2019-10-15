@@ -2140,11 +2140,6 @@ nav ul ul li.last-item>a {
 }
 
 @media all and (max-width: 991px) {
-    .header-content .logo img {
-        padding-bottom: 20px;
-        display: block;
-        margin: auto;
-    }
     .header-content .search-footer {
         display: block;
         margin: auto;
@@ -2362,11 +2357,6 @@ nav ul ul li.last-item>a {
     }
     .header-content {
         text-align: center;
-    }
-    .header-content .logo img {
-        padding-bottom: 20px;
-        display: block;
-        margin: auto;
     }
     .header-content .search-footer {
         display: inline-block;
@@ -6629,7 +6619,7 @@ footer .copyright ul li img {
         left: -9999px;
     }
     tr {
-        border: 1px solid #ccc;
+        /* border: 1px solid #ccc; */
     }
     td {
         /* Behave  like a "row" */

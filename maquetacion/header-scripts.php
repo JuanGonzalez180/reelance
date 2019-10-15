@@ -26,19 +26,13 @@
             <link href="css/styles.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
 
             <!-- Fonts -->
-            <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
-            <link href='https://fonts.googleapis.com/css?family=Lato:400,600,700' rel='stylesheet' type='text/css'>
             <link href="fonts/BebasNeue/styles.css" media="all" type="text/css" rel="stylesheet"/>
             <link href="fonts/HelveticaNeue-Thin/styles.css" media="all" type="text/css" rel="stylesheet"/>
-            <link href="fonts/Museo-Sans/styles.css" media="all" type="text/css" rel="stylesheet"/>
             
             <!-- Juan -->
-            <link href="css/style_1.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
-            <!-- Omar -->
-            <link href="css/style_2.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
-            <link href="css/colores-two.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
-            <link href="css/colores-omar.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
+            <link href="css/style_reelance.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
+            <link href="css/colores.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
+            <link href="css/responsive.css<?php print $ver; ?>" media="all" type="text/css" rel="stylesheet"/>
 
             <!--stylesheet include-->
             <!-- <link rel="stylesheet" type="text/css" media="all" href="ant/css/settings.css"> -->

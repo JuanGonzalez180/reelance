@@ -32,7 +32,7 @@
                             </div>
                         </div>
                         <div class="text-center btn-complete">
-                            <button mbsc-button  type="button" class="ree-iniciarsesion">Iniciar Sesión</button>
+                            <button mbsc-button type="button" class="ree-iniciarsesion">Iniciar Sesión</button>
                         </div>
 
                         <div class="row">
