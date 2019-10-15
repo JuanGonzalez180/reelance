@@ -153,7 +153,7 @@
                     </div>
                 </li>
                 <li class="">
-                    <a class="" href="inicio">Noticias</a>
+                    <a class="" href="blog">Noticias</a>
                 </li>
                 <li class="">
                     <a class="" href="contacto">Contacto</a>
