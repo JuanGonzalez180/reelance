@@ -1,5 +1,5 @@
 <?php
-    $ver = '?0.022';
+    $ver = '?0.023';
     session_start();
     
     if(!isset($_SESSION['font']) ){
