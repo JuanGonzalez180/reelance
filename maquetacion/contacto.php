@@ -40,7 +40,7 @@
           <p>Guadalajara, Jalisco, México</p>
           <ul>
             <li><i class="icre-mail"></i> ventas@reelance.mx </li>
-            <li><i class="icre-phone-call"></i> 044-33-554-8-93 </li>
+            <li><i class="icre-phone-call"></i> 044-331-554-18-93 </li>
           </ul>
         </div>
       </div>

@@ -319,7 +319,7 @@
             <div class="col-sm-6 img-col">
                 <img class="img-prod" src="images/assets/productos/cera-hibrida-beneficios.png">
             </div>
-            <div class="col-sm-6 desc-col">
+            <div class="col-sm-6 desc-col plantillas">
                 <h2>Beneficios</h2>
                 <ul>
                     <li>Fortalece el cabello</li>
@@ -404,41 +404,20 @@
     </div>
 </section>
 
-<div class="box-bottom">
+<div class="bkg-ree-two box-bottom sombra-final">
     <section class="container container-padd-ree">
-        <h2 class="tit-ree">Testimonios</h2>
+        <h2 class="tit-ree-mus">Testimonios</h2>
 
-        <div class="swiper-container swiper-container-testi">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p class="tit-color-ree">Antes</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p class="tit-color-ree">Después</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p class="tit-color-ree">Antes</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p class="tit-color-ree">Después</p>
-                    </div>
-                </div>
+        <?php foreach ( [0,1,2,3] as $key => $value) { ?>
+        <div class="item-testim-inicio col-xs-12 col-sm-6">
+            <div class="col-xs-3 col-md-2">
+                <img class="img-testim" src="images/assets/testimonio-1.png" />
+            </div>
+            <div class="col-xs-9 col-md-10">
+                <p class="tit-color-ree text-testim">Quisque posuere tincidunt ante eu mattis. Nunc posuere, orci nec egestas pulvinar, massa purus pulvinar lorem</p>
+                <div><b><i class="icre-circular-wall-clock"></i> 10/09/2019</b></div>
             </div>
         </div>
+        <?php } ?>
     </section>
 </div>

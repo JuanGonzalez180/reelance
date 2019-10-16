@@ -236,6 +236,9 @@
         width: 32%;
     }
 
+    .row-suscribete > div{
+        width: 100%;
+    }
     
 }
 

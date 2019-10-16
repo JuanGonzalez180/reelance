@@ -37,44 +37,43 @@
     <div class="container container-padd-ree tienda-inicio">
         <div class="row row-productos">
             <div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/cera-hibrida.png">
-                    <h4>Cera Híbrida</h4>
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/locion-hombre.png">
                 </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/crecimiento-ceja.png">
-                    <h4>Crecimiento Ceja</h4>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/shampoo-hombre.png">
                 </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/crecimiento-pestanas.png">
-                    <h4>Crecimiento Pestañas</h4>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/locion-mujer.png">
                 </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/locion-hombre.png">
-                    <h4>Loción Hombre</h4>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/shampoo-mujer.png">
                 </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/locion-mujer.png">
-                    <h4>Loción Hombre</h4>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/crecimiento-pestanas.png">
                 </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/shampoo-hombre.png">
-                    <h4>Shampoo Hombre</h4>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/crecimiento-cejas.png">
                 </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/shampoo-mujer.png">
-                    <h4>Shampoo Mujer</h4>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/cera-hibrida.png">
                 </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/tratamiento-restaurador.png">
-                    <h4>Tratamiento Restaurador</h4>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/tratamiento-restaurador.png">
                 </a>
             </div>
         </div> 
@@ -178,7 +177,7 @@
 
 
 <section class="bkg-ree-two">
-    <div class="container container-padd-ree">
+    <div class="container container-padd-suscri">
         <div class="row row-suscribete">
             <div class="">
                 <h3>Suscríbete:</h3>
@@ -315,7 +314,7 @@
         <h2 class="tit-ree">Preguntas frecuentes</h2>
 
         <div class="col-xs-12 col-sm-6">
-            <div id="faq" class="ree-panel"  role="tablist" aria-multiselectable="true">
+            <div id="faq" class="ree-panel ree-faq"  role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="faq1" data-toggle="collapse" data-parent="#faq" href="#faqres1" aria-expanded="false" aria-controls="faqres1">
                         <div class="panel-title">

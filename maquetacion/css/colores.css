@@ -32,35 +32,54 @@ hr{
     color: #00c8e8;
 }
 
-.header-content .my-cart .menu-shop li .list-view .list-check,
-.search-header .search-icon{
-    background: #00c8e8;
-    color: #eeeeee;
-}
-
 .btn-page, .btn-page:hover, .btn-page:focus,
 .plantillas ul li:before{
     color: #00c8e8;
 }
 
+.header-content .my-cart .menu-shop li .list-view .list-check,
+.header-content .my-cart .menu-shop li .list-view .list-check:hover,
+.header-content .my-cart .menu-shop li .list-view .list-check:focus,
 .btn-price.btn-page,
-.mbsc-ios.mbsc-btn,
 .btn-cart-page, 
+.mbsc-ios.mbsc-btn,
 a.btn-cart-page{
     background: #00c8e8;
-    color: #fff;
+    color: #333;
+    border: 1px solid #333;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.btn-body2 .header-content .my-cart .menu-shop li .list-view .list-check,
+.btn-body2 .header-content .my-cart .menu-shop li .list-view .list-check:hover,
+.btn-body2 .header-content .my-cart .menu-shop li .list-view .list-check:focus,
+.btn-body2 .btn-price.btn-page,
+.btn-body2 .btn-cart-page, 
+.btn-body2 .mbsc-ios.mbsc-btn,
+.btn-body2 a.btn-cart-page{
+    color: #eee;
+    background: #333;
+    border: 1px solid #333;
 }
 
 .ree-facebook.mbsc-ios.mbsc-btn{
     background: #3b5998;
+    color: #eee;
+    border: 0px;
 }
 
 .ree-google.mbsc-ios.mbsc-btn{
     background: #db4a39;
+    color: #eee;
+    border: 0px;
 }
 
 .ree-btn-two.mbsc-ios.mbsc-btn{
     background: #559be2;
+    color: #eee;
+    border: 0px;
+}
 }
 
 .btn-price.btn-page:hover, 
@@ -70,9 +89,9 @@ a.btn-cart-page{
 .btn-cart-page:hover,.btn-cart-page:focus, 
 a.btn-cart-page:hover, a.btn-cart-page:focus{
     background: #00c8e8;
-    color: #fff;
+    color: #333;
     text-decoration: none;
-    border: 0px;
+    border: 1px solid #333;
 }
 
 .bl-fecha{
@@ -208,19 +227,19 @@ footer .copyright,
 .pagination>li>a, .pagination>li>span {
     color: #333333;
     background-color: #fff;
-    border-color: #ccc;
+    border-color: #333;
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
-    color: #eeeeee;
+    color: #333;
     background-color: #00c8e8;
-    border-color: #00c8e8;
+    border-color: #333;
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
     background-color: #00c8e8;
-    border-color: transparent;
-    color: #eeeeee;
+    border-color: #333;
+    color: #333;
 }
 
 .pricing-column.highlight h3 .highlight-reason{
@@ -412,11 +431,11 @@ a.btn-black,
 
 .pricing-column.highlight h3 {
     color: #fff;
-    background-color: rgba(0,0,0,0.8);
+    background-color: #00c8e8;
 }
 
 .pricing-column.highlight h3 .highlight-reason {
-    color: rgba(255, 255, 225, 0.4);
+    color: #333;
 }
 
 .pricing-column .qty {
