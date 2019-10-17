@@ -26,7 +26,7 @@
             <div class="col-xs-4 pricing-column">
                 <h3>1 MES DE TRATAMIENTO</h3>
                 <div class="pricing-column-content">
-                    <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_1-300x221.png" alt="" width="300" height="221">
+                    <img src="images/assets/productos-promociones/hombre-1.jpg" alt="" width="300" height="221">
                 </div>
                 <div class="pricing-footer">
                     <div class="col-xs-5">
@@ -43,11 +43,11 @@
                 </div>
             </div><div class="col-xs-4 pricing-column highlight">
                 <h3>
-                    3 MESES DE TRATAMIENTO
+                    4 MESES DE TRATAMIENTO
                     <span class="highlight-reason">Recomendado</span>
                 </h3>
                 <div class="pricing-column-content">
-                    <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_4-300x221.png" alt="" width="300" height="221">
+                    <img src="images/assets/productos-promociones/hombre-4.jpg" alt="" width="300" height="221">
                 </div>
                 <div class="pricing-footer">
                     <div class="col-xs-5">
@@ -67,7 +67,7 @@
                     2 MESES DE TRATAMIENTO
                 </h3>
                 <div class="pricing-column-content">
-                    <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_2-300x221.png" alt="" width="300" height="221">
+                    <img src="images/assets/productos-promociones/hombre-2.jpg" alt="" width="300" height="221">
                 </div>
                 <div class="pricing-footer">
                     <div class="col-xs-5">

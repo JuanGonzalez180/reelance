@@ -240,6 +240,13 @@
         width: 100%;
     }
     
+    .finalizar-compra .img-inicio, .finalizar-compra h2.tit-ree{
+        text-align: center;
+    }
+
+    .row-header-checkout .col-xs-6{
+        width: 100%;
+    }
 }
 
 @media (max-width: 760px){

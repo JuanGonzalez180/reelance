@@ -1,4 +1,4 @@
-<div mbsc-page class="demo-desktop-single-multi-column forms-usuarios">
+<div mbsc-page class="demo-desktop-single-multi-column forms-usuarios forms-white-box">
     <div mbsc-form class="mbsc-form-box">
         <div class="mbsc-grid mbsc-grid-fixed">
             <div class="mbsc-form-group">

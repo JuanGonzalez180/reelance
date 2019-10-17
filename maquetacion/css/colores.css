@@ -41,14 +41,17 @@ hr{
 .header-content .my-cart .menu-shop li .list-view .list-check:hover,
 .header-content .my-cart .menu-shop li .list-view .list-check:focus,
 .btn-price.btn-page,
+.btn-price.btn-page:hover, 
+.btn-price.btn-page:focus,
 .btn-cart-page, 
+.btn-cart-page:hover,.btn-cart-page:focus,
 .mbsc-ios.mbsc-btn,
-a.btn-cart-page{
+a.btn-cart-page,
+a.btn-cart-page:hover, a.btn-cart-page:focus{
     background: #00c8e8;
     color: #333;
-    border: 1px solid #333;
-    font-weight: 700;
     letter-spacing: 0.5px;
+    font-family: 'BebasNeue', Lato;
 }
 
 .btn-body2 .header-content .my-cart .menu-shop li .list-view .list-check,
@@ -61,6 +64,7 @@ a.btn-cart-page{
     color: #eee;
     background: #333;
     border: 1px solid #333;
+    text-decoration: none;
 }
 
 .ree-facebook.mbsc-ios.mbsc-btn{
@@ -79,19 +83,6 @@ a.btn-cart-page{
     background: #559be2;
     color: #eee;
     border: 0px;
-}
-}
-
-.btn-price.btn-page:hover, 
-.btn-price.btn-page:focus,
-.header-content .my-cart .menu-shop li .list-view .list-check:hover,
-.header-content .my-cart .menu-shop li .list-view .list-check:focus,
-.btn-cart-page:hover,.btn-cart-page:focus, 
-a.btn-cart-page:hover, a.btn-cart-page:focus{
-    background: #00c8e8;
-    color: #333;
-    text-decoration: none;
-    border: 1px solid #333;
 }
 
 .bl-fecha{
@@ -242,9 +233,6 @@ footer .copyright,
     color: #333;
 }
 
-.pricing-column.highlight h3 .highlight-reason{
-    color: #eeeeee;
-}
 
 .bkg-ree-faq:before{
     background-color: rgba(0, 0, 0, 0.85);
@@ -376,7 +364,8 @@ a.btn-black,
     background-color: #ffffff;
 }
 
-.tienda-inicio .row-productos .col{
+.tienda-inicio .row-productos .col,
+.submenu-reel-tienda .row-productos .col{
     background-color: transparent;
 }
 
@@ -423,19 +412,19 @@ a.btn-black,
 
 .pricing-column h3 {
     background-color: #fff;
-    color: rgba(0,0,0,0.8);
+    color: #00c8e8;
     /* border-right: 1px solid #e4e4e4; */
     border-bottom: 1px solid #EFEFEF;
     /* border-top: 1px solid #e4e4e4; */
 }
 
 .pricing-column.highlight h3 {
-    color: #fff;
+    color: #333;
     background-color: #00c8e8;
 }
 
 .pricing-column.highlight h3 .highlight-reason {
-    color: #333;
+    color: #fff;
 }
 
 .pricing-column .qty {

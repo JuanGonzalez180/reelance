@@ -1,5 +1,5 @@
 <?php
-    $ver = '?0.024';
+    $ver = '?0.025';
     session_start();
     
     if(!isset($_SESSION['font']) ){
@@ -19,6 +19,16 @@
         $archivo_actual = $_GET['page'];
     }
 
+    $bodyAdd = '';
+    if( $archivo_actual == 'iniciar-sesion' || 
+        $archivo_actual == 'registrarse' || 
+        $archivo_actual == 'recuperar-contrasena' ||
+        $archivo_actual == 'blog' ||
+        $archivo_actual == 'blog-detalle'
+    ){
+        $bodyAdd = "bkg-ree-two";
+    }
+
     include 'header-scripts.php';
     if( $archivo_actual !== 'iniciar-sesion' && 
         $archivo_actual !== 'registrarse' && 
@@ -27,6 +37,7 @@
     ){
         include 'header.php';
     }
+
     
     if( $archivo_actual && file_exists( $archivo_actual . '.php' ) ){
         if( 

@@ -258,12 +258,6 @@ $( document ).ready(function() {
         });
     }
 
-    $(document).on('click', ".openTienda", function(){
-        setTimeout(() => {
-            scrollFloat();
-        }, 400);
-    });
-
     function resizeCarrito(){
         if( $( window ).width() < 992 ){
             $(".tbl-cart-view").removeClass('tbl-detail');

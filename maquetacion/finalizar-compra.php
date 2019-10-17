@@ -1,15 +1,21 @@
 <section class="main-content finalizar-compra">
     <div class="container">
-        <a href="inicio" class="img-inicio">
-            <img src="images/assets/logo-internas.png" alt="">
-        </a>
-    </div>
-
-    <div class="header-ree-checkout">
-        <div class="box-title">
-            <h2 class="tit-ree">Check out</h2>
+        <div class="row row-header-checkout">
+            <div class="col-xs-6">
+                <a href="inicio" class="img-inicio">
+                    <img src="images/assets/logo-internas.png" alt="">
+                </a>
+            </div>
+            <div class="col-xs-6">
+                <div class="header-ree-checkout">
+                    <div class="box-title">
+                        <h2 class="tit-ree">Check out</h2>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 
     <div class="container">
         <div class="row row-cart-ree checkout">
@@ -17,7 +23,7 @@
 
                 <form id="formFinalizarCompra" mbsc-form class="mbsc-form-box">
                     <div class="col-xs-12 bg-recuadros step-checkout step-container-1">
-                        <div class="number-step-checkout">1</div>
+                        <div class="number-step-checkout">Paso 1</div>
 
                         <div class="col-md-12">
                             <h3>Su información</h3>
@@ -93,7 +99,7 @@
                     </div>
 
                     <div class="col-xs-12 bg-recuadros step-checkout step-container-2">
-                        <div class="number-step-checkout">2</div>
+                        <div class="number-step-checkout">Paso 2</div>
                         <div class="col-md-12">
                             <h3>Dirección de envío (México)</h3>
                         </div>
@@ -277,7 +283,7 @@
                     
                     <br>
                     <div class="col-xs-12 bg-recuadros step-checkout step-container-3">
-                        <div class="number-step-checkout">3</div>
+                        <div class="number-step-checkout">Paso 3</div>
                         <div class="col-md-12">
                             <h3>Métodos de pago</h3>
                         </div>
