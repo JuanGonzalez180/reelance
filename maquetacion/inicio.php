@@ -35,6 +35,7 @@
 
 <section class="bkg-ree-two arma-tu-paquete">
     <div class="container tienda-inicio">
+        <!-- Desktop -->
         <div class="row row-productos">
             <div class="col">
                 <a class="transition" href="tienda" title="">
@@ -76,7 +77,73 @@
                     <img src="images/assets/productos-home/tratamiento-restaurador.png">
                 </a>
             </div>
-        </div> 
+        </div>
+
+        <!-- Responsive -->
+        <div class="swiper-container swiper-container-productos-home swiper-productos-home">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/locion-hombre.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/shampoo-hombre.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/locion-mujer.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/shampoo-mujer.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/crecimiento-pestanas.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/crecimiento-cejas.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/cera-hibrida.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/tratamiento-restaurador.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-btn-prodhome-next"></div>
+            <div class="swiper-button-prev swiper-btn-prodhome-prev"></div>
+        </div>
+
     </div> 
 </section> 
 
@@ -324,7 +391,7 @@
     </div>
 </section>
 
-<div class="bkg-ree-two box-bottom sombra-final">
+<div class="bkg-ree-two box-bottom">
     <section class="container container-padd-ree">
         <h2 class="tit-ree-mus">Testimonios</h2>
 

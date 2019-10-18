@@ -376,6 +376,9 @@
                     </div>
                 </div>
             </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-btn-moduse-next"></div>
+            <div class="swiper-button-prev swiper-btn-moduse-prev"></div>
         </div>
 
     </div>
@@ -404,7 +407,7 @@
     </div>
 </section>
 
-<div class="bkg-ree-two box-bottom sombra-final">
+<div class="bkg-ree-two box-bottom">
     <section class="container container-padd-ree">
         <h2 class="tit-ree-mus">Testimonios</h2>
 

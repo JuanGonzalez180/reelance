@@ -217,7 +217,7 @@ footer .copyright,
 
 .pagination>li>a, .pagination>li>span {
     color: #333333;
-    background-color: #fff;
+    background-color: transparent;
     border-color: #333;
 }
 

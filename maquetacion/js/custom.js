@@ -36,6 +36,15 @@ var swiperProductos = new Swiper('.swiper-container-products', {
     spaceBetween: 30
 });
 
+var swiperProductosHome = new Swiper('.swiper-container-productos-home', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: '.swiper-btn-prodhome-next',
+        prevEl: '.swiper-btn-prodhome-prev',
+    },
+});
+
 var swiperPromo = new Swiper('.swiper-container-promociones', {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -59,6 +68,10 @@ var swiperPromo = new Swiper('.swiper-container-promociones', {
 
 var swiperFunc = new Swiper('.swiper-container-func', {
     slidesPerView: 4,
+    navigation: {
+        nextEl: '.swiper-btn-moduse-next',
+        prevEl: '.swiper-btn-moduse-prev',
+    },
     pagination: {
         el: '.swiper-func-pagination',
         clickable: true,
@@ -172,6 +185,17 @@ $( document ).ready(function() {
         $(".step-container-3").addClass("step-inactive");
     });
 
+     $(document).on("click", ".nav-button", function(){
+         console.log( 'nav-button' );
+         if( $(this).hasClass("nav-button-open") ){
+             $("body").removeClass("open");
+             $(this).removeClass("nav-button-open");
+         }else{
+             $("body").addClass("open");
+             $(this).addClass("nav-button-open");
+         }
+     });
+
     var cbAllow = $('.md-allow'),
         stepperLuggage = $('.md-luggage');
 
@@ -277,6 +301,8 @@ $( document ).ready(function() {
         }else{
             $(".tbl-cart-view").addClass('tbl-detail');
             $("#navbarSupportedContent").removeClass('in');
+            $("body").removeClass("open");
+             $(".nav-button").removeClass("nav-button-open");
         }
     }
 
