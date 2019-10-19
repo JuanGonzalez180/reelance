@@ -1996,6 +1996,7 @@ footer .copyright p.text {
     height: 21px;
     position: relative;
     width: 25px;
+    overflow: hidden;
 }
 
 .nav-button::before, .nav-button::after {
@@ -2028,7 +2029,7 @@ footer .copyright p.text {
 }
 
 .nav-button.nav-button-open::before {
-    top: 6px;
+    top: 8px;
     clear: both;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -2038,7 +2039,7 @@ footer .copyright p.text {
 }
 
 .nav-button.nav-button-open::after {
-    top: 6px;
+    top: 8px;
     clear: both;
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
@@ -2108,7 +2109,8 @@ body.open{
     overflow-y: auto;
 }
 .nav-menu-resp-ree .row-productos .col{
-    width: calc(50% - 20px);
+    width: 44%;
+    width: calc(50% - 40px);
 }
 
 .nav-menu-resp-ree .row-productos img{

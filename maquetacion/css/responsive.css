@@ -79,7 +79,7 @@
 
 @media (max-width: 991px){
     .container-promociones-tienda{
-        display: none;
+        /* display: none; */
     }
 
     .arma-tu-paquete{
@@ -270,6 +270,10 @@
 
     .row-header-checkout .col-xs-6{
         width: 100%;
+    }
+
+    .row-pagos > div{
+        margin-bottom: 30px;
     }
 }
 
