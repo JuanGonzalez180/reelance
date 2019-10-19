@@ -1987,7 +1987,7 @@ footer .copyright p.text {
     text-align: right;
 }
 
-.nav-button {
+button.nav-button {
     background-color: transparent;
     border-color: #5e5d5d;
     border-style: solid;
