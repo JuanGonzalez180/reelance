@@ -1992,10 +1992,11 @@ footer .copyright p.text {
     border-color: #5e5d5d;
     border-style: solid;
     border-width: 2px 0px 0px;
-    display: inline-block;
+    display: block;
     height: 21px;
     position: relative;
-    width: 25px;
+    width: 25px !important;
+    max-width: 25px;
     overflow: hidden;
 }
 
