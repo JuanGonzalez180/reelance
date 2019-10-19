@@ -1991,7 +1991,7 @@ button.nav-button {
     background-color: transparent;
     border-color: #5e5d5d;
     border-style: solid;
-    border-width: 2px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
     display: block;
     height: 21px;
     position: relative;
