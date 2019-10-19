@@ -97,7 +97,7 @@
     }
 
     .nav-resp{
-        display: inline;
+        display: inline-block;
     }
 
     .row-header .logo{
