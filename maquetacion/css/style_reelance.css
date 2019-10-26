@@ -1549,11 +1549,11 @@ footer .copyright p.text {
     flex-direction: row;
 }
 
-.finalizar-compra .checkout > col-md-8{
+.finalizar-compra .checkout > .col-md-8{
     width: 67%;
 }
 
-.finalizar-compra .checkout > col-md-4{
+.finalizar-compra .checkout > .col-md-4{
     width: 32%;
 }
 
