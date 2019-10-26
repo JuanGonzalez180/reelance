@@ -56,7 +56,8 @@ h1, h2, h3, h4, h5, h6, .font-bebasneue,
 .mbsc-page h1, .mbsc-page h2, .mbsc-page h3, .mbsc-page h4, .mbsc-page h5, .mbsc-page h6,
 .nav-menu-resp-ree a,
 .ree-faq .panel-title > a,
-.number-step-checkout{
+.number-step-checkout,
+.product-contenido{
     font-family: 'BebasNeue', Lato;
     letter-spacing: 0.5px;
 }
@@ -1274,6 +1275,15 @@ footer .copyright p.text {
 
 .tienda .product-name{
     padding: 0px;
+}
+
+.product-contenido{
+    font-size: 23px;
+}
+
+.product-contenido.price-product{
+    margin-top: 12px;
+    font-size: 32px;
 }
 
 .tienda .row-tienda-prod .mbsc-ios.mbsc-btn{

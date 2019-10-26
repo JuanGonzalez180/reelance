@@ -3,6 +3,7 @@
         <div class="row row-tienda-prod">
             <div class="col-sm-6 img-col">
                 <img class="img-prod" src="images/assets/productos/cera-hibrida-producto.png">
+                <div class="product-contenido"><span>120</span>ml</div>
             </div>
             <div class="col-sm-6 desc-col">
                 <h3>Crecimiento Ceja</h3>
@@ -14,6 +15,7 @@
                     <i class="lni-star-filled"></i>
                     <i class="lni-star"></i>
                 </div>
+                <div class="product-contenido price-product">$450</div>
                 <a mbsc-button href="carrito" type="button">Añadir al Carrito</a>
             </div>
         </div>
