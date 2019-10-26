@@ -254,7 +254,7 @@ $( document ).ready(function() {
                     top: topMax - ( ( current_top + elementHeight + topMax + 70 ) - itemBeforeTienda.offset()['top'] + 20 ),
                 });
             }else{
-                if( current_top > tienda.offset()['top'] ){
+                if( current_top > tienda.offset()['top'] - 90 ){
                     element2.css({
                         position: 'fixed',
                         top: 90
