@@ -3,6 +3,32 @@ Maquetación página Reelance
 
 #Pages
 
+URL's HTML: <br>
+/index.html <br>
+/404.html <br>
+/blog.html <br>
+/blog-detalle.html <br>
+/resultados-de-busqueda.html <br>
+/contacto.html <br>
+/iniciar-sesion.html <br>
+/registrarse.html <br>
+/recuperar-contrasena.html <br>
+/terminos-y-condiciones.html <br>
+/politicas-de-privacidad.html <br>
+/plantilla-1.html <br>
+/plantilla-2.html <br>
+/plantilla-3.html <br>
+/mi-cuenta.html <br>
+/mi-cuenta-pedidos.html <br>
+/mi-cuenta-pedido-detalle.html <br>
+/mi-cuenta-editar.html <br>
+/mi-cuenta-envio.html <br>
+/mi-cuenta-facturacion.html <br>
+/plantilla-correos.html <br>
+/confirmacion-compra.html <br>
+/finalizar-compra.html <br>
+/carrito.html <br>
+
 URL's: <br>
 http://reelance.ideoweinc.com/inicio <br>
 http://reelance.ideoweinc.com/404 <br>
