@@ -3,6 +3,7 @@
         <div class="row row-tienda-prod">
             <div class="col-sm-6 img-col">
                 <img class="img-prod" src="images/assets/productos/cera-hibrida-producto.png">
+                <div class="product-contenido"><span>120</span>ml</div>
             </div>
             <div class="col-sm-6 desc-col">
                 <h3>Crecimiento Ceja</h3>
@@ -14,6 +15,7 @@
                     <i class="lni-star-filled"></i>
                     <i class="lni-star"></i>
                 </div>
+                <div class="product-contenido price-product">$450</div>
                 <a mbsc-button href="carrito" type="button">Añadir al Carrito</a>
             </div>
         </div>
@@ -26,7 +28,7 @@
             <div class="col-xs-4 pricing-column">
                 <h3>1 MES DE TRATAMIENTO</h3>
                 <div class="pricing-column-content">
-                    <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_1-300x221.png" alt="" width="300" height="221">
+                    <img src="images/assets/productos-promociones/hombre-1.jpg" alt="" width="300" height="221">
                 </div>
                 <div class="pricing-footer">
                     <div class="col-xs-5">
@@ -43,11 +45,11 @@
                 </div>
             </div><div class="col-xs-4 pricing-column highlight">
                 <h3>
-                    3 MESES DE TRATAMIENTO
+                    4 MESES DE TRATAMIENTO
                     <span class="highlight-reason">Recomendado</span>
                 </h3>
                 <div class="pricing-column-content">
-                    <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_4-300x221.png" alt="" width="300" height="221">
+                    <img src="images/assets/productos-promociones/hombre-4.jpg" alt="" width="300" height="221">
                 </div>
                 <div class="pricing-footer">
                     <div class="col-xs-5">
@@ -67,7 +69,7 @@
                     2 MESES DE TRATAMIENTO
                 </h3>
                 <div class="pricing-column-content">
-                    <img src="https://www.reelance.mx/wp-content/uploads/2015/04/reelance_homre_2-300x221.png" alt="" width="300" height="221">
+                    <img src="images/assets/productos-promociones/hombre-2.jpg" alt="" width="300" height="221">
                 </div>
                 <div class="pricing-footer">
                     <div class="col-xs-5">
@@ -319,7 +321,7 @@
             <div class="col-sm-6 img-col">
                 <img class="img-prod" src="images/assets/productos/cera-hibrida-beneficios.png">
             </div>
-            <div class="col-sm-6 desc-col">
+            <div class="col-sm-6 desc-col plantillas">
                 <h2>Beneficios</h2>
                 <ul>
                     <li>Fortalece el cabello</li>
@@ -376,6 +378,9 @@
                     </div>
                 </div>
             </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-btn-moduse-next"></div>
+            <div class="swiper-button-prev swiper-btn-moduse-prev"></div>
         </div>
 
     </div>
@@ -404,41 +409,20 @@
     </div>
 </section>
 
-<div class="box-bottom">
+<div class="bkg-ree-two box-bottom">
     <section class="container container-padd-ree">
-        <h2 class="tit-ree">Testimonios</h2>
+        <h2 class="tit-ree-mus">Testimonios</h2>
 
-        <div class="swiper-container swiper-container-testi">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p class="tit-color-ree">Antes</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p class="tit-color-ree">Después</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p class="tit-color-ree">Antes</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-testi">
-                        <h3></h3>
-                        <img src="images/assets/testimonio-1.png" />
-                        <p class="tit-color-ree">Después</p>
-                    </div>
-                </div>
+        <?php foreach ( [0,1,2,3] as $key => $value) { ?>
+        <div class="item-testim-inicio col-xs-12 col-sm-6">
+            <div class="col-xs-3 col-md-2">
+                <img class="img-testim" src="images/assets/testimonio-1.png" />
+            </div>
+            <div class="col-xs-9 col-md-10">
+                <p class="tit-color-ree text-testim">Quisque posuere tincidunt ante eu mattis. Nunc posuere, orci nec egestas pulvinar, massa purus pulvinar lorem</p>
+                <div><b><i class="icre-circular-wall-clock"></i> 10/09/2019</b></div>
             </div>
         </div>
+        <?php } ?>
     </section>
 </div>

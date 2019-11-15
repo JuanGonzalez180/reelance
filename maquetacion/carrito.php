@@ -4,7 +4,7 @@
     </div>
 </div>
 
-<section class="main-content bkg-ree-two sombra-final">
+<section class="main-content bkg-ree-two">
     <div class="product-name">
         <div class="container">
             <div class="row row-cart-ree">

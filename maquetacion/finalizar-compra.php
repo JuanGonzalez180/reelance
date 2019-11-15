@@ -1,15 +1,30 @@
 <section class="main-content finalizar-compra">
     <div class="container">
-        <a href="inicio" class="img-inicio">
-            <img src="images/assets/logo-internas.png" alt="">
-        </a>
+        <div class="row row-header-checkout">
+            <div class="col-xs-6">
+                <a href="inicio" class="img-inicio">
+                    <img src="images/assets/logo-internas.png" alt="">
+                </a>
+            </div>
+            <div class="col-xs-6">
+                <div class="header-ree-checkout">
+                    <div class="box-title">
+                        <h2 class="tit-ree">Check out</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
     <div class="container">
         <div class="row row-cart-ree checkout">
             <div class="col-xs-12 col-md-8">
 
                 <form id="formFinalizarCompra" mbsc-form class="mbsc-form-box">
                     <div class="col-xs-12 bg-recuadros step-checkout step-container-1">
+                        <div class="number-step-checkout">Paso 1</div>
+
                         <div class="col-md-12">
                             <h3>Su información</h3>
                         </div>
@@ -52,7 +67,7 @@
                                             <div class="mbsc-row">
                                                 <div class="mbsc-col-12">
                                                     <div>
-                                                        <label for="telefono">Teléfono*</label>
+                                                        <label for="telefono">Celular*</label>
                                                         <input mbsc-input data-input-style="box" data-label-style="floating" id="telefono" type="text" placeholder=""/>
                                                     </div>
                                                 </div>
@@ -84,6 +99,7 @@
                     </div>
 
                     <div class="col-xs-12 bg-recuadros step-checkout step-container-2">
+                        <div class="number-step-checkout">Paso 2</div>
                         <div class="col-md-12">
                             <h3>Dirección de envío (México)</h3>
                         </div>
@@ -267,6 +283,7 @@
                     
                     <br>
                     <div class="col-xs-12 bg-recuadros step-checkout step-container-3">
+                        <div class="number-step-checkout">Paso 3</div>
                         <div class="col-md-12">
                             <h3>Métodos de pago</h3>
                         </div>
@@ -274,19 +291,41 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <label>
-                                        <input mbsc-radio type="radio" name="group" /> <span class="mbsc-label">Tarjetas de credito y debito, VISA y MasterCard</span>
-                                        <span class="mbsc-desc">Pague con tarjeta de crédito de forma segura a través de Banamex. Tres meses sin interes con tu tarjeta Banamex.
-                                            <br><img src="https://www.reelance.mx/wuichy/visa.png" alt="Tarjeta de crédito Visa" style="height: 30px;"><img src="https://www.reelance.mx/wuichy/mastercard.png" alt="Tarjeta de crédito MasterCard" style="height: 30px;">
+                                        <input mbsc-radio type="radio" name="group" /> 
+                                        <span class="mbsc-label metodos">
+                                            <span class="img-met img-met-color"><img src="images/assets/visa.png" alt="Tarjeta de crédito Visa" style="height: 30px;"></span>
+                                            <span class="img-met img-met-color"><img src="images/assets/mastercard.png" alt="Tarjeta de crédito MasterCard" style="height: 30px;"></span>
+                                            <span class="img-met img-met-color"><img src="images/assets/american-express.png" alt="American Express" style="height: 30px;"></span>
+                                        </span>
+                                        <span class="mbsc-desc">
+                                            Pago con tarjeta de crédito o débito
                                         </span>
                                     </label>
                                     <label>
-                                        <input mbsc-radio type="radio" name="group" /> Pagos en Oxxo, Banamex y Transferencia Interbancaria
-                                        <span class="mbsc-desc">Realiza tu pago directamente en nuestra cuenta bancaria u Oxxo. Por favor USA EL NUMERO DE PEDIDO como referencia de pago. El pedido no será enviado hasta que el importe completo haya sido recibido en nuestra cuenta.</span>
+                                        <input mbsc-radio type="radio" name="group" />
+                                        <span class="mbsc-label metodos">
+                                            <span class="img-met"><img src="images/assets/paypal.png" alt="Paypal" style="height: 30px;"></span>
+                                        </span>
+                                        <span class="mbsc-desc">
+                                            Pago con tu cuenta Paypal
+                                        </span>
                                     </label>
                                     <label>
-                                        <input mbsc-radio type="radio" name="group" /> Paypal
-                                        <span class="mbsc-desc">Pagar via PayPal; Puedes pagar con tu tarjeta de crédito si no tienes una cuenta de PayPal.
-                                            <br><img src="https://www.reelance.mx/wp-content/themes/salient/img/paypal.png" alt="Indicador de aceptación de PayPal">
+                                        <input mbsc-radio type="radio" name="group" />
+                                        <span class="mbsc-label metodos">
+                                            <span class="img-met"><img src="images/assets/oxxo.png" alt="Oxxo" style="height: 30px;"></span>
+                                        </span>
+                                        <span class="mbsc-desc">
+                                            Pago en Oxxo
+                                        </span>
+                                    </label>
+                                    <label>
+                                        <input mbsc-radio type="radio" name="group" />
+                                        <span class="mbsc-label metodos">
+                                            <span class="img-met"><img src="images/assets/citibanamex-logo.png" alt="Citibanamex" style="height: 30px;"></span>
+                                        </span>
+                                        <span class="mbsc-desc">
+                                            Depósito bancario o transferencia
                                         </span>
                                     </label>
                                 </div>
@@ -401,11 +440,6 @@
                             <div class="text-right">
                                 <h3><span class="the-after">$800</span></h3>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <a href="confirmacion-compra" class="btn-cart-page btn-checkout">Realizar el pedido</a>
                         </div>
                     </div>
                     

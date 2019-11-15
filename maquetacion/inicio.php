@@ -34,50 +34,116 @@
 </div>
 
 <section class="bkg-ree-two arma-tu-paquete">
-    <div class="container container-padd-ree tienda-inicio">
+    <div class="container tienda-inicio">
+        <!-- Desktop -->
         <div class="row row-productos">
             <div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/cera-hibrida.png">
-                    <h4>Cera Híbrida</h4>
-                </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/crecimiento-ceja.png">
-                    <h4>Crecimiento Ceja</h4>
-                </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/crecimiento-pestanas.png">
-                    <h4>Crecimiento Pestañas</h4>
-                </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/locion-hombre.png">
-                    <h4>Loción Hombre</h4>
-                </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/locion-mujer.png">
-                    <h4>Loción Hombre</h4>
-                </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/shampoo-hombre.png">
-                    <h4>Shampoo Hombre</h4>
-                </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/shampoo-mujer.png">
-                    <h4>Shampoo Mujer</h4>
-                </a>
-            </div><div class="col">
-                <a class="transition" href="" title="">
-                    <img src="images/assets/productos/tratamiento-restaurador.png">
-                    <h4>Tratamiento Restaurador</h4>
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/locion-hombre.png">
                 </a>
             </div>
-        </div> 
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/shampoo-hombre.png">
+                </a>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/locion-mujer.png">
+                </a>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/shampoo-mujer.png">
+                </a>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/crecimiento-pestanas.png">
+                </a>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/crecimiento-cejas.png">
+                </a>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/cera-hibrida.png">
+                </a>
+            </div>
+            <div class="col">
+                <a class="transition" href="tienda" title="">
+                    <img src="images/assets/productos-home/tratamiento-restaurador.png">
+                </a>
+            </div>
+        </div>
+
+        <!-- Responsive -->
+        <div class="swiper-container swiper-container-productos-home swiper-productos-home">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/locion-hombre.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/shampoo-hombre.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/locion-mujer.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/shampoo-mujer.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/crecimiento-pestanas.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/crecimiento-cejas.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/cera-hibrida.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col">
+                        <a class="transition" href="tienda" title="">
+                            <img src="images/assets/productos-home/tratamiento-restaurador.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-btn-prodhome-next"></div>
+            <div class="swiper-button-prev swiper-btn-prodhome-prev"></div>
+        </div>
+
     </div> 
 </section> 
 
@@ -107,78 +173,8 @@
     </div>
 </section>
 
-<!-- <section class="bkg-ree-two">
-    <div class="container container-padd-ree">
-        <h2 class="tit-ree">Promociones Recomendadas</h2>
-
-        <div class="swiper-container swiper-container-promociones">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="swiper-promo">
-                        <div class="img-promo">
-                            <img src="images/assets/producto-1.png" />
-                            <div class="price-promo">$1.000,00</div>
-                        </div>
-                        <h3 class="tit-color-ree">Tratamiento Nutritivo Restaurador + Reelance Mujer</h3>
-                        <div class="separator-line"></div>
-                        <a href="#" class="btn-page">Añadir al carrito</a>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-promo">
-                        <div class="img-promo">
-                            <img src="images/assets/producto-2.png" />
-                            <div class="price-promo">$1.000,00</div>
-                        </div>
-                        <h3 class="tit-color-ree">Dos Tratamiento Nutritivo Restaurador</h3>
-                        <div class="separator-line"></div>
-                        <a href="#" class="btn-page">Añadir al carrito</a>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-promo">
-                        <div class="img-promo">
-                            <img src="images/assets/producto-3.png" />
-                            <div class="price-promo">$1.000,00</div>
-                        </div>
-                        <h3 class="tit-color-ree">Potenciador para Crecimiento de Pestañas</h3>
-                        <div class="separator-line"></div>
-                        <a href="#" class="btn-page">Añadir al carrito</a>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-promo">
-                        <div class="img-promo">
-                            <img src="images/assets/producto-1.png" />
-                            <div class="price-promo">$1.000,00</div>
-                        </div>
-                        <h3 class="tit-color-ree">Alopecia Congenia</h3>
-                        <div class="separator-line"></div>
-                        <a href="#" class="btn-page">Añadir al carrito</a>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="swiper-promo">
-                        <div class="img-promo">
-                            <img src="images/assets/producto-2.png" />
-                            <div class="price-promo">$1.000,00</div>
-                        </div>
-                        <h3 class="tit-color-ree">Alopecia Congenia</h3>
-                        <div class="separator-line"></div>
-                        <a href="#" class="btn-page">Añadir al carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next swiper-btn-promo-next"></div>
-            <div class="swiper-button-prev swiper-btn-promo-prev"></div>
-        </div>
-
-    </div>
-</section> -->
-
-
 <section class="bkg-ree-two">
-    <div class="container container-padd-ree">
+    <div class="container container-padd-suscri">
         <div class="row row-suscribete">
             <div class="">
                 <h3>Suscríbete:</h3>
@@ -252,51 +248,6 @@
             </div>
         </div>
     </div>
-        
-    <!-- <h2 class="tit-ree">¿Cómo funcionan nuestros productos?</h2>
-
-    <ul class="row ">
-        <li class="col-md-12 ree-item-nosotros">
-            <div class="col-sm-3">
-                <img src="images/assets/producto-1.png" alt="">
-            </div>
-            <div class="col-sm-9 wow fadeInRight animated">
-                <h3>ETAPA 1: Primera y segunda semana</h3>
-                <p>La primera etapa del tratamiento es más que nada un proceso de adaptación al ritmo de la aplicación diaria y la aceptación del Minoxidil por parte del organismo, especialmente su absorción a través del cuero cabelludo.
-                    Durante las dos primeras semanas del tratamiento notarás que el cabello se cae mucho menos, incluso en la mayoría de los casos se detiene la caída completamente.</p>
-            </div>
-        </li>
-
-        <li class="col-md-12 ree-item-nosotros">
-            <div class="col-sm-9 wow fadeInLeft animated">
-                <h3>ETAPA 2: Cuarta y octava semana</h3>
-                <p>Al cumplir el primer mes se recomienda duplicar la aplicación del Minoxidil, es decir, se puede usar en la mañana y antes de acostarse. Además, los resultados son superiores cuando se complementa con otros productos para la caída del cabello que sean recomendados. En esta etapa ya te encuentras en el segundo mes del tratamiento y es muy probable que notes los primeros cambios.</p>
-            </div>
-            <div class="col-sm-3">
-                <img src="images/assets/producto-1.png" alt="">
-            </div>
-        </li>
-
-        <li class="col-md-12 ree-item-nosotros">
-            <div class="col-sm-3">
-                <img src="images/assets/producto-1.png" alt="">
-            </div>
-            <div class="col-sm-9 wow fadeInRight animated">
-                <h3>ETAPA 3: Tercer y cuarto mes</h3>
-                <p>Aplicando la loción capilar dos veces al día y con la constancia requerida el cabello empieza a nacer a paso lento, pero irás notando su crecimiento. La circulación de la sangre es mucho mejor por el uso del Minoxidil y los folículos ya logran estar más fortalecidos con el ingreso de nuevas células.</p>
-            </div>
-        </li>
-
-        <li class="col-md-12 ree-item-nosotros">
-            <div class="col-sm-9 wow fadeInLeft animated">
-                <h3>ETAPA 4: Un año</h3>
-                <p>Después de un año la zonas sin cabello se ven repobladas, y poco a poco se van llenado con cabello nuevo. Es muy importante saber que no se debe suspender el tratamiento aún cuando se vea el cabello completo. El tiempo de uso del Minoxidil es indefinido, su desuso podría ocasionar la caída del cabello después de 3 o 4 meses.</p>
-            </div>
-            <div class="col-sm-3">
-                <img src="images/assets/producto-1.png" alt="">
-            </div>
-        </li>
-    </ul> -->
 </section>
 
 <section class="bkg-ree-two">
@@ -315,7 +266,7 @@
         <h2 class="tit-ree">Preguntas frecuentes</h2>
 
         <div class="col-xs-12 col-sm-6">
-            <div id="faq" class="ree-panel"  role="tablist" aria-multiselectable="true">
+            <div id="faq" class="ree-panel ree-faq"  role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="faq1" data-toggle="collapse" data-parent="#faq" href="#faqres1" aria-expanded="false" aria-controls="faqres1">
                         <div class="panel-title">
@@ -440,7 +391,7 @@
     </div>
 </section>
 
-<div class="bkg-ree-two box-bottom sombra-final">
+<div class="bkg-ree-two box-bottom">
     <section class="container container-padd-ree">
         <h2 class="tit-ree-mus">Testimonios</h2>
 

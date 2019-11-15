@@ -25,7 +25,7 @@
                                 <!-- <a href="#"> <i class="lni-heart-filled"></i> </a> -->
                                 <a href="#"> <i class="lni-facebook-filled"></i> </a>
                                 <a href="#"> <i class="lni-twitter-original"></i> </a>
-                                <a href="#"> <i class="lni-google-plus"></i> </a>
+                                <!-- <a href="#"> <i class="lni-google-plus"></i> </a> -->
                                 <a href="#"> <i class="lni-linkedin-original"></i> </a>
                                 <a href="#"> <i class="lni-pinterest"></i> </a>
                             </div>

@@ -3,19 +3,20 @@
     <div class="header-content">
         <div class="container">
             <div class="row row-header">
-                <div class="col-xs-7 col-md-3">
+                <div class="col-xs-4 nav-resp">
+                    <button class="nav-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
+                    </button>
+                </div>
+                <div class="col-xs-4 col-md-3">
                     <a class="logo" title="" href="inicio">
                         <img  src="images/assets/logo-internas.png" alt="">
                     </a>
                 </div>
-                <div class="col-xs-5 nav-resp">
-                    <a class="btns-right btn-cart">
+                <div class="col-xs-4 nav-resp nav-right">
+                    <a class="btns-right btn-cart" href="carrito">
                         <i class="icre-bag"></i>
                         <span class="badge">2</span>
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="lni-menu"></i>
-                    </button>
                 </div>
                 <div class="col-xs-12 col-md-6 siteSearchOp col-menu">
                     <nav>
@@ -127,38 +128,66 @@
                     <a class="" href="inicio">Inicio</a>
                 </li>
                 <li class="">
-                    <a class="" href="javascript:;">Tienda</a>
-                    <div class="row row-productos">
-                        <div class="col">
-                            <a class="transition" href="tienda" title="">
-                                <img src="images/assets/productos/cera-hibrida.png">
-                                <h2>Cera Híbrida</h2>
-                            </a>
-                        </div><div class="col">
-                            <a class="transition" href="tienda" title="">
-                                <img src="images/assets/productos/crecimiento-ceja.png">
-                                <h2>Crecimiento Ceja</h2>
-                            </a>
-                        </div><div class="col">
-                            <a class="transition" href="tienda" title="">
-                                <img src="images/assets/productos/crecimiento-pestanas.png">
-                                <h2>Crecimiento Pestañas</h2>
-                            </a>
-                        </div><div class="col">
-                            <a class="transition" href="tienda" title="">
-                                <img src="images/assets/productos/locion-hombre.png">
-                                <h2>Loción Hombre</h2>
-                            </a>
+                    <a class="" href="javascript:;"  data-toggle="collapse" data-target="#navbarProductos" aria-controls="navbarProductos" aria-expanded="false" aria-label="">Tienda</a>
+                    <div class="collapse animated" id="navbarProductos">
+                        <div class="row row-productos collapse animated">
+                            <div class="col">
+                                <a class="transition" href="tienda" title="">
+                                    <img src="images/assets/productos/locion-hombre.jpg">
+                                    <h2>Loción<br>Hombre</h2>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="transition" href="tienda" title="">
+                                    <img src="images/assets/productos/shampoo-hombre.jpg">
+                                    <h2>Shampoo<br>Hombre</h2>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="transition" href="tienda" title="">
+                                    <img src="images/assets/productos/locion-mujer.jpg">
+                                    <h2>Loción<br>Mujer</h2>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="transition" href="tienda" title="">
+                                    <img src="images/assets/productos/shampoo-mujer.jpg">
+                                    <h2>Shampoo<br>Mujer</h2>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="transition" href="tienda" title="">
+                                    <img src="images/assets/productos/crecimiento-pestanas.jpg">
+                                    <h2>Crecimiento Pestañas</h2>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="transition" href="tienda" title="">
+                                    <img src="images/assets/productos/crecimiento-ceja.jpg">
+                                    <h2>Crecimiento<br>Ceja</h2>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="transition" href="tienda" title="">
+                                    <img src="images/assets/productos/cera-hibrida.jpg">
+                                    <h2>Cera<br>Híbrida</h2>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="transition" href="tienda" title="">
+                                    <img src="images/assets/productos/tratamiento-restaurador.jpg">
+                                    <h2>Tratamiento<br>Restaurador</h2>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </li>
                 <li class="">
-                    <a class="" href="inicio">Noticias</a>
+                    <a class="" href="blog">Noticias</a>
                 </li>
                 <li class="">
                     <a class="" href="contacto">Contacto</a>
                 </li>
-                <hr>
                 <li class="">
                     <a class="" href="iniciar-sesion">Iniciar sesión</a>
                 </li>
@@ -167,9 +196,9 @@
                 </li>
                 <li class="buscador-menu">
                     <div class="input-group input-search">
-                        <input type="text" class="form-control" placeholder="Buscar en el blog...">
+                        <input type="text" class="form-control" placeholder="Buscar">
                         <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">Buscar</button>
+                            <button class="btn btn-default" type="button"><i class="icre-lupa"></i></button>
                         </span>
                     </div>
                 </li>
@@ -187,51 +216,59 @@
             </div>
         </div>
 
-        <div class="collapse animated collapsing" id="submenuReelTienda" aria-expanded="true" style="height:0;">
+        <div class="collapse" id="submenuReelTienda" aria-expanded="false">
             <div class="submenu-reel-tienda bkg-ree-two">
                 <div class="container">
                     <div class="row row-productos">
                         <div class="col">
                             <a class="transition" href="tienda" title="">
-                                <img src="images/assets/productos/cera-hibrida.png">
-                                <h2>Cera Híbrida</h2>
-                            </a>
-                        </div><div class="col">
-                            <a class="transition" href="tienda" title="">
-                                <img src="images/assets/productos/crecimiento-ceja.png">
-                                <h2>Crecimiento Ceja</h2>
-                            </a>
-                        </div><div class="col">
-                            <a class="transition" href="tienda" title="">
-                                <img src="images/assets/productos/crecimiento-pestanas.png">
-                                <h2>Crecimiento Pestañas</h2>
-                            </a>
-                        </div><div class="col">
-                            <a class="transition" href="tienda" title="">
-                                <img src="images/assets/productos/locion-hombre.png">
-                                <h2>Loción Hombre</h2>
-                            </a>
-                        </div><div class="col">
-                            <a class="transition" href="tienda" title="">
-                                <img src="images/assets/productos/locion-mujer.png">
-                                <h2>Loción Mujer</h2>
-                            </a>
-                        </div><div class="col">
-                            <a class="transition" href="tienda" title="">
-                                <img src="images/assets/productos/shampoo-hombre.png">
-                                <h2>Shampoo Hombre</h2>
-                            </a>
-                        </div><div class="col">
-                            <a class="transition" href="tienda" title="">
-                                <img src="images/assets/productos/shampoo-mujer.png">
-                                <h2>Shampoo Mujer</h2>
-                            </a>
-                        </div><div class="col">
-                            <a class="transition" href="tienda" title="">
-                                <img src="images/assets/productos/tratamiento-restaurador.png">
-                                <h2>Tratamiento Restaurador</h2>
+                                <img src="images/assets/productos/locion-hombre.jpg">
+                                <h2>Loción<br>Hombre</h2>
                             </a>
                         </div>
+                        <div class="col">
+                            <a class="transition" href="tienda" title="">
+                                <img src="images/assets/productos/shampoo-hombre.jpg">
+                                <h2>Shampoo<br>Hombre</h2>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="transition" href="tienda" title="">
+                                <img src="images/assets/productos/locion-mujer.jpg">
+                                <h2>Loción<br>Mujer</h2>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="transition" href="tienda" title="">
+                                <img src="images/assets/productos/shampoo-mujer.jpg">
+                                <h2>Shampoo<br>Mujer</h2>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="transition" href="tienda" title="">
+                                <img src="images/assets/productos/crecimiento-pestanas.jpg">
+                                <h2>Crecimiento Pestañas</h2>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="transition" href="tienda" title="">
+                                <img src="images/assets/productos/crecimiento-ceja.jpg">
+                                <h2>Crecimiento<br>Ceja</h2>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="transition" href="tienda" title="">
+                                <img src="images/assets/productos/cera-hibrida.jpg">
+                                <h2>Cera<br>Híbrida</h2>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="transition" href="tienda" title="">
+                                <img src="images/assets/productos/tratamiento-restaurador.jpg">
+                                <h2>Tratamiento<br>Restaurador</h2>
+                            </a>
+                        </div>
+                        <div class="clear"></div>
                     </div>
                 </div>
             </div>

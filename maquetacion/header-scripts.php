@@ -5,7 +5,7 @@
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
             <!--meta info-->
-            <link rel="shortcut icon" href="images/assets/favicon.png">
+            <link rel="shortcut icon" href="images/assets/favicon-512.png">
 
             <!--stylesheet include-->
             <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -42,5 +42,5 @@
             <!-- <link href="ant/js/owl.carousel.css" rel="stylesheet"> -->
             <!-- <link href="ant/js/owl.theme.css" rel="stylesheet"> -->
         </head>
-        <body class="color2 sin-bordes">
+        <body class="color2 sin-bordes <?php print $bodyAdd; ?>">
             <div class="page-wrapper">
