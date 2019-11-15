@@ -1549,6 +1549,20 @@ footer .copyright p.text {
     flex-direction: row;
 }
 
+.finalizar-compra .checkout > .col-md-8{
+    width: 67%;
+}
+
+.finalizar-compra .checkout > .col-md-4{
+    width: 32%;
+}
+
+@media (max-width: 991px){
+	.finalizar-compra .checkout > .col-md-8, .finalizar-compra .checkout > .col-md-4{
+    		width: 100%;
+	}
+}
+
 .finalizar-compra .colum-sticky {
     margin-bottom: 0;
     position: -webkit-sticky;

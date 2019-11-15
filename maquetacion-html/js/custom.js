@@ -251,7 +251,7 @@ $( document ).ready(function() {
 
             if( ( current_top + elementHeight + topMax ) > itemBeforeTienda.offset()['top'] ){
                 element2.css({
-                    top: topMax - ( ( current_top + elementHeight + topMax + 70 ) - itemBeforeTienda.offset()['top'] + 20 ),
+                    top: topMax - ( ( current_top + elementHeight + topMax + 70 ) - itemBeforeTienda.offset()['top'] + 20 ) + 90,
                 });
             }else{
                 if( current_top > tienda.offset()['top'] ){
